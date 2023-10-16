@@ -1,10 +1,10 @@
 # Site settings
-title: "D Lab"
-email: "test@test.com"
+title: D Lab
 locale: "ko-KR"
 description: 
   "서울아산병원 디지털헬스케어 연구실 "
-baseurl: "https://ydon1111.github.io/" 
+url: "https://ydon1111.github.io/" 
+baseurl: "" 
 url: "http://locahost:4000" # the base hostname & protocol for your site
 repository: "https://ydon1111.github.io/" 
 masthead_title: "서울아산병원 디지털 헬스케어 연구실" 
