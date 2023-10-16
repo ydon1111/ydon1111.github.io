@@ -1,6 +1,6 @@
-source "https://rubygems.org"
-
-gem 'github-pages', group: :jekyll_plugins
-
-gem 'jekyll-feed'
-gem 'bigdecimal', '1.3.5'
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'rdiscount'
+gem 'public_suffix', '4.0.7'
+gem 'wdm', '>= 0.1.0'
+gem "webrick", "~> 1.8"
