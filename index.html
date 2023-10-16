@@ -1,264 +1,265 @@
 ---
 layout: landing-page
 ---
-<!-- Main -->
-<article id="main">
+		<!-- Main -->
+		<article id="main">
 
-	<header class="special container">
-		<span class="icon fa-bar-chart-o"></span>
-		<h2>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future of healthcare.
-			<br />
-		</h2>
-		<p>Through rigorous exploration of digital technologies, data analytics, and interdisciplinary collaboration,
-			<br />our trials are still on going, <strong>since 2021.</strong>
-			<br />
-			<br />
-	</header>
+			<header class="special container">
+				<span class="icon fa-bar-chart-o"></span>
+				<h2>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future of
+					healthcare.
+					<br />
+				</h2>
+				<p>Through rigorous exploration of digital technologies, data analytics, and interdisciplinary collaboration,
+					<br />our trials are still on going, <strong>since 2021.</strong>
+					<br />
+					<br />
+			</header>
 
-	<!-- One -->
-	<section class="wrapper style2 container special-alt">
-		<div class="row half">
-			<div class="8u">
+				<!-- One -->
+					<section class="wrapper style2 container special-alt">
+						<div class="row half">
+							<div class="8u">
+
+								<header>
+									<h2>Why <strong>D</strong> Lab</h2>
+								</header>
+								<p><strong>D</strong>igital healthcare leverages technology such as the Internet of Things (IoT) and
+									artificial intelligence (AI) to collect, analyze, and manage medical data. This
+									<strong>D</strong>ata-driven approach
+									enhances patient care, <strong>D</strong>iagnoses & <strong>D</strong>ecision support and treatment
+									by enabling real-time monitoring,
+									predictive analytics, and personalized medicine. It also promotes remote healthcare
+									<strong>D</strong>elivery through
+									telemedicine and mobile health apps, improving accessibility and healthcare efficiency while
+									transforming how healthcare is delivered and experienced.
+								</p>
+								<footer>
+									<ul class="buttons">
+										<li><a href="#" class="button">About our publications</a></li>
+									</ul>
+								</footer>
+
+							</div>
+							<div class="4u skel-cell-important">
+
+								<ul class="featured-icons">
+									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
+									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
+									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
+									<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
+									<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
+								</ul>
+
+							</div>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="wrapper style1 container special">
+						<div class="row">
+
+							<style>
+								.num-container {
+									display: flex;
+									flex-wrap: wrap;
+									justify-content: space-around;
+									align-items: center;
+									padding: 2%;
+									max-width: 100%;
+									height: auto;
+
+								}
+
+								.num-item {
+									text-align: center;
+									padding: 5px;
+									margin-bottom: 12px;
+								}
+
+								.in-title {
+									font: 30px/1 'arial';
+									color: gray;
+									font-weight: 600;
+									margin-bottom: 12px;
+								}
+
+								.sub-title {
+									font: 14px/1 'arial';
+									color: gray;
+								}
+
+								.nums {
+									font: bold 80px/1 'arial';
+									color: #343048;
+								}
+
+								#num-unit {
+									font: bold 30px/1 'arial';
+									color: dimgray;
+								}
+
+								html,
+								body {
+									overflow: hidden;
+									max-width: 100%;
+									width: 90%;
+									height: auto;
+									margin: 0 auto;
+								}
+							</style>
+							</head>
+							<!-- 숫자 인덱스	 -->
+							<div class="num-container" id="num-container">
+								<div class="num-item">
+									<h4 class="in-title">Paper</h4>
+									<span class="nums" data-count="239">0</span><span id="num-unit"></span><br>
+									<!-- <span class="sub-title">test1</span><br> -->
+								</div>
+								<div class="num-item">
+									<h4 class="in-title">Project</h4>
+									<span class="nums" data-count="26">0</span><span id="num-unit"></span><br>
+									<!-- <span class="sub-title">test1</span><br> -->
+								</div>
+								<div class="num-item">
+									<h4 class="in-title">Patent</h4>
+									<span class="nums" data-count="173">0</span><span id="num-unit"></span><br>
+									<!-- <span class="sub-title">test1</span><br> -->
+								</div>
+							</div>
+							<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+							<script>
+								//숫자 카운트 애니메이션
+								$('.nums').each(function () {
+									const $this = $(this),
+										countTo = $this.attr('data-count');
+
+									$({
+										countNum: $this.text()
+									}).animate({
+										countNum: countTo
+									}, {
+										duration: 3000,
+										easing: 'linear',
+										step: function () {
+											$this.text(Math.floor(this.countNum));
+										},
+										complete: function () {
+											$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
+											//3자리 마다 콤마 표시 적용
+										}
+									});
+								});
+							</script>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="wrapper style3 container special">
+
+						<header class="major">
+							<h2>Research Topics</h2>
+						</header>
+
+						<div class="row">
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image featured"><img src="images/image1.jpg" alt="" /></a>
+									<header>
+										<h3>Biomedical Signal Monitoring
+										</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
+										blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
+										dolore.</p>
+								</section>
+
+							</div>
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image featured"><img src="images/image2.jpg" alt="" /></a>
+									<header>
+										<h3>Biomedical Signal Processing&Analysis
+										</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
+										blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
+										dolore.</p>
+								</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image featured"><img src="images/image3.jpg" alt="" /></a>
+									<header>
+										<h3>Cardiovascular Health Assessment
+										</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
+										blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
+										dolore.</p>
+								</section>
+
+							</div>
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image featured"><img src="images/image4.jpg" alt="" /></a>
+									<header>
+										<h3>Clinical Decision Support
+										</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
+										blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
+										dolore.</p>
+								</section>
+
+							</div>
+							<div class="6u">
+
+								<section>
+									<a href="#" class="image featured"><img src="images/image5.jpg" alt="" /></a>
+									<header>
+										<h3>Digital Medicine
+
+										</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
+										blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
+										dolore.</p>
+								</section>
+
+							</div>
+						</div>
+
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="#" class="button">Research</a></li>
+							</ul>
+						</footer>
+
+					</section>
+
+				</article>
+
+		<!-- CTA -->
+			<section id="cta">
 
 				<header>
-					<h2>Why <strong>D</strong> Lab</h2>
+					<h2>Ready to do <strong>something</strong>?</h2>
+					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
 				</header>
-				<p><strong>D</strong>igital healthcare leverages technology such as the Internet of Things (IoT) and
-					artificial intelligence (AI) to collect, analyze, and manage medical data. This
-					<strong>D</strong>ata-driven approach
-					enhances patient care, <strong>D</strong>iagnoses & <strong>D</strong>ecision support and treatment
-					by enabling real-time monitoring,
-					predictive analytics, and personalized medicine. It also promotes remote healthcare
-					<strong>D</strong>elivery through
-					telemedicine and mobile health apps, improving accessibility and healthcare efficiency while
-					transforming how healthcare is delivered and experienced.
-				</p>
 				<footer>
 					<ul class="buttons">
-						<li><a href="#" class="button">About our publications</a></li>
+						<li><a href="#" class="button special">Take My Money</a></li>
+						<li><a href="#" class="button">LOL Wut</a></li>
 					</ul>
 				</footer>
 
-			</div>
-			<div class="4u skel-cell-important">
-
-				<ul class="featured-icons">
-					<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-					<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-					<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-					<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-					<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-					<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-				</ul>
-
-			</div>
-		</div>
-	</section>
-
-	<!-- Two -->
-	<section class="wrapper style1 container special">
-		<div class="row">
-
-			<style>
-				.num-container {
-					display: flex;
-					flex-wrap: wrap;
-					justify-content: space-around;
-					align-items: center;
-					padding: 2%;
-					max-width: 100%;
-					height: auto;
-
-				}
-
-				.num-item {
-					text-align: center;
-					padding: 5px;
-					margin-bottom: 12px;
-				}
-
-				.in-title {
-					font: 30px/1 'arial';
-					color: gray;
-					font-weight: 600;
-					margin-bottom: 12px;
-				}
-
-				.sub-title {
-					font: 14px/1 'arial';
-					color: gray;
-				}
-
-				.nums {
-					font: bold 80px/1 'arial';
-					color: #343048;
-				}
-
-				#num-unit {
-					font: bold 30px/1 'arial';
-					color: dimgray;
-				}
-
-				html,
-				body {
-					overflow: hidden;
-					max-width: 100%;
-					width: 90%;
-					height: auto;
-					margin: 0 auto;
-				}
-			</style>
-			</head>
-				<!-- 숫자 인덱스	 -->
-				<div class="num-container" id="num-container">
-					<div class="num-item">
-						<h4 class="in-title">Paper</h4>
-						<span class="nums" data-count="239">0</span><span id="num-unit"></span><br>
-						<!-- <span class="sub-title">test1</span><br> -->
-					</div>
-					<div class="num-item">
-						<h4 class="in-title">Project</h4>
-						<span class="nums" data-count="26">0</span><span id="num-unit"></span><br>
-						<!-- <span class="sub-title">test1</span><br> -->
-					</div>
-					<div class="num-item">
-						<h4 class="in-title">Patent</h4>
-						<span class="nums" data-count="173">0</span><span id="num-unit"></span><br>
-						<!-- <span class="sub-title">test1</span><br> -->
-					</div>
-				</div>
-				<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-				<script>
-					//숫자 카운트 애니메이션
-					$('.nums').each(function () {
-						const $this = $(this),
-							countTo = $this.attr('data-count');
-
-						$({
-							countNum: $this.text()
-						}).animate({
-							countNum: countTo
-						}, {
-							duration: 3000,
-							easing: 'linear',
-							step: function () {
-								$this.text(Math.floor(this.countNum));
-							},
-							complete: function () {
-								$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
-								//3자리 마다 콤마 표시 적용
-							}
-						});
-					});
-				</script>
-		</div>
-	</section>
-
-	<!-- Three -->
-	<section class="wrapper style3 container special">
-
-		<header class="major">
-			<h2>Research Topics</h2>
-		</header>
-
-		<div class="row">
-			<div class="6u">
-
-				<section>
-					<a href="#" class="image featured"><img src="images/image1.jpg" alt="" /></a>
-					<header>
-						<h3>Biomedical Signal Monitoring
-						</h3>
-					</header>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
-						blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
-						dolore.</p>
-				</section>
-
-			</div>
-			<div class="6u">
-
-				<section>
-					<a href="#" class="image featured"><img src="images/image2.jpg" alt="" /></a>
-					<header>
-						<h3>Biomedical Signal Processing&Analysis
-						</h3>
-					</header>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
-						blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
-						dolore.</p>
-				</section>
-
-			</div>
-		</div>
-		<div class="row">
-			<div class="6u">
-
-				<section>
-					<a href="#" class="image featured"><img src="images/image3.jpg" alt="" /></a>
-					<header>
-						<h3>Cardiovascular Health Assessment
-						</h3>
-					</header>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
-						blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
-						dolore.</p>
-				</section>
-
-			</div>
-			<div class="6u">
-
-				<section>
-					<a href="#" class="image featured"><img src="images/image4.jpg" alt="" /></a>
-					<header>
-						<h3>Clinical Decision Support
-						</h3>
-					</header>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
-						blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
-						dolore.</p>
-				</section>
-
-			</div>
-			<div class="6u">
-
-				<section>
-					<a href="#" class="image featured"><img src="images/image5.jpg" alt="" /></a>
-					<header>
-						<h3>Digital Medicine
-
-						</h3>
-					</header>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed
-						blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum
-						dolore.</p>
-				</section>
-
-			</div>
-		</div>
-
-		<footer class="major">
-			<ul class="buttons">
-				<li><a href="#" class="button">Research</a></li>
-			</ul>
-		</footer>
-
-	</section>
-
-</article>
-
-<!-- CTA -->
-<section id="cta">
-
-	<header>
-		<h2>Ready to do <strong>something</strong>?</h2>
-		<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
-	</header>
-	<footer>
-		<ul class="buttons">
-			<li><a href="#" class="button special">Take My Money</a></li>
-			<li><a href="#" class="button">LOL Wut</a></li>
-		</ul>
-	</footer>
-
-</section>
+			</section>
