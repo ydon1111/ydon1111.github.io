@@ -1102,3 +1102,40 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+/* counter */
+
+.num-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2%;
+	max-width:100%; 
+	height:auto;
+	
+}
+.num-item {
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 12px;
+}
+.in-title {
+	font: 30px/1 'arial';
+	color: gray;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.sub-title {
+	font: 14px/1 'arial';
+	color: gray;
+}
+.nums {
+	font: bold 80px/1 'arial';
+	color: #343048;
+}
+#num-unit {
+	font: bold 30px/1 'arial';
+	color: dimgray;
+}
+
