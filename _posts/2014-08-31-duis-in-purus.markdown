@@ -4,27 +4,28 @@ title:  "Biomedical Signal Monitoring"
 date:   2014-09-07 14:36:23
 categories: Biomedical Signal Monitoring
 ---
+
 <a href="index.html">
   <span class="image featured">
-    <img src="/images/pic01.jpg" alt="" height="200px" width="200" >
+    <img src="/images/pic01.jpg" alt="" height="400px"  >
     **test1**
   </span>
 </a>
 <a href="index.html">
   <span class="image featured">
-    <img src="/images/pic02.jpg" alt="" height="200px" width="200">
+    <img src="/images/pic02.jpg" alt="" height="400px" >
     **test1**
   </span>
 </a>
 <a href="index.html">
   <span class="image featured">
-    <img src="/images/pic03.jpg" alt="" height="200px" width="200">
+    <img src="/images/pic03.jpg" alt="" height="400px" >
     **test1**
   </span>
 </a>
 <a href="index.html">
   <span class="image featured">
-    <img src="/images/pic04.jpg" alt="" height="200px" width="200">
+    <img src="/images/pic04.jpg" alt="" height="400px" >
     **test1**
   </span>
 </a>
