@@ -8,39 +8,6 @@ layout: landing-page
 
 		<link rel="counter" href="css\style.css" />
 
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script>
-			function animateCount() {
-				const elements = document.querySelectorAll('.nums');
-		
-				elements.forEach(function(element) {
-					const countTo = parseInt(element.getAttribute('data-count'));
-					let countNum = parseInt(element.textContent);
-		
-					const duration = 3000;
-					const startTimestamp = null;
-		
-					function step(timestamp) {
-						if (!startTimestamp) {
-							startTimestamp = timestamp;
-						}
-		
-						const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-						countNum = Math.floor(countNum + (countTo - countNum) * progress);
-						element.textContent = countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-		
-						if (progress < 1) {
-							requestAnimationFrame(step);
-						}
-					}
-		
-					requestAnimationFrame(step);
-				});
-			}
-		
-			animateCount();
-		</script>
-
 
 		<span class="icon fa-bar-chart-o"></span>
 		<h2>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future of
@@ -101,16 +68,44 @@ layout: landing-page
 			<div class="num-item">
 				<h4 class="in-title">Paper</h4>
 				<span class="nums" data-count="239">0</span><span id="num-unit"></span><br>
+				<!-- <span class="sub-title">test1</span><br> -->
 			</div>
 			<div class="num-item">
 				<h4 class="in-title">Project</h4>
 				<span class="nums" data-count="26">0</span><span id="num-unit"></span><br>
+				<!-- <span class="sub-title">test1</span><br> -->
 			</div>
 			<div class="num-item">
 				<h4 class="in-title">Patent</h4>
 				<span class="nums" data-count="173">0</span><span id="num-unit"></span><br>
+				<!-- <span class="sub-title">test1</span><br> -->
 			</div>
 		</div>
+
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+		<script>
+			//숫자 카운트 애니메이션
+			$('.nums').each(function () {
+				const $this = $(this),
+					countTo = $this.attr('data-count');
+	
+				$({
+					countNum: $this.text()
+				}).animate({
+					countNum: countTo
+				}, {
+					duration: 3000,
+					easing: 'linear',
+					step: function () {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function () {
+						$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
+						//3자리 마다 콤마 표시 적용
+					}
+				});
+			});
+		</script>
 		
 
 	</section>
