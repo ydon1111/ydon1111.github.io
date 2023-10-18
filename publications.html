@@ -40,20 +40,16 @@ layout: default
 
 
     <section class="wrapper style4 container">
-
-        <div id='my_div'>
-            <span>'논문표시'</span>
-          </div>
-
-          <input type='button'
-                 value='국내'
-                 onclick='setInnerHTML()'/>
-          <input type='button'
-                 value='국외'
-                 onclick='setInnerText()'/>
-          <input type='button'
-                 value='특허'
-                 onclick='setTextContent()'/>
-         
+        <div id='content'>
+            <div class="sidebar">
+                <input type='button' value='국내' onclick='setInnerHTML()' />
+                <input type='button' value='국외' onclick='setInnerText()' />
+                <input type='button' value='특허' onclick='setTextContent()' />
+            </div>
+    
+            <div id='my_div'>
+                <span>'논문표시'</span>
+            </div>
+        </div>
     </section>
 </article>
