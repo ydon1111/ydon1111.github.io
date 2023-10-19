@@ -45,15 +45,36 @@ Jinkwon Kim, Hangsik Shin, Kwangsoo Shin, Myoungho Lee, “Robust Algorithm for 
 Myoungho Lee, Se Dong Min, Hangsik Shin, Byung Woo Lee and Jinkwon Kim, “The e-Health Landscape: Current Status and Future Prospects in Korea,” Telemedicine & e-Health, 15(4), 362-369, 2009 
 Sung Won Yoon, Hangsik Shin, Se Dong Min and Myoungho Lee, “Adaptive motion artifacts reduction algorithm for ECG signal in textile wearable sensor,” IEICE Electronics Express, 4(10), 312-318, 2007`;
 
+  // const paperArray = papers.split('\n');
+  // let paperList = '';
+  // for (let i = 0; i < paperArray.length; i++) {
+  //   paperList += (i + 1) + '. ' + paperArray[i] + '<br>'+'<br>';
+  // }
+
   const paperArray = papers.split('\n');
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
-    paperList += (i + 1) + '. ' + paperArray[i] + '<br>'+'<br>';
+    const paperInfo = paperArray[i];
+    paperList += `<a href="#" onclick="openPaper(${i})" style="color: black; text-decoration: none; border: none;">${i + 1}. ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
+
+function openPaper(paperIndex) {
+  const paperLinks = [
+    '링크1', '링크2', '링크3', '링크4', '링크5', // 논문에 대한 실제 링크 URL
+  
+  ];
+
+  if (paperIndex >= 0 && paperIndex < paperLinks.length) {
+    // 논문 링크 URL로 이동 또는 다른 동작을 수행하는 로직을 추가하세요.
+    window.location.href = paperLinks[paperIndex]; // 예: 클릭 시 해당 URL로 이동
+  }
+}
+
+
 
 // CSS 스타일을 추가하여 간격을 조절
 const style = document.createElement('style');
