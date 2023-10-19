@@ -48,28 +48,40 @@ Sung Won Yoon, Hangsik Shin, Se Dong Min and Myoungho Lee, “Adaptive motion ar
   const paperArray = papers.split('\n');
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
-    paperList += (i + 1) + '. ' + paperArray[i] + '<br>';
+    paperList += (i + 1) + '. ' + paperArray[i] + '<br>'+'<br>';
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
 
+// CSS 스타일을 추가하여 간격을 조절
+const style = document.createElement('style');
+style.innerHTML = `
+  #my_div {
+    line-height: 1.2;
+  }
+  #my_div br {
+    line-height: 0.8;
+  }
+`;
+document.head.appendChild(style);
 
-  
-
-  function setInnerText() {
-    const element = document.getElementById('my_div');
-    element.innerText 
-      = '논문 추가 논문추가';
-  } 
-  
 
 
 
+function setInnerText() {
+  const element = document.getElementById('my_div');
+  element.innerText
+    = '논문 추가 논문추가';
+}
 
-  function setTextContent() {
-    const element = document.getElementById('my_div');
-    element.textContent 
-      = '논문 추가 논문추가';
-  } 
+
+
+
+
+function setTextContent() {
+  const element = document.getElementById('my_div');
+  element.textContent
+    = '논문 추가 논문추가';
+} 
