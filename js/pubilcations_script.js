@@ -1,4 +1,4 @@
-function setInnerHTML() {
+function JournalSCI() {
   const papers = `Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
 Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
 Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
