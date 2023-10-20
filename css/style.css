@@ -1315,3 +1315,9 @@ p.small-button.clicked {
 
 }
 
+
+
+/* publication topics  */
+.sections-container section {
+    margin-bottom: 0; /* 아래쪽 간격을 없애줍니다 */
+}
