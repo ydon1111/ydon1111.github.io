@@ -12,9 +12,6 @@ layout: default
     </header>
 
 
-
-
-
     <section class="wrapper style4 container">
 
         <div class="row oneandhalf">
@@ -24,22 +21,25 @@ layout: default
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                            <p onclick='JournalSCI()' class="small-button" id="journalSCIPara">International
-                                Journal(SCI/SCIE)</p>
-                            <p onclick='setInnerText()' class="small-button" id="setInnerTextPara">International Journal
-                                (SCOPUS)</p>
-                            <p onclick='setTextContent()' class="small-button" id="setTextContentPara">Domestic Journal
-                                (KCI)</p>
+                            <p onclick='confernceInter()' class="small-button" id="confernceInterPara">International</p>
+                            <p onclick='confernceDome()' class="small-button" id="confernceDomePara">Domestic</p>
                         </div>
                     </section>
                 </div>
 
             </div>
-            <div class="8u skel-cell-important">
+            <div class="9u skel-cell-important">
                 <!-- Content -->
-                    <div id='my_div' class="my-div">
-                        <span>'논문표시'</span>
-                    </div>
+                <div id='my_div' class="my-div">
+                    <span>'논문표시'</span>
+                </div>
             </div>
         </div>
     </section>
+</article>
+<script>
+    // This function will be called when the page is fully loaded.
+    window.onload = function () {
+        confernceInter();
+    };
+</script>

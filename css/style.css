@@ -1286,7 +1286,6 @@ body {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 
-
 }
 
 p.small-button {
@@ -1317,10 +1316,3 @@ p.small-button.clicked {
 
 
 
-.row.oneandhalf .4u {
-    padding-right: 10px; /* 원하는 간격으로 조정하세요 */
-}
-
-.row.oneandhalf .8u.skel-cell-important {
-    padding-left: 10px; /* 원하는 간격으로 조정하세요 */
-}
