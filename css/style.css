@@ -31,7 +31,7 @@ body,
 input,
 select,
 textarea {
-	color: #7c8081;
+	color: #8a8d8f;
 	font-family: 'Lato', sans-serif;
 	font-size: 15pt;
 	font-weight: 300;
@@ -45,7 +45,7 @@ a {
 	-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-	color: #3fb1a3;
+	color: #acd6d4;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
@@ -226,7 +226,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	border-color: #83d3c9;
+	border-color: #acd6d4;
 }
 
 input[type="text"],
@@ -552,8 +552,8 @@ input[type="button"].special,
 input[type="submit"].special,
 input[type="reset"].special,
 .button.special {
-	background: #83d3c9;
-	border-color: #83d3c9;
+	background: #acd6d4;
+	border-color: #acd6d4;
 	color: white !important;
 }
 
@@ -593,7 +593,7 @@ input[type="reset"].small,
 }
 
 .wrapper.style2 {
-	background-color: #83d3c9;
+	background-color: #acd6d4;
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
@@ -608,7 +608,7 @@ input[type="reset"].small,
 .wrapper.style2 .button.special {
 	background: white;
 	border-color: white;
-	color: #83d3c9 !important;
+	color: #acd6d4 !important;
 }
 
 .wrapper.style2 .button.special:hover {
@@ -853,7 +853,7 @@ input[type="reset"].small,
 }
 
 .dropotron>li:hover>a {
-	background: #83d3c9;
+	background: #acd6d4;
 	color: white;
 }
 
@@ -1317,7 +1317,3 @@ p.small-button.clicked {
 
 
 
-/* publication topics  */
-.sections-container section {
-    margin-bottom: 0; /* 아래쪽 간격을 없애줍니다 */
-}
