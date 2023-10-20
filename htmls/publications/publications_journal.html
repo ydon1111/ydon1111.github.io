@@ -8,23 +8,38 @@ layout: default
         <span class="icon fa-solid fa-scroll"></span>
         <h2>publications</h2>
         &nbsp;&nbsp;
-        <h3 style="font-weight: bold;">journal</h3>
+        <h3 style="font-weight: bold;">Conference</h3>
     </header>
 
-    <section class="wrapper style4 container">
-        <div id='content' class="flex-container">
-            <div class="sidebar small-sidebar">
-                <p onclick='JournalSCI()' class="small-button" id="journalSCIPara">International(SCI/SCIE)</p>
-                <p onclick='setInnerText()' class="small-button" id="setInnerTextPara">International(SCOPUS)</p>
-                <p onclick='setTextContent()' class="small-button" id="setTextContentPara">Domestic(KCI)</p>
-            </div>
 
-            <div id='my_div' class="my-div">
-                <span>'논문표시'</span>
+
+
+
+    <section class="wrapper style4 container">
+
+        <div class="row oneandhalf">
+            <div class="3u">
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <section>
+                        <div class="sidebar small-sidebar">
+                            <p onclick='JournalSCI()' class="small-button" id="journalSCIPara">International
+                                Journal(SCI/SCIE)</p>
+                            <p onclick='setInnerText()' class="small-button" id="setInnerTextPara">International Journal
+                                (SCOPUS)</p>
+                            <p onclick='setTextContent()' class="small-button" id="setTextContentPara">Domestic Journal
+                                (KCI)</p>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <div class="8u skel-cell-important">
+                <!-- Content -->
+                    <div id='my_div' class="my-div">
+                        <span>'논문표시'</span>
+                    </div>
             </div>
         </div>
     </section>
-</article>
-
-
-
