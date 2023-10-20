@@ -1258,43 +1258,61 @@ body.index #main {
 
 /* publication */
 
-        body {
-            display: flex;
-            align-items: center;
-        }
+body {
+	display: flex;
+	align-items: center;
+}
 
-        #content {
-            padding: 10px;
-            display: flex;
-        }
+#content {
+	padding: 5px;
+	display: flex;
+	max-width: 2400px; /* 최대 너비 설정 */
+	width: 100%; /* 최대 너비에 맞춤 */
+	box-sizing: border-box; /* 패딩과 경계 상자 크기 포함 */
+}
 
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-        }
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+    /* 최대 높이 설정 */
+}
 
-        #my_div {
-            margin-left: 20px;
-            border: 1px solid #000;
-            padding: 10px;
-        }
+.sidebar.small-sidebar {
+    width: 250px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 
-        input[type="button"] {
-            margin: 5px 0;
-            width: 80px; /* 버튼 크기 조절 */
-        }
+ 
+}
 
-		.small-sidebar {
-			width: 300px; /* 원하는 너비로 조절 */
-		}
-		
-		.small-button {
-			font-size: 12px;
-			padding: 5px 10px;
-			max-width: 150px; /* 버튼의 최대 너비 설정 */
-			overflow: hidden; /* 텍스트 오버플로우 처리 */
-			text-overflow: ellipsis; /* 텍스트가 너무 길면 생략 부호 (...) 표시 */
-			white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
-		}
+p.small-button {
+	font-size: 15px;
+	padding: 5px 2px;
+	max-width: 100%;
+	/* 버튼의 최대 너비 설정 */
+	overflow: hidden;
+	/* 텍스트 오버플로우 처리 */
+	text-overflow: ellipsis;
+	/* 텍스트가 너무 길면 생략 부호 (...) 표시 */
+	white-space: nowrap;
+	/* 텍스트 줄 바꿈 방지 */
+}
 
-		
+/* 클릭 시 텍스트 색상, 밑줄 및 볼드 스타일 변경 */
+p.small-button.clicked {
+	color: #4f868e;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+
+#my_div {
+	margin-left: 15px;
+	padding: 10px;
+
+}
+
+

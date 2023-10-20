@@ -12,9 +12,9 @@ layout: default
     <section class="wrapper style4 container">
         <div id='content' class="flex-container">
             <div class="sidebar small-sidebar">
-                <input type='button' value='International Journal(SCI/SCIE)' onclick='JournalSCI()' class="small-button" />
-                <input type='button' value='International Journal (SCOPUS)' onclick='setInnerText()' class="small-button" />
-                <input type='button' value='Domestic Journal (KCI)' onclick='setTextContent()' class="small-button" />
+                <p onclick='JournalSCI()' class="small-button" id="journalSCIPara">International Journal(SCI/SCIE)</p>
+                <p onclick='setInnerText()' class="small-button" id="setInnerTextPara">International Journal (SCOPUS)</p>
+                <p onclick='setTextContent()' class="small-button" id="setTextContentPara">Domestic Journal (KCI)</p>
             </div>
 
             <div id='my_div' class="my-div">
@@ -23,4 +23,6 @@ layout: default
         </div>
     </section>
 </article>
+
+
 
