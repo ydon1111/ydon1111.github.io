@@ -1,10 +1,12 @@
 # Site settings
 title: D Lab
+locale: "ko-KR"
 description: 
-  "서울아산병원 디지털헬스케어 연구실" 
-url: https://ydon1111.github.io/
-
-
+  "서울아산병원 디지털헬스케어 연구실 "
+url: "https://ydon1111.github.io/" 
+baseurl: "" 
+repository: "https://ydon1111.github.io/" 
+masthead_title: "서울아산병원 디지털 헬스케어 연구실" 
 
 # Build settings
 markdown: kramdown
