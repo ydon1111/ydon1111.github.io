@@ -569,7 +569,21 @@ function patentDomeOpenPaper(paperIndex) {
 
 function patentDesignDome() {
   resetButtons()
-  const papers = `registeredSWPara`;
+  const papers = `의료용 다파장 광센서, Filed (No:KR3020180029691, Date: 2018/06/27), Granted (No: KR300998636, Date: 2019/03/13)
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029135, Date: 2012/06/14), Granted (No: KR300668893, Date: 2012/11/14) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120028918, Date: 2012/06/13), Granted (No: KR300663555, Date: 2012/10/10) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120028920, Date: 2012/06/13), Granted (No: KR300663554, Date: 2012/10/10) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120028917, Date: 2012/06/13), Granted (No: KR300663556, Date: 2012/10/10) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029208, Date: 2012/06/15), Granted (No: KR300654119, Date: 2012/07/24) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029207, Date: 2012/06/15), Granted (No: KR300654124, Date: 2012/07/24) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029136, Date: 2012/06/14), Granted (No: KR300654120, Date: 2012/07/24) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029133, Date: 2012/06/14), Granted (No: KR300654121, Date: 2012/07/24) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120028919, Date: 2012/06/13), Granted (No: KR300654125, Date: 2012/07/24) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120028916, Date: 2012/06/13), Granted (No: KR300654118, Date: 2012/07/24) 
+  화상디자인이 표시된 컴퓨터모니터, Filed (No:KR3020120024980, Date: 2012/05/21), Granted (No: KR300668901, Date: 2012/11/14) 
+  화상디자인이 표시된 태블릿 피씨(Tablet PC), Filed (No:KR3020120029134, Date: 2012/06/14), Granted (No: KR300663541, Date: 2012/10/10) 
+  화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029226, Date: 2012/06/15), Granted (No: KR300665356, Date: 2012/10/23) 
+  화상디자인이 표시된 휴대용 단말기, Filed (No:KR3020120024451, Date: 2012/05/17), Granted (No: KR300658893, Date: 2012/09/04) `;
 
   document.getElementById("patentDesignDomePara").classList.add("clicked");
   const paperArray = papers.split('\n');
