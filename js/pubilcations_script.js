@@ -127,7 +127,7 @@ function setTextContent() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="openPaper(${i})" style="color: black; text-decoration: none; border: none;">${i + 1}. ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="openPaper(${i})" style="color: #343048; text-decoration: none; border: none;">${i + 1}. ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
