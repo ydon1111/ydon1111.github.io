@@ -1263,18 +1263,10 @@ body {
 	align-items: center;
 }
 
-#content {
-	padding: 5px;
-	display: flex;
-	max-width: 2400px;
-	/* 최대 너비 설정 */
-	width: 100%;
-	/* 최대 너비에 맞춤 */
-	box-sizing: border-box;
-	/* 패딩과 경계 상자 크기 포함 */
-}
+
 
 .sidebar {
+	padding-top: 30px;
 	display: flex;
 	flex-direction: column;
 	max-height: 100%;
@@ -1295,8 +1287,6 @@ p.small-button {
 	/* 버튼의 최대 너비 설정 */
 	overflow: hidden;
 	/* 텍스트 오버플로우 처리 */
-	text-overflow: ellipsis;
-	/* 텍스트가 너무 길면 생략 부호 (...) 표시 */
 	white-space: nowrap;
 	/* 텍스트 줄 바꿈 방지 */
 }
@@ -1311,7 +1301,6 @@ p.small-button.clicked {
 #my_div {
 	margin-left: 15px;
 	padding: 10px;
-
 }
 
 
