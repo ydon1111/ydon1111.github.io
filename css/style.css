@@ -45,7 +45,7 @@ a {
 	-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-	color: #acd6d4;
+	color: #83d3c9ff;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
@@ -226,7 +226,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	border-color: #acd6d4;
+	border-color: #83d3c9ff;
 }
 
 input[type="text"],
@@ -552,8 +552,8 @@ input[type="button"].special,
 input[type="submit"].special,
 input[type="reset"].special,
 .button.special {
-	background: #acd6d4;
-	border-color: #acd6d4;
+	background: #83d3c9ff;
+	border-color: #83d3c9ff;
 	color: white !important;
 }
 
@@ -593,7 +593,7 @@ input[type="reset"].small,
 }
 
 .wrapper.style2 {
-	background-color: #acd6d4;
+	background-color: #83d3c9ff;
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
@@ -608,7 +608,7 @@ input[type="reset"].small,
 .wrapper.style2 .button.special {
 	background: white;
 	border-color: white;
-	color: #acd6d4 !important;
+	color: #83d3c9ff !important;
 }
 
 .wrapper.style2 .button.special:hover {
@@ -853,7 +853,7 @@ input[type="reset"].small,
 }
 
 .dropotron>li:hover>a {
-	background: #acd6d4;
+	background: #83d3c9ff;
 	color: white;
 }
 
