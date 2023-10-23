@@ -67,7 +67,11 @@ function journalSCI() {
 }
 
 function SCIOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -117,7 +121,11 @@ function journalSCOPUS() {
 }
 
 function SCOPUSOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -147,7 +155,11 @@ function journalKCI() {
 }
 
 function KCIOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -226,7 +238,11 @@ function confernceInter() {
 }
 
 function confernceInterOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/
+   https://www.naver.com/
+    https://www.naver.com/
+     https://www.naver.com/
+      https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -361,7 +377,11 @@ function confernceDome() {
 }
 
 function confernceDomeOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/
+   https://www.naver.com/ 
+   https://www.naver.com/
+    https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -452,7 +472,11 @@ function patentInter() {
 }
 
 function patentInterOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/
+   https://www.naver.com/
+    https://www.naver.com/
+     https://www.naver.com/ 
+     https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -493,7 +517,11 @@ function patentDesignInter() {
 }
 
 function patentDesignInterOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/
+   https://www.naver.com/
+    https://www.naver.com/
+     https://www.naver.com/
+      https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -564,7 +592,11 @@ function patentDome() {
 }
 
 function patentDomeOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -605,7 +637,11 @@ function patentDesignDome() {
 }
 
 function patentDesignDomeOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/ 
+  https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
@@ -666,7 +702,11 @@ function registeredSW() {
 }
 
 function registeredSWOpenPaper(paperIndex) {
-  const paperLinks = `https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/ https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
+  const paperLinks = `https://www.naver.com/
+   https://www.naver.com/
+    https://www.naver.com/
+     https://www.naver.com/
+      https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
