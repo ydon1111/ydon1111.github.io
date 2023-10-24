@@ -760,7 +760,7 @@ function registeredSW() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;">${i + 1}. ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
