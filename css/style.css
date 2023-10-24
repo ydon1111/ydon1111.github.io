@@ -1304,4 +1304,22 @@ p.small-button.clicked {
 }
 
 
+/* members 앞에 동그라미 추가 구분자 추가  */
+		/* "papers-list" ID에만 스타일 적용 */
+		#member-list li {
+			list-style-type: none;
+			padding: 0;
+			margin: 10px 0;
+		}
+
+
+		/* "papers-list" ID 아래의 ::before 선택자에만 스타일 적용 */
+		#member-list li::before {
+			content: "•";
+			display: inline-block;
+			margin-right: 5px;
+			font-size: 1em;
+		}
+
+
 
