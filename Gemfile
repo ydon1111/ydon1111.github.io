@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 gem 'github-pages'
 gem 'rdiscount'
 gem 'public_suffix', '4.0.7'
