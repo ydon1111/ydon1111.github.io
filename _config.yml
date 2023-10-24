@@ -1,10 +1,9 @@
 # Site settings
 title: D Lab
-description: 
-  "서울아산병원 디지털헬스케어 연구실"
-url: "https://ydon1111.github.io" 
-baseurl: "https://ydon1111.github.io" 
-masthead_title: "서울아산병원 디지털 헬스케어 연구실" 
+description: "서울아산병원 디지털헬스케어 연구실"
+url: "https://ydon1111.github.io"
+baseurl: "https://ydon1111.github.io"
+masthead_title: "서울아산병원 디지털 헬스케어 연구실"
 
 lang: ko
 timezone: Asia/Seoul
@@ -13,16 +12,13 @@ future: true
 # Build settings
 markdown: kramdown
 
+# Defaults 설정
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "home"
     values:
-      layout: single
+      layout: "default"
       author_profile: true
-      read_time: false   # 읽는데 걸리는 소요시간 표시
-      show_date: true    # 포스팅 날짜 표시
-      comments: true
-      share: true
-      related: true
+      title: D Lab
+      description: "서울아산병원 디지털헬스케어 연구실"
