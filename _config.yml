@@ -1,8 +1,8 @@
 # Site settings
 title: D Lab
 description: "서울아산병원 디지털헬스케어 연구실"
-url: "https://ydon1111.github.io"
-baseurl: "https://ydon1111.github.io"
+
+
 masthead_title: "서울아산병원 디지털 헬스케어 연구실"
 
 lang: ko
