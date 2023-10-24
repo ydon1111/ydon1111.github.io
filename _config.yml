@@ -8,6 +8,7 @@ masthead_title: "서울아산병원 디지털 헬스케어 연구실"
 
 lang: ko
 timezone: Asia/Seoul
+future: true
 
 # Build settings
 markdown: kramdown
