@@ -1,13 +1,9 @@
 # Site settings
 title: D Lab
-subtitle: DHLab@AMC
-description: "서울아산병원 디지털헬스케어 연구실"
+description: DHLab@AMC / 서울아산병원 디지털헬스케어 연구실
 
-
-url: "https://ydon1111.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://ydon1111.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: ""
-
-masthead_title: "서울아산병원 디지털 헬스케어 연구실"
 
 lang: ko
 timezone: Asia/Seoul
