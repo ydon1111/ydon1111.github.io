@@ -1224,7 +1224,6 @@ body.index #main {
 	padding: 2%;
 	max-width: 100%;
 	height: auto;
-
 }
 
 .num-item {
@@ -1263,8 +1262,6 @@ body {
 	align-items: center;
 }
 
-
-
 .sidebar {
 	padding-top: 30px;
 	display: flex;
@@ -1277,7 +1274,6 @@ body {
 	width: 250px;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-
 }
 
 p.small-button {
