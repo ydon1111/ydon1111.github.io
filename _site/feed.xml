@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D Lab</title>
+    <description>DHLab@AMC / 서울아산병원 디지털헬스케어 연구실</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 26 Oct 2023 16:48:09 +0900</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2023 16:48:09 +0900</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    
+      <item>
+        <title>여섯번째 뉴스</title>
+        <description>&lt;p&gt;다섯번째 게시물 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴
+세번째 테스트&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Oct 2023 00:02:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/25/test6.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/25/test6.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>다섯번째 뉴스</title>
+        <description>&lt;p&gt;다섯번째 게시물 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴
+세번째 테스트&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2023 23:02:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/24/test5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/24/test5.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>네번째 뉴스</title>
+        <description>&lt;p&gt;네번째 시간 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2023 13:50:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/24/test3-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/24/test3-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>세번째 뉴스</title>
+        <description>&lt;p&gt;세번째 게시물 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴
+세번째 테스트&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2023 13:36:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/24/test4-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/24/test4-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>두번째 뉴스</title>
+        <description>&lt;p&gt;두번째 게시물 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2023 22:36:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/23/second-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/23/second-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>첫번째 뉴스</title>
+        <description>&lt;p&gt;첫번째 게시물 테스트&lt;/p&gt;
+
+&lt;p&gt;눌러서 들어오면 이 글이 추가로 나옴&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Oct 2023 22:36:23 +0900</pubDate>
+        <link>http://localhost:4000/2023/10/21/first-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/21/first-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Some articles are just so long they deserve a really long title to see if things will break well</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 May 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/sample/guides/2016/05/20/super-long-article.html</link>
+        <guid isPermaLink="true">http://localhost:4000/sample/guides/2016/05/20/super-long-article.html</guid>
+        
+        
+        <category>Sample</category>
+        
+        <category>Guides</category>
+        
+      </item>
+    
+      <item>
+        <title>Biomedical Signal Monitoring</title>
+        <description>&lt;p&gt;A biometric signal monitoring platform is a system that allows continuous monitoring and recording of biometric signals. In this research, we delve into sensors, wearable devices, data collection software, and algorithms. Through the utilization of mobile and wearable systems, signals like heart rate, muscle activity, brainwaves, and movement data are collected. These signals are then monitored in real-time via smartphones or computers. By consistently tracking one’s health status, the potential for early disease detection and treatment is heightened. The utilization of remote healthcare further facilitates the observation of a patient’s condition from a distance. Real-time monitoring of numerical changes allows for the establishment of personalized diagnosis and treatment plans tailored to individuals.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Sep 2014 23:36:23 +0900</pubDate>
+        <link>http://localhost:4000/biomedical/signal/monitoring/2014/09/07/duis-in-purus.html</link>
+        <guid isPermaLink="true">http://localhost:4000/biomedical/signal/monitoring/2014/09/07/duis-in-purus.html</guid>
+        
+        
+        <category>Biomedical</category>
+        
+        <category>Signal</category>
+        
+        <category>Monitoring</category>
+        
+      </item>
+    
+      <item>
+        <title>Morbi a Semper</title>
+        <description>&lt;p&gt;&lt;span class=&quot;image featured&quot;&gt;&lt;img src=&quot;/images/pic03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;
+Morbi a semper justo, non eleifend elit. Sed nulla nulla, porttitor nec volutpat eu, pulvinar vitae augue. Curabitur tempor quis lorem eget vestibulum. Aenean vel lacinia orci, ac sollicitudin felis. Nunc eros libero, posuere nec massa ac, consectetur sollicitudin elit. Duis tincidunt nunc et neque egestas rhoncus. Curabitur ut euismod lorem, ut rutrum neque. Nullam at sem eros. Nam interdum lectus non cursus viverra.&lt;/p&gt;
+
+&lt;p&gt;Duis eget magna at arcu tincidunt ultricies. Curabitur in facilisis sem, nec bibendum eros. Nunc fringilla imperdiet diam sed viverra. Vivamus lobortis dignissim mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet eu diam eu pellentesque. Duis tempus metus urna, vel faucibus ligula pharetra euismod. Donec rhoncus blandit posuere. Mauris mattis dolor est, dictum venenatis augue facilisis sit amet. Ut ante odio, congue eget arcu nec, semper eleifend urna. Donec rutrum pretium odio non pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pellentesque nulla at tincidunt ultrices. Donec finibus malesuada magna. Phasellus eget tortor in lectus vehicula viverra sit amet sit amet purus.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 23:36:23 +0900</pubDate>
+        <link>http://localhost:4000/2014/08/31/morbi-a-semper.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/08/31/morbi-a-semper.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
