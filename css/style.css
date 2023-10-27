@@ -31,7 +31,7 @@ body,
 input,
 select,
 textarea {
-	color: #7c8081;
+	color: #515455;
 	font-family: 'Lato', sans-serif;
 	font-size: 15pt;
 	font-weight: 400;
@@ -56,7 +56,7 @@ a:hover {
 
 strong,
 b {
-	font-weight: 1400;
+	font-weight: 400;
 }
 
 p,
@@ -78,7 +78,6 @@ h6 {
 	font-weight: 300;
 	line-height: 1.75em;
 	margin-bottom: 1em;
-	text-transform: uppercase;
 }
 
 h1 a,
@@ -95,10 +94,12 @@ h6 a {
 h2 {
 	font-size: 1.5em;
 	letter-spacing: 0.1em;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 h3 {
-	font-weight: 300;
+	font-weight: 800;
 	font-size: 1.15em;
 	letter-spacing: 0.025em;
 }
@@ -531,7 +532,7 @@ input[type="reset"],
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.8em;
-	font-weight: 900;
+	font-weight: 500;
 	letter-spacing: 2px;
 	min-width: 18em;
 	padding: 0 0.75em;
@@ -594,12 +595,22 @@ input[type="reset"].small,
 }
 
 .wrapper.style2 {
-	background-color: #83d3c9ff;
+	background-color: rgb(111, 175, 171);
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
 	color: black;
+}
+
+.wrapper.style2 p{
+	color: rgb(41, 41, 41);
+	font-weight: 300;
+}
+
+.wrapper.style2 h2{
+	color: rgb(255, 255, 255);
+	font-weight: 200;
 }
 
 .wrapper.style2 .button:hover {
@@ -682,7 +693,7 @@ input[type="reset"].small,
 #header {
 	background: white;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-	color: inherit;
+	color: #4a5355;
 	cursor: default;
 	font-size: 0.8em;
 	left: 0;
@@ -694,7 +705,7 @@ input[type="reset"].small,
 }
 
 #header h1 {
-	font-weight: 900;
+	font-weight: 300;
 	margin: 0;
 }
 
@@ -957,8 +968,8 @@ input[type="reset"].small,
 	border-bottom: solid 2px;
 	border-top: solid 2px;
 	font-size: 2.5em;
-	font-weight: 900;
-	letter-spacing: 0.2em;
+	font-weight: 300;
+	letter-spacing: 0.05em;
 	margin: 0;
 	padding-left: 0.05em;
 	position: relative;
@@ -966,14 +977,15 @@ input[type="reset"].small,
 }
 
 #banner .inner p {
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	margin: 0;
+	font-weight: 300;
 	text-transform: uppercase;
 }
 
 #banner .inner p a {
 	color: inherit;
-	font-weight: 400;
+	font-weight: 300;
 	text-decoration: none;
 }
 
