@@ -31,10 +31,10 @@ body,
 input,
 select,
 textarea {
-	color: #8a8d8f;
+	color: #515455;
 	font-family: 'Lato', sans-serif;
 	font-size: 15pt;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.025em;
 	line-height: 1.75em;
 }
@@ -78,7 +78,6 @@ h6 {
 	font-weight: 300;
 	line-height: 1.75em;
 	margin-bottom: 1em;
-	text-transform: uppercase;
 }
 
 h1 a,
@@ -95,9 +94,12 @@ h6 a {
 h2 {
 	font-size: 1.5em;
 	letter-spacing: 0.1em;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 h3 {
+	font-weight: 800;
 	font-size: 1.15em;
 	letter-spacing: 0.025em;
 }
@@ -530,7 +532,7 @@ input[type="reset"],
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.8em;
-	font-weight: 900;
+	font-weight: 500;
 	letter-spacing: 2px;
 	min-width: 18em;
 	padding: 0 0.75em;
@@ -552,8 +554,8 @@ input[type="button"].special,
 input[type="submit"].special,
 input[type="reset"].special,
 .button.special {
-	background: #83d3c9ff;
-	border-color: #83d3c9ff;
+	background: #006A6A;
+	border-color: #006A6A;
 	color: white !important;
 }
 
@@ -561,8 +563,8 @@ input[type="button"].special:hover,
 input[type="submit"].special:hover,
 input[type="reset"].special:hover,
 .button.special:hover {
-	background: #96dad1 !important;
-	border-color: #96dad1 !important;
+	background:#006A6A !important;
+	border-color:#006A6A !important;
 }
 
 input[type="button"].fit,
@@ -593,12 +595,22 @@ input[type="reset"].small,
 }
 
 .wrapper.style2 {
-	background-color: #83d3c9ff;
+	background-color: rgb(111, 175, 171);
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
-	color: white;
+	color: black;
+}
+
+.wrapper.style2 p{
+	color: rgb(41, 41, 41);
+	font-weight: 300;
+}
+
+.wrapper.style2 h2{
+	color: rgb(255, 255, 255);
+	font-weight: 200;
 }
 
 .wrapper.style2 .button:hover {
@@ -773,7 +785,7 @@ input[type="reset"].small,
 	font-family: FontAwesome;
 	content: '\f107';
 	margin-right: 0.65em;
-
+    color : #006A6A; /* 화살표에 색 추가해봄 */
 	position: relative;
 	z-index: 10001; /* 추가: 더 높은 z-index 값 설정 */
   }
@@ -850,7 +862,7 @@ input[type="reset"].small,
 }
 
 .dropotron>li:hover>a {
-	background: #83d3c9ff;
+	background: #FF8400; 
 	color: white;
 }
 
@@ -918,7 +930,7 @@ input[type="reset"].small,
 	background-size: 25em, 25em, auto, cover;
 	color: white;
 	cursor: default;
-	padding: 6em 0;
+	padding: 15em 0; /* banner사이즈 비율 조정(yen) */
 	text-align: center;
 }
 
@@ -953,8 +965,8 @@ input[type="reset"].small,
 	border-bottom: solid 2px;
 	border-top: solid 2px;
 	font-size: 2.5em;
-	font-weight: 900;
-	letter-spacing: 0.2em;
+	font-weight: 300;
+	letter-spacing: 0.05em;
 	margin: 0;
 	padding-left: 0.05em;
 	position: relative;
@@ -962,14 +974,15 @@ input[type="reset"].small,
 }
 
 #banner .inner p {
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	margin: 0;
+	font-weight: 300;
 	text-transform: uppercase;
 }
 
 #banner .inner p a {
 	color: inherit;
-	font-weight: 400;
+	font-weight: 300;
 	text-decoration: none;
 }
 
