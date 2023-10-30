@@ -935,7 +935,7 @@ input[type="reset"].small,
 	background-size: 25em, 25em, auto, cover;
 	color: white;
 	cursor: default;
-	padding: 6em 0;
+	padding: 15em 0; /* banner사이즈 비율 조정 */
 	text-align: center;
 }
 
