@@ -776,8 +776,6 @@ input[type="reset"].small,
 
 	position: relative;
 	z-index: 10001; /* 추가: 더 높은 z-index 값 설정 */
-
-
   }
   
   #header nav ul li.active > a, #header nav ul li:hover > a {
