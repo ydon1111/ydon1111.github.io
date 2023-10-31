@@ -79,6 +79,8 @@ function journalALL() {
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
   Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `;
 
+
+  document.getElementById("journalAllPara").classList.add("clicked");
   const paperArray = papers.split('\n');
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
@@ -497,7 +499,7 @@ function confernceAll() {
   Hangsik Shin, Byung Woo Lee, Dae Joong Yoon, Sung Won Yoon, Myoungho Lee, “Down-scaled 3D object for telediagnostic support system,” Proceedings of the 31st Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2004 
   Byung Woo Lee, Hangsik Shin, Chan Ouk Park, Se Dong Min, Myoungho Lee, “Pulse wave measurement system for data transfer on Internet,” Proceedings of the 31st Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2004 
   Se Dong Min, Segu Kang, Chungkeun Lee, Sungwon Yoon, Chan Ouk Park, Hangsik Shin, Byung Woo Lee, Myoungho Lee, “Far-infrared warming effect evaluation system on cardiovascular system after treadmill exercise,” Proceedings of the 29th Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2003 `;
-
+  document.getElementById("confernceAllPara").classList.add("clicked");
   const paperArray = papers.split('\n');
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
@@ -849,7 +851,7 @@ function patentAll() {
   화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029226, Date: 2012/06/15), Granted (No: KR300665356, Date: 2012/10/23) 
   화상디자인이 표시된 휴대용 단말기, Filed (No:KR3020120024451, Date: 2012/05/17), Granted (No: KR300658893, Date: 2012/09/04)`;
 
-
+  document.getElementById("patentAllPara").classList.add("clicked");
   const paperArray = papers.split('\n');
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
