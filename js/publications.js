@@ -338,6 +338,7 @@ function journalKCI() {
 // }
 
 function confernceAll() {
+  resetButtons()
   const papers = `Junyung Park and Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time,” The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Dec. 15-18, Chungbuk National University, Cheongju, Republic of Korea, 2021
   Ji Yeon Yim and Hangsik Shin, “Postoperative Pain Assesment Model based on Photoplethysmogram and Convolutional Neural Network,” ISIS 2019-ICBAKE 2019 Joint Conference, Dec 4-7, Jeju ICC, Jeju Island, Republic of Korea, 2019 
   Hangsik Shin, Junyung Part, Hyeon Seok Seok and Younghyeon Yun, “Postoperative Pain Assessment Using Convolutional Neural Network,” 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Jul 23-27, Berlin, Germany, 2019
@@ -712,6 +713,7 @@ function confernceDome() {
 
 
 function patentAll() {
+  resetButtons()
   const papers = `Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: US17342860, Date: 2021/06/09), Published (No: US20210295993, Date: 2021/09/23)
   A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04), Published (No: PCT2022169020, Date: 2022/08/11) 
  A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: PCT/KR2021/002702, Date: 2021/03/04)
