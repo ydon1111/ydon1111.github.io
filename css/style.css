@@ -1282,8 +1282,8 @@ body {
 
 .sidebar.small-sidebar {
 	width: 250px;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
 }
 
 p.small-button {
@@ -1299,14 +1299,17 @@ p.small-button {
 
 /* 클릭 시 텍스트 색상, 밑줄 및 볼드 스타일 변경 */
 p.small-button.clicked {
-	color: #4f868e;
+	color: #036166	;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
 #my_div {
+	border-top: 2px solid #036166;
 	margin-left: 15px;
 	padding: 10px;
+	margin-top: 30px;
+	border-bottom: 2px solid #036166;
 }
 
 

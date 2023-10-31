@@ -59,7 +59,7 @@ function journalSCI() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="SCIOpenPaper(${i})" style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="SCIOpenPaper(${i})" style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -160,8 +160,10 @@ function journalSCOPUS() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="SCOPUSOpenPaper(${i})" style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="SCOPUSOpenPaper(${i})" style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
+
   }
+  
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
@@ -213,7 +215,7 @@ function journalKCI() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -296,7 +298,7 @@ function confernceInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -435,7 +437,7 @@ function confernceDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -530,7 +532,7 @@ function patentInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -575,7 +577,7 @@ function patentDesignInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -650,7 +652,7 @@ function patentDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -695,7 +697,7 @@ function patentDesignDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -760,7 +762,7 @@ function registeredSW() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: gray; text-decoration: none; border: none;"> ${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:0.7em; color:#999999;"> &nbsp [${i+1}] &nbsp </span> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
