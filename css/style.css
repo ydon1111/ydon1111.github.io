@@ -785,7 +785,7 @@ input[type="reset"].small,
 	font-family: FontAwesome;
 	content: '\f107';
 	margin-right: 0.65em;
-    color : #006A6A; /* 화살표에 색 추가해봄 */
+    color : #F57C13; /* 화살표에 색 추가해봄 */
 	position: relative;
 	z-index: 10001; /* 추가: 더 높은 z-index 값 설정 */
   }
@@ -862,7 +862,7 @@ input[type="reset"].small,
 }
 
 .dropotron>li:hover>a {
-	background: #FF8400; 
+	background: #036166; 
 	color: white;
 }
 
