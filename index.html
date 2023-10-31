@@ -13,7 +13,8 @@ layout: landing-page
 		<p>Through rigorous exploration of digital technologies, data analytics, and interdisciplinary collaboration,
 			<br />our trials are still on going, <strong>since 2021.</strong>
 			<br />
-			<br /></p>
+			<br />
+		</p>
 	</header>
 
 	<!-- One -->
@@ -40,12 +41,12 @@ layout: landing-page
 
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 		<script>
-			//숫자 카운트 애니메이션
-			document.addEventListener("DOMContentLoaded", function () {
+			setTimeout(function () {
+				// 숫자 카운트 애니메이션
 				$('.nums').each(function () {
 					const $this = $(this),
 						countTo = $this.attr('data-count');
-		
+
 					$({
 						countNum: $this.text()
 					}).animate({
@@ -58,11 +59,11 @@ layout: landing-page
 						},
 						complete: function () {
 							$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
-							//3자리 마다 콤마 표시 적용
+							// 3자리 마다 콤마 표시 적용
 						}
 					});
 				});
-			});
+			}, 2500); // 2.5초 뒤에 실행 (1000 밀리초 = 1초)
 		</script>
 	</section>
 
@@ -82,7 +83,8 @@ layout: landing-page
 				<p style="color: #ffffff">&emsp;<strong>D</strong>igital Healthcare & Medicine leverages technology such as the Internet of Things (IoT) and
 					artificial intelligence (AI) to collect, analyze, and manage medical data. </br>
 					&emsp;This
-					<strong>D</strong>ata-driven approach enhances patient care, <strong>D</strong>iagnoses & <strong>D</strong>ecision support and treatment
+					<strong>D</strong>ata-driven approach enhances patient care, <strong>D</strong>iagnoses &
+					<strong>D</strong>ecision support and treatment
 					by enabling real-time monitoring,
 					predictive analytics, and personalized medicine. </br>
 					&emsp;It also promotes remote healthcare
@@ -119,13 +121,19 @@ layout: landing-page
 
 
 				<ul class="featured-icons">
-					<li><span class="icon fa-solid fa-heart-pulse" style="color:#ffffff"><span class="label" >Feature 1</span></span></li>
-					<li><span class="icon fa-solid fa-bed-pulse" style="color:#252422"><span class="label">Feature 2</span></span></li>
-					<li><span class="icon fa-solid fa-server" style="color:#252422"><span class="label">Feature 3</span></span></li>
-					<li><span class="icon fa-solid fa-network-wired" style="color:#ffffff"><span class="label">Feature 4</span></span></li>
-					<li><span class="icon fa-solid fa-person-dots-from-line" style="color:#ffffff"><span class="label">Feature 5</span></span>
+					<li><span class="icon fa-solid fa-heart-pulse" style="color:#ffffff"><span class="label">Feature
+								1</span></span></li>
+					<li><span class="icon fa-solid fa-bed-pulse" style="color:#252422"><span class="label">Feature
+								2</span></span></li>
+					<li><span class="icon fa-solid fa-server" style="color:#252422"><span class="label">Feature
+								3</span></span></li>
+					<li><span class="icon fa-solid fa-network-wired" style="color:#ffffff"><span class="label">Feature
+								4</span></span></li>
+					<li><span class="icon fa-solid fa-person-dots-from-line" style="color:#ffffff"><span
+								class="label">Feature 5</span></span>
 					</li>
-					<li><span class="icon fa-solid fa-hand-holding-medical" style="color:#252422"><span class="label">Feature 6</span></span>
+					<li><span class="icon fa-solid fa-hand-holding-medical" style="color:#252422"><span
+								class="label">Feature 6</span></span>
 					</li>
 				</ul>
 

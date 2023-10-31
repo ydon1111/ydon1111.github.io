@@ -788,8 +788,6 @@ input[type="reset"].small,
     color : #006A6A; /* 화살표에 색 추가해봄 */
 	position: relative;
 	z-index: 10001; /* 추가: 더 높은 z-index 값 설정 */
-
-
   }
   
   #header nav ul li.active > a, #header nav ul li:hover > a {
