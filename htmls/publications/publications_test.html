@@ -2,36 +2,31 @@
 layout: default
 ---
 
-
 <article id="main">
     <header class="special container">
         <span class="icon fa-solid fa-scroll"></span>
         <h2>publications</h2>
-        <p style="font-size: 24px; color:#999999; text-transform: uppercase;">Journal</p>
+        &nbsp;
+        <p style="font-size: 28px; color:#999999;">Journal</p>
     </header>
 
-
-
     <section class="wrapper style4 container">
-
         <div class="row oneandhalf">
             <div class="3u">
-
                 <!-- Sidebar -->
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                            <a href="#" onclick='journalSCI()' class="small-button" id="journalSCIPara">International(SCI/SCIE)</a>
-                            <a href="#" onclick='journalSCOPUS()' class="small-button" id="journalSCOPUSPara">International(SCOPUS)</a>
-                            <a href="#" onclick='journalKCI()' class="small-button" id="journalKCIPara">Domestic(KCI)</a>
+                            <p onclick='journal()' class="small-button" id="journalTestPara">journal
+                            </p>
                         </div>
                     </section>
                 </div>
-
             </div>
-            <div class="9u skel-cell-important" >
+            <div class="9u skel-cell-important">
                 <!-- Content -->
-                <div id='my_div' class="my-div" >
+                <div id='my_div' class="my-div">
+                    <!-- Content will be displayed here -->
                     <span>'논문표시'</span>
                 </div>
             </div>
@@ -42,7 +37,7 @@ layout: default
 
 <script>
 
-window.onload = function () {
-    journalALL()
-};
+    window.onload = function () {
+        journal();
+    };
 </script>
