@@ -796,7 +796,7 @@ input[type="reset"].small,
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	background: rgba(188, 202, 206, 0.15);
+	background: rgba(201, 188, 206, 0.15);
 }
 
   
@@ -846,7 +846,7 @@ input[type="reset"].small,
 }
 
 .dropotron>li {
-	border-top: solid 1px rgba(124, 128, 129, 0.2);
+	border-top: solid 1px rgba(129, 124, 128, 0.2);
 }
 
 .dropotron>li>a {
@@ -1115,6 +1115,7 @@ body.index #main {
 	width: 80px;
 }
 
+
 #sideButton .toggle {
 	height: 100%;
 	left: 0;
@@ -1284,11 +1285,16 @@ body {
 	width: 250px;
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
+	padding-bottom: 30px;
 }
 
-p.small-button {
-	font-size: 15px;
-	padding: 5px 2px;
+a.small-button {
+	color : #1c2021;
+	border: none;
+	text-align: left;
+	text-indent: 5%;
+	font-size: 17px;
+	padding: 9px 2px; 
 	max-width: 100%;
 	/* 버튼의 최대 너비 설정 */
 	overflow: hidden;
@@ -1296,19 +1302,35 @@ p.small-button {
 	white-space: nowrap;
 	/* 텍스트 줄 바꿈 방지 */
 }
-
+/*#header nav ul li.active > a, #header nav ul li:hover > a {
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	background: rgba(201, 188, 206, 0.15);
+}*/
+a.small-button:hover {
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	background: rgba(201, 188, 206, 0.15);
+}
 /* 클릭 시 텍스트 색상, 밑줄 및 볼드 스타일 변경 */
-p.small-button.clicked {
+a.small-button.clicked {
 	color: #036166	;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
 #my_div {
-	border-top: 2px solid #036166;
+	
 	margin-left: 15px;
-	padding: 10px;
+	padding: 30px;
 	margin-top: 30px;
+	border-top: 2px solid #036166;
 	border-bottom: 2px solid #036166;
 }
 
