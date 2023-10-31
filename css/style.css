@@ -1294,7 +1294,7 @@ a.small-button {
 	text-align: left;
 	text-indent: 5%;
 	font-size: 17px;
-	padding: 9px 2px; 
+	padding: 9px 3px 9px 3px; 
 	max-width: 100%;
 	/* 버튼의 최대 너비 설정 */
 	overflow: hidden;
@@ -1302,14 +1302,6 @@ a.small-button {
 	white-space: nowrap;
 	/* 텍스트 줄 바꿈 방지 */
 }
-/*#header nav ul li.active > a, #header nav ul li:hover > a {
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	background: rgba(201, 188, 206, 0.15);
-}*/
 a.small-button:hover {
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1320,9 +1312,8 @@ a.small-button:hover {
 }
 /* 클릭 시 텍스트 색상, 밑줄 및 볼드 스타일 변경 */
 a.small-button.clicked {
-	color: #036166	;
-	text-decoration: underline;
-	font-weight: bold;
+	color: #ffffff	;
+	background: #036166;
 }
 
 #my_div {
