@@ -10,12 +10,40 @@ layout: default
         <p style="font-size: 24px; color:#999999; text-transform: uppercase;">Patent</p>
     </header>
 
+    <section class="wrapper style1 container special">
+		<div class="row">
+			<div class="4u">
+				<section>
+						<ul class="buttons">
+							<li><a href="publications_journal.html" class="button fit scrolly">Journal</a></li>
+						</ul>
+				</section>
+
+			</div>
+			<div class="4u">
+				<section>
+						<ul class="buttons">
+							<li><a href="publications_conference.html" class="button fit scrolly">Confernce</a></li>
+						</ul>
+				</section>
+
+			</div>
+			<div class="4u">
+				<section>
+						<ul class="buttons">
+							<li><a href="publications_patent.html" class="button fit scrolly">Patent</a></li>
+						</ul>
+				</section>
+			</div>
+		</div>
+	</section>
+
 
 
     <section class="wrapper style4 container">
 
         <div class="row oneandhalf">
-            <div class="3u">
+            <div class="2u">
 
                 <!-- Sidebar -->
                 <div class="sidebar">
@@ -23,16 +51,17 @@ layout: default
                         <div class="sidebar small-sidebar">
                             <a href="#" onclick='patentAll()' class="small-button" id="patentAllPara">ALL
                             </a>
-                            <a href="#" onclick='patentInter()' class="small-button" id="patentInterPara">Patent
-                                (International)
+
+                            <a href="#" onclick='patentInter()' class="small-button" id="patentInterPara">International 
+                                
                             </a>
-                            <a href="#" onclick='patentDesignInter()' class="small-button" id="patentDesignInterPara">Design
-                                Patent(International)
+                            <a href="#" onclick='patentDome()' class="small-button" id="patentDomePara">Domestic
                             </a>
-                            <a href="#" onclick='patentDome()' class="small-button" id="patentDomePara">Patent(Domestic)
+
+                            <a href="#" onclick='patentDesignInter()' class="small-button" id="patentDesignInterPara">International Design
+                               
                             </a>
-                            <a href="#" onclick='patentDesignDome()' class="small-button" id="patentDesignDomePara">Design
-                                Patent(Domestic)
+                            <a href="#" onclick='patentDesignDome()' class="small-button" id="patentDesignDomePara">Domestic Design
                             </a>
                             <a href="#" onclick='registeredSW()' class="small-button" id="registeredSWPara">Registered SW
                             </a>
@@ -41,7 +70,7 @@ layout: default
                 </div>
 
             </div>
-            <div class="9u skel-cell-important">
+            <div class="10u skel-cell-important">
                 <!-- Content -->
                 <div id='my_div' class="my-div">
                     <span>'논문표시'</span>
