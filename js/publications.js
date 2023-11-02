@@ -85,7 +85,7 @@ function journalALL() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021;  font-size: 0.9em; text-decoration: none; border: none; text-align: justify;">${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021;  font-size: 0.9em; text-decoration: none; border: none; text-align:justify;">${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -326,19 +326,6 @@ function journalKCI() {
   element.innerHTML = paperList;
 }
 
-// function KCIOpenPaper(paperIndex) {
-//   const paperLinks = `https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
-
-//   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
-
-//   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-//     window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
-//   }
-// }
 
 function confernceAll() {
   resetButtons()
@@ -1087,21 +1074,6 @@ function patentDesignDome() {
   element.innerHTML = paperList;
 }
 
-// function patentDesignDomeOpenPaper(paperIndex) {
-//   const paperLinks = `https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
-
-//   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
-
-//   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-//     window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
-//   }
-// }
-
-
 function registeredSW() {
   resetButtons()
   const papers = `심박수와 가속도 신호 저장 및 전송을 위한 서버 프로그램, Granted (No: KRC-2023-023409, Date: 2023/05/25) 
@@ -1145,14 +1117,12 @@ function registeredSW() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none; text-align: justify;">${paperInfo}</a><br><br>`;
+    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none; "><span style = " text-align: justify;">${paperInfo}</span></a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
-
-
 
 
 // 모든 버튼의 스타일 초기화
@@ -1162,8 +1132,6 @@ function resetButtons() {
     button.classList.remove("clicked");
   });
 }
-
-
 
 
 // CSS 스타일을 추가하여 간격을 조절
