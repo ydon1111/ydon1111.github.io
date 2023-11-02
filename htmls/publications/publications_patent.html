@@ -10,33 +10,25 @@ layout: default
         <p style="font-size: 24px; color:#999999; text-transform: uppercase;">Patent</p>
     </header>
 
-    <section class="wrapper style1 container special">
-		<div class="row">
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_journal.html" class="button fit scrolly">Journal</a></li>
-						</ul>
-				</section>
-
-			</div>
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_conference.html" class="button fit scrolly">Confernce</a></li>
-						</ul>
-				</section>
-
-			</div>
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_patent.html" class="button fit scrolly">Patent</a></li>
-						</ul>
-				</section>
-			</div>
-		</div>
-	</section>
+    <section class="wrapper style1 container special nav-container">
+        <div class="row">
+            <section>
+                <ul>
+                    <li><a href="publications_journal.html" class="nav-link">Journal</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="publications_conference.html" class="nav-link">Conference</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="publications_patent.html" class="nav-link active">Patent</a></li>
+                </ul>
+            </section>
+        </div>
+    </section>
 
 
 
@@ -52,18 +44,21 @@ layout: default
                             <a href="#" onclick='patentAll()' class="small-button" id="patentAllPara">ALL
                             </a>
 
-                            <a href="#" onclick='patentInter()' class="small-button" id="patentInterPara">International 
-                                
+                            <a href="#" onclick='patentInter()' class="small-button" id="patentInterPara">International
+
                             </a>
                             <a href="#" onclick='patentDome()' class="small-button" id="patentDomePara">Domestic
                             </a>
 
-                            <a href="#" onclick='patentDesignInter()' class="small-button" id="patentDesignInterPara">International Design
-                               
+                            <a href="#" onclick='patentDesignInter()' class="small-button"
+                                id="patentDesignInterPara">International Design
+
                             </a>
-                            <a href="#" onclick='patentDesignDome()' class="small-button" id="patentDesignDomePara">Domestic Design
+                            <a href="#" onclick='patentDesignDome()' class="small-button"
+                                id="patentDesignDomePara">Domestic Design
                             </a>
-                            <a href="#" onclick='registeredSW()' class="small-button" id="registeredSWPara">Registered SW
+                            <a href="#" onclick='registeredSW()' class="small-button" id="registeredSWPara">Registered
+                                SW
                             </a>
                         </div>
                     </section>
@@ -85,4 +80,17 @@ layout: default
     window.onload = function () {
         patentAll();
     };
-    </script>
+
+    
+    // JavaScript to toggle the active class on navigation link click
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+</script>

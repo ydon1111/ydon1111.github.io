@@ -10,34 +10,25 @@ layout: default
         <p style="font-size: 24px; color:#999999; text-transform: uppercase;">Conference</p>
     </header>
 
-    <section class="wrapper style1 container special">
-		<div class="row">
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_journal.html" class="button fit scrolly">Journal</a></li>
-						</ul>
-				</section>
-
-			</div>
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_conference.html" class="button fit scrolly">Confernce</a></li>
-						</ul>
-				</section>
-
-			</div>
-			<div class="4u">
-				<section>
-						<ul class="buttons">
-							<li><a href="publications_patent.html" class="button fit scrolly">Patent</a></li>
-						</ul>
-				</section>
-			</div>
-		</div>
-	</section>
-
+    <section class="wrapper style1 container special nav-container">
+        <div class="row">
+            <section>
+                <ul>
+                    <li><a href="publications_journal.html" class="nav-link">Journal</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="publications_conference.html" class="nav-link active">Conference</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="publications_patent.html" class="nav-link">Patent</a></li>
+                </ul>
+            </section>
+        </div>
+    </section>
 
 
 
@@ -51,8 +42,10 @@ layout: default
                     <section>
                         <div class="sidebar small-sidebar">
                             <a href="#" onclick='confernceAll()' class="small-button" id="confernceAllPara">ALL</a>
-                            <a href="#" onclick='confernceInter()' class="small-button" id="confernceInterPara">International</a>
-                            <a href="#" onclick='confernceDome()' class="small-button" id="confernceDomePara">Domestic</a>
+                            <a href="#" onclick='confernceInter()' class="small-button"
+                                id="confernceInterPara">International</a>
+                            <a href="#" onclick='confernceDome()' class="small-button"
+                                id="confernceDomePara">Domestic</a>
                         </div>
                     </section>
                 </div>
@@ -61,16 +54,35 @@ layout: default
             <div class="10u skel-cell-important">
                 <!-- Content -->
                 <div id='my_div' class="my-div">
-                
+
                     <span>'논문표시'</span>
                 </div>
             </div>
         </div>
     </section>
 </article>
+
+
+
+
 <script>
     // This function will be called when the page is fully loaded.
     window.onload = function () {
         confernceAll();
     };
+
+    
+    // JavaScript to toggle the active class on navigation link click
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+
 </script>
