@@ -1392,6 +1392,9 @@ a.small-button.clicked {
 }
 
 
+
+
+
 /* CSS for the "Top" button */
 #topButton {
     display: none;
@@ -1413,6 +1416,9 @@ a.small-button.clicked {
 
 
 
+
+
+/* index 아래 지도 부분 */
 * { padding: 0; margin: 0; }
 #wrap { width:100%; margin:0 auto; }
 .contents { width:100%;}

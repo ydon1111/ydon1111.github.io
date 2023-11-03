@@ -54,7 +54,7 @@ layout: default
 	<span id="InsideTheLab"></span>
 	<section class="wrapper style4 container" id="start">
 
-		<div class="row oneandhalf">
+		<div class="row">
 			<div class="5u">
 				<!-- Sidebar -->
 				<div class="sidebar">
@@ -83,8 +83,12 @@ layout: default
 					</section>
 				</div>
 			</div>
+		</div>
+
+
+		<div class="row">
+
 			<div class="6u">
-				<!-- Sidebar -->
 				<div class="sidebar">
 					<section>
 						<header>
@@ -96,15 +100,18 @@ layout: default
 			</div>
 
 			<div class="5u">
+				<!-- Sidebar -->
 				<div class="sidebar">
 					<section>
 						<header>
 							<h3>HISTORY</h3>
 						</header>
-						<p style="margin-bottom: 8px;">D.Lab opened in March 2022 at Asan Medical Center, University of
+						<p style="margin-bottom: 8px;">D.Lab opened in March 2022 at Asan Medical Center, University
+							of
 							Ulsan College of Medicine.
 							DLab's predecessor was Healthcare Solution Lab., which was originally established at the
-							College of Engineering Science at Chonnam National University. It was later renewed as D.Lab
+							College of Engineering Science at Chonnam National University. It was later renewed as
+							D.Lab
 							when Professor Hangsik Shin, the Principal Investigator (PI), relocated to Asan Medical
 							Center, University of Ulsan College of Medicine
 						</p>
@@ -112,29 +119,30 @@ layout: default
 				</div>
 			</div>
 
+		</div>
 
-			<div class="8u skel-cell-important">
-				<!-- Content -->
-				<div class="content">
-					<section>
-						<header>
-							<h3>News</h3>
-						</header>
-						<ul class="posts">
-							{% for post in site.posts limit: 4 %}
-							<li class="wrapper style1" style="margin-bottom: 0;">
-								<p style="margin-bottom: 0;"><a href="{{ post.url }}">{{ post.title }}</a></p>
-								<p class="post-date" style="font-size: 14px; margin-bottom: 0;">{{ post.date | date:
-									"%Y-%m-%d" }}</p>
-							</li>
-							{% if forloop.last == false %}
-							<hr style="border: 1px solid #ccc; margin-bottom: 0;"> <!-- 게시물 간의 밑줄 -->
-							{% endif %}
-							{% endfor %}
-						</ul>
-					</section>
-				</div>
+		<div class="8u skel-cell-important">
+			<!-- Content -->
+			<div class="content">
+				<section>
+					<header>
+						<h3>News</h3>
+					</header>
+					<ul class="posts">
+						{% for post in site.posts limit: 4 %}
+						<li class="wrapper style1" style="margin-bottom: 0;">
+							<p style="margin-bottom: 0;"><a href="{{ post.url }}">{{ post.title }}</a></p>
+							<p class="post-date" style="font-size: 14px; margin-bottom: 0;">{{ post.date | date:
+								"%Y-%m-%d" }}</p>
+						</li>
+						{% if forloop.last == false %}
+						<hr style="border: 1px solid #ccc; margin-bottom: 0;"> <!-- 게시물 간의 밑줄 -->
+						{% endif %}
+						{% endfor %}
+					</ul>
+				</section>
 			</div>
+		</div>
 	</section>
 </article>
 
