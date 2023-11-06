@@ -1376,6 +1376,7 @@ a.small-button.clicked {
 .nav-container {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 5px;
 }
 
 .nav-link {
@@ -1384,15 +1385,16 @@ a.small-button.clicked {
 	text-decoration: none;
 	padding: 10px;
 	color: #1c2021;
-	border: 1px solid #999;
 	transition: background-color 0.3s, color 0.3s;
 	width: 200px; /* Set a fixed width for all nav-link boxes */
 	margin: 5px;
 	box-sizing: border-box; /* Use border-box to include padding and border in width calculation */
+	border: 1px solid #999;
 }
 
 .nav-link:hover {
 	background-color: rgba(201, 188, 206, 0.15);
+	border: 1px solid #999;
 
 }
 
