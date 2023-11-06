@@ -598,9 +598,9 @@ input[type="reset"].small,
 }
 
 .wrapper.style1 a.button.fit{
-	height: 200px;
+	height: 130px;
 	padding : 1em 1em 1em 1em;
-	border-color: rgb(255, 255, 255);
+	border-color: #999;
 	border-radius: 20%;
 }
 
