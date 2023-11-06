@@ -594,6 +594,13 @@ input[type="reset"].small,
 	padding: 0;
 }
 
+.wrapper.style1 a.button.fit{
+	height: 200px;
+	padding : 1em 1em 1em 1em;
+	border-color: rgb(255, 255, 255);
+	border-radius: 20%;
+}
+
 .wrapper.style2 {
 	background-color: rgb(111, 175, 171);
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
