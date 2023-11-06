@@ -598,10 +598,10 @@ input[type="reset"].small,
 }
 
 .wrapper.style1 a.button.fit{
-	height: 130px;
+	height: 70px;
 	padding : 1em 1em 1em 1em;
-	border-color: #999;
-	border-radius: 20%;
+	border: 1.5px solid #d4d4d4;
+	border-radius: 10px;
 }
 
 .wrapper.style2 {
@@ -1389,13 +1389,13 @@ a.small-button.clicked {
 	width: 200px; /* Set a fixed width for all nav-link boxes */
 	margin: 5px;
 	box-sizing: border-box; /* Use border-box to include padding and border in width calculation */
-	border: 1px solid #999;
+	border: 1px solid #d4d4d4;
+	border-radius: 10px;
 }
 
 .nav-link:hover {
 	background-color: rgba(201, 188, 206, 0.15);
-	border: 1px solid #999;
-
+	border: 1px solid #d4d4d4;
 }
 
 .nav-link.active {
