@@ -597,9 +597,9 @@ input[type="reset"].small,
 	padding: 0;
 }
 
-.wrapper.style1 a.button.fit{
+.wrapper.style1 a.button.fit {
 	height: 70px;
-	padding : 1em 1em 1em 1em;
+	padding: 1em 1em 1em 1em;
 	border: 1.5px solid #d4d4d4;
 	border-radius: 10px;
 }
@@ -1386,9 +1386,11 @@ a.small-button.clicked {
 	padding: 10px;
 	color: #1c2021;
 	transition: background-color 0.3s, color 0.3s;
-	width: 200px; /* Set a fixed width for all nav-link boxes */
+	width: 200px;
+	/* Set a fixed width for all nav-link boxes */
 	margin: 5px;
-	box-sizing: border-box; /* Use border-box to include padding and border in width calculation */
+	box-sizing: border-box;
+	/* Use border-box to include padding and border in width calculation */
 	border: 1px solid #d4d4d4;
 	border-radius: 10px;
 }
@@ -1409,21 +1411,29 @@ a.small-button.clicked {
 
 /* CSS for the "Top" button */
 #topButton {
-    display: none;
-    position: fixed;
-    right:280px; /* Adjust the right position as needed */
-    bottom: 60px; /* Adjust the bottom position as needed */
-    background-color: #036166; /* Button background color */
-    color: #fff; /* Button text color */
-    font-size: 16px; /* Button font size */
-    padding: 10px 20px; /* Button padding */
-    border: none;
-    border-radius: 10px; /* Rounded corners */
-    cursor: pointer;
+	display: none;
+	position: fixed;
+	right: 280px;
+	/* Adjust the right position as needed */
+	bottom: 60px;
+	/* Adjust the bottom position as needed */
+	background-color: #036166;
+	/* Button background color */
+	color: #fff;
+	/* Button text color */
+	font-size: 16px;
+	/* Button font size */
+	padding: 10px 20px;
+	/* Button padding */
+	border: none;
+	border-radius: 10px;
+	/* Rounded corners */
+	cursor: pointer;
 }
 
 #topButton:hover {
-    background-color: #034b5e; /* Button background color on hover */
+	background-color: #034b5e;
+	/* Button background color on hover */
 }
 
 
@@ -1431,54 +1441,100 @@ a.small-button.clicked {
 
 
 /* index 아래 지도 부분 */
-* { padding: 0; margin: 0; }
-#wrap { width:100%; margin:0 auto; }
-.contents { width:100%;}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.contents {
+	width: 100%;
+}
 
 #cta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 #cta header {
-  width: 50%;
-  order: 2; /* 변경된 부분 */
-  padding: 20px; /* 글자 부분에 패딩 추가 */
-  color: #ffffff;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  height: 500px;
+	width: 50%;
+	order: 2;
+	/* 변경된 부분 */
+	padding: 20px;
+	/* 글자 부분에 패딩 추가 */
+	color: #ffffff;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+	height: 500px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #cta iframe {
-  width: 50%;
-  order: 1; /* 변경된 부분 */
-  height: 500px;
+	width: 50%;
+	order: 1;
+	/* 변경된 부분 */
+	height: 500px;
 }
 
 @media (max-width: 768px) {
-  #cta {
-  flex-direction: column; /* 변경된 부분 */
-  }
+	#cta {
+		flex-direction: column;
+		/* 변경된 부분 */
+	}
 
-  #cta header {
-  width: 100%;
-  padding: 20px; /* 모바일 글자 부분에 패딩 추가 */
-  
-  }
+	#cta header {
+		width: 100%;
+		padding: 20px;
+		/* 모바일 글자 부분에 패딩 추가 */
 
-  #cta iframe {
-  width: 100%;
-  margin-bottom: 50px;
-  }
+	}
+
+	#cta iframe {
+		width: 100%;
+		margin-bottom: 50px;
+	}
 }
 
 
 
+
+/* 버튼 정렬 */
+
+.nav-item ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-link {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	background-color: #f0f0f0;
+	/* 배경색을 원하는 색상으로 설정 */
+	border: 1px solid #ddd;
+	/* 테두리 설정 */
+	border-radius: 5px;
+	/* 둥근 테두리 설정 */
+	height: 100%;
+}
+
+.nav-link img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+	/* 이미지 아래 여백 추가 */
+}
