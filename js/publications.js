@@ -161,7 +161,7 @@ function journalSCI() {
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
     paperList += `<a href="#" onclick="SCIOpenPaper(${i})" style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none; text-align: justify;">${paperInfo}</a><br><br>`;
-   
+
   }
 
   const element = document.getElementById('my_div');
