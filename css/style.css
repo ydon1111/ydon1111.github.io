@@ -1421,7 +1421,6 @@ a.small-button.clicked {
 	align-items: center;
 	text-align: center;
 	padding: 20px;
-	background-color: #f0f0f0;
 	/* 배경색을 원하는 색상으로 설정 */
 	border: 1px solid #ddd;
 	/* 테두리 설정 */
@@ -1567,21 +1566,6 @@ a.small-button.clicked {
 	font-size: small;
 }
 
-/*
-.nav-link_re {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	padding: 10px;
-	color: #1c2021;
-	transition: background-color 0.3s, color 0.3s;
-	width: 200px;
-	margin: 5px;
-	box-sizing: border-box;
-	border: 1px solid #d4d4d4;
-	border-radius: 10px;
-} 
-*/
 
 .nav-link_re:hover {
 	background-color: rgba(201, 188, 206, 0.15);
