@@ -1408,7 +1408,6 @@ a.small-button.clicked {
 
 
 
-
 /* CSS for the "Top" button */
 #topButton {
 	display: none;
@@ -1516,25 +1515,56 @@ a.small-button.clicked {
 	margin: 0;
 }
 
-.nav-link {
+/* research 용 nav-link */
+
+
+.nav-link_re {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-	padding: 20px;
-	background-color: #f0f0f0;
+	color: #1c2021;
+	padding: 10px;
 	/* 배경색을 원하는 색상으로 설정 */
 	border: 1px solid #ddd;
 	/* 테두리 설정 */
-	border-radius: 5px;
+	border-radius: 10px;
 	/* 둥근 테두리 설정 */
-	height: 100%;
+	height: 100px;
+	width: 100px;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: small;
 }
 
-.nav-link img {
+/*
+.nav-link_re {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	color: #1c2021;
+	transition: background-color 0.3s, color 0.3s;
+	width: 200px;
+	margin: 5px;
+	box-sizing: border-box;
+	border: 1px solid #d4d4d4;
+	border-radius: 10px;
+} 
+*/
+
+.nav-link_re:hover {
+	background-color: rgba(201, 188, 206, 0.15);
+	border: 1px solid #d4d4d4;
+}
+
+.nav-link_re.active {
+	background-color: #036166;
+	color: #fff;
+}
+
+.nav-link_re img {
 	width: 50px;
 	height: 50px;
-	margin-bottom: 10px;
 	/* 이미지 아래 여백 추가 */
 }
