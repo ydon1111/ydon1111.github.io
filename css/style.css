@@ -1416,6 +1416,9 @@ a.small-button.clicked {
 	margin: 0;
 }
 
+
+
+
 .nav-link {
 	display: flex;
 	flex-direction: column;
@@ -1584,3 +1587,4 @@ a.small-button.clicked {
 	height: 50px;
 	/* 이미지 아래 여백 추가 */
 }
+
