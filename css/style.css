@@ -1588,3 +1588,21 @@ a.small-button.clicked {
 	/* 이미지 아래 여백 추가 */
 }
 
+
+
+
+/* research 레이아웃 */
+
+.image-and-content {
+	display: flex; /* 이미지와 콘텐츠를 가로로 나란히 배치 */
+	align-items: center; /* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
+  }
+  
+  .image-container {
+	flex: 1; /* 이미지가 가변 너비를 가지며 나머지 공간을 콘텐츠가 차지함 */
+	margin-right: 20px; /* 이미지와 콘텐츠 사이에 간격 설정 */
+  }
+  
+  .content-container {
+	flex: 2; /* 콘텐츠가 이미지의 2배의 너비를 가짐 */
+  }
