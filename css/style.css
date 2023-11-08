@@ -1446,7 +1446,7 @@ a.small-button.clicked {
 #topButton {
 	display: none;
 	position: fixed;
-	right: 150px;
+	right: 40px;
 	/* Adjust the right position as needed */
 	bottom: 60px;
 	/* Adjust the bottom position as needed */
