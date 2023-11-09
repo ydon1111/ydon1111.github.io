@@ -290,7 +290,7 @@ input[type="email"] {
 
 .image.featured {
 	display: block;
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 }
 
 .image.featured img {
@@ -647,6 +647,20 @@ input[type="reset"].small,
 	background: white;
 	color: inherit;
 	padding: 4em;
+}
+
+.wrapper.style4 h3.RT{
+	text-align: center;
+	font-family: 'fontawesome-webfont';
+	text-shadow: 2px 2px 2px rgb(192, 194, 194);
+	margin-bottom: 0px;
+}
+.wrapper.style4 p.RT{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #3b5e69;
+	font-size: 0.8em;
+	font-family: 'fontawesome-webfont';
 }
 
 /* Header */
