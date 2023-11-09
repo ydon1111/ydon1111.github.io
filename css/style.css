@@ -1617,6 +1617,7 @@ a.small-button.clicked {
 
 
 /* research 상단 이미지에 텍스트 */
+
 .image-with-text {
 	position: relative;
 	/* 부모 요소를 상대 위치로 설정 */
