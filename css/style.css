@@ -656,8 +656,8 @@ input[type="reset"].small,
 	margin-bottom: 0px;
 }
 .wrapper.style4 p.RT{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #3b5e69;
 	font-size: 0.8em;
 	font-family: 'fontawesome-webfont';
@@ -1644,12 +1644,13 @@ a.small-button.clicked {
 .text-over-image {
 	position: absolute;
 	/* 텍스트를 절대 위치로 설정 */
-	top: 20%;
+	top:20%;
 	/* 위쪽 여백 설정 (원하는 위치로 조정) */
 	left: 0;
 	/* 왼쪽 여백 설정 (원하는 위치로 조정) */
-	background: rgba(255, 255, 255, 0.8);
-	/* 텍스트 배경 색상 설정 (선택사항) */
-	padding: 20px;
+	padding: 100px;
+	
 	/* 텍스트 주변 여백 설정 (선택사항) */
+
+	color: #ffffff;
 }
