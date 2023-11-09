@@ -1341,7 +1341,10 @@ a.small-button.clicked {
 
 #my_div {
 	margin-left: 5px;
-	padding: 10px;
+	/* padding: 20px; */
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin-top: 30px;
 	border-top: 2px solid #036166;
 	border-bottom: 2px solid #036166;
@@ -1413,6 +1416,9 @@ a.small-button.clicked {
 	margin: 0;
 }
 
+
+
+
 .nav-link {
 	display: flex;
 	flex-direction: column;
@@ -1440,7 +1446,7 @@ a.small-button.clicked {
 #topButton {
 	display: none;
 	position: fixed;
-	right: 280px;
+	right: 40px;
 	/* Adjust the right position as needed */
 	bottom: 60px;
 	/* Adjust the bottom position as needed */
@@ -1580,4 +1586,56 @@ a.small-button.clicked {
 	width: 50px;
 	height: 50px;
 	/* 이미지 아래 여백 추가 */
+}
+
+
+
+
+/* research 레이아웃 */
+
+.image-and-content {
+	display: flex;
+	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
+	align-items: center;
+	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
+}
+
+.image-container {
+	flex: 1;
+	/* 이미지가 가변 너비를 가지며 나머지 공간을 콘텐츠가 차지함 */
+	margin-right: 20px;
+	/* 이미지와 콘텐츠 사이에 간격 설정 */
+}
+
+.content-container {
+	flex: 2;
+	/* 콘텐츠가 이미지의 2배의 너비를 가짐 */
+}
+
+
+
+
+
+/* research 상단 이미지에 텍스트 */
+
+.image-with-text {
+	position: relative;
+	/* 부모 요소를 상대 위치로 설정 */
+}
+.image-with-text img {
+	width: 100%; /* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
+	height: auto; /* 높이를 자동으로 조정하여 이미지의 비율을 유지 */
+  }
+
+.text-over-image {
+	position: absolute;
+	/* 텍스트를 절대 위치로 설정 */
+	top: 20%;
+	/* 위쪽 여백 설정 (원하는 위치로 조정) */
+	left: 0;
+	/* 왼쪽 여백 설정 (원하는 위치로 조정) */
+	background: rgba(255, 255, 255, 0.8);
+	/* 텍스트 배경 색상 설정 (선택사항) */
+	padding: 20px;
+	/* 텍스트 주변 여백 설정 (선택사항) */
 }
