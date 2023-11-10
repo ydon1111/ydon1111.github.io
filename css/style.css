@@ -603,7 +603,6 @@ input[type="reset"].small,
 	border: 1.5px solid #d4d4d4;
 	border-radius: 10px;
 }
-
 .wrapper.style1 a.mail{
 	color: #F57C13;
 }
@@ -666,6 +665,13 @@ input[type="reset"].small,
 	font-size: 0.8em;
 	font-family: 'fontawesome-webfont';
 }
+
+.wrapper.style4 p.project{
+	font-family: 'fontawesome-webfont';
+}
+
+
+
 
 /* Header */
 @-moz-keyframes reveal-header {
