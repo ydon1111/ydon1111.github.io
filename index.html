@@ -129,14 +129,14 @@ layout: landing-page
 					</footer>
 					<br>
 					<header>
-						<h3>Latest News</h3>
+						<h3 style="color:#ffffff;">Latest News</h3>
 					</header>
 					<ul class="posts">
 						{% for post in site.posts limit: 3%}
 						<li class="wrapper style1" style="margin-bottom: 0;">
-							<p style="margin-bottom: 0; "><a href="{{ post.url }}" style="color: white;">{{ post.title
+							<p style="margin-bottom: 0; "><a style="color:#F57C13;" href="{{ post.url }}">{{ post.title
 									}}</a></p>
-							<p class="post-date" style="font-size: 14px; margin-bottom: 0;">{{ post.date | date:
+							<p class="post-date" style="font-size: 14px; margin-bottom: 0; color:#ffffff;">{{ post.date | date:
 								"%Y-%m-%d" }}</p>
 						</li>
 						{% if forloop.last == false %}
