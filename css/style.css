@@ -1374,6 +1374,31 @@ a.small-button.clicked {
 	border-bottom: 2px solid #036166;
 }
 
+#my_div a.paperlist {
+	color: #1c2021;  
+	font-size: 0.9em; 
+	text-decoration: none; 
+	border: none; 
+	text-align:justify;
+}
+/* 링크 연결된 paperlist*/
+#my_div a.paperclick {
+	color: #1c2021;  
+	font-size: 0.9em; 
+	text-decoration: none; 
+	border: none; 
+	text-align:justify;
+}
+
+#my_div a.paperclick:hover {
+	color: #1c2021; 
+	font-size: 0.9em; 
+	text-decoration: underline; 
+	text-decoration-style: dotted;
+	border: none; 
+	text-align:justify;
+}
+
 
 /* members 앞에 동그라미 추가 구분자 추가  */
 
