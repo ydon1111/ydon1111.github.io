@@ -1662,6 +1662,13 @@ a.small-button.clicked {
 }
 
 
+.content-container .paper,
+.content-container .patent {
+	display: none;
+}
+
+
+
 
 
 
@@ -1689,3 +1696,8 @@ a.small-button.clicked {
 
 	color: #ffffff;
 }
+
+
+
+
+

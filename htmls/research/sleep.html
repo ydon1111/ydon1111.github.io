@@ -4,29 +4,9 @@ layout: default
 
 
 <style>
-	.content-container .paper,
-	.content-container .patent {
-		display: none;
-		/* Hide "Paper" and "Patent" by default */
-	}
+
 </style>
 
-<script>
-	function toggleParagraph(sectionId, type) {
-		var paperParagraph = document.getElementById(sectionId + '-paper');
-		var patentParagraph = document.getElementById(sectionId + '-patent');
-
-		if (type === 'paper') {
-			paperParagraph.style.display = (paperParagraph.style.display === 'none' || paperParagraph.style.display === '') ? 'block' : 'none';
-			patentParagraph.style.display = 'none';
-		} else if (type === 'patent') {
-			patentParagraph.style.display = (patentParagraph.style.display === 'none' || patentParagraph.style.display === '') ? 'block' : 'none';
-			paperParagraph.style.display = 'none';
-		}
-	}
-
-
-</script>
 
 
 <article id="main">
@@ -174,8 +154,23 @@ layout: default
 							biomedical research ethics committee (IRB no. CNUH-2017-274).
 						</p>
 						<!-- Toggle buttons for "Paper" and "Patent" paragraphs -->
-						<button onclick="toggleParagraph('unconstrainedSleepMonitoring', 'paper')">See Paper</button>
-						<button onclick="toggleParagraph('unconstrainedSleepMonitoring', 'patent')">See Patent</button>
+
+						<div class="row">
+							<ul>
+								<li>
+									<a class="nav-link-re"
+										onclick="toggleParagraph('unconstrainedSleepMonitoring', 'paper')"><span
+											class="icon fa-solid fa-book"></span>Papers</a>
+								</li>
+							</ul>
+							<Ul>
+								<li> <a class="nav-link-re"
+										onclick="toggleParagraph('unconstrainedSleepMonitoring', 'patent')"><span
+											class="icon fa-regular fa-copyright"></span>Patent</a>
+								</li>
+							</Ul>
+						</div>
+
 
 						<div class="paper" id="unconstrainedSleepMonitoring-paper" align="justify">
 							<strong>Paper</strong><br>
@@ -228,7 +223,16 @@ layout: default
 							Korea)
 							biomedical research ethics committee (IRB no. CNUH-2017-274).
 						</p>
-						<button onclick="toggleParagraph('ubiquitousSleepMonitoring','paper')">See Paper</button>
+
+						<div class="row">
+							<ul>
+								<li>
+									<a class="nav-link-re"
+										onclick="toggleParagraph('ubiquitousSleepMonitoring','paper')"><span
+											class="icon fa-solid fa-book"></span>Papers</a>
+								</li>
+							</ul>
+						</div>
 
 						<div class="paper" id="ubiquitousSleepMonitoring-paper" align="justify">
 							<strong>Paper</strong><br>
@@ -263,7 +267,16 @@ layout: default
 							everyday smart devices, while employing advanced acoustic analysis techniques to swiftly and
 							accurately detect the presence of snoring.
 						</p><br>
-						<button onclick="toggleParagraph('snoringDetection','paper')">See Paper</button>
+
+
+						<div class="row">
+							<ul>
+								<li>
+									<a class="nav-link-re" onclick="toggleParagraph('snoringDetection','paper')"><span
+											class="icon fa-solid fa-book"></span>Papers</a>
+								</li>
+							</ul>
+						</div>
 
 						<div class="paper" id="snoringDetection-paper" align="justify">
 							<strong>Paper</strong><br>
@@ -292,8 +305,22 @@ layout: default
 							of sleep quality.
 						</p><br>
 
-						<button onclick="toggleParagraph('actigraphyOnSleep','paper')">See Paper</button>
-						<button onclick="toggleParagraph('actigraphyOnSleep','patent')">See Patent</button>
+						<div class="row">
+							<ul>
+								<li>
+									<a class="nav-link-re" onclick="toggleParagraph('actigraphyOnSleep','paper')"><span
+											class="icon fa-solid fa-book"></span>Papers</a>
+								</li>
+							</ul>
+							<Ul>
+								<li> <a class="nav-link-re"
+										onclick="toggleParagraph('actigraphyOnSleep','patent')"><span
+											class="icon fa-regular fa-copyright"></span>Patent</a>
+								</li>
+							</Ul>
+						</div>
+
+
 
 						<div class="paper" id="actigraphyOnSleep-paper" align="justify">
 							<strong>Paper</strong><br>
