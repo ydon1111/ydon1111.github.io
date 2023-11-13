@@ -3,6 +3,32 @@ layout: default
 ---
 
 
+<style>
+	.content-container .paper,
+	.content-container .patent {
+		display: none;
+		/* Hide "Paper" and "Patent" by default */
+	}
+</style>
+
+<script>
+	function toggleParagraph(sectionId, type) {
+		var paperParagraph = document.getElementById(sectionId + '-paper');
+		var patentParagraph = document.getElementById(sectionId + '-patent');
+
+		if (type === 'paper') {
+			paperParagraph.style.display = (paperParagraph.style.display === 'none' || paperParagraph.style.display === '') ? 'block' : 'none';
+			patentParagraph.style.display = 'none';
+		} else if (type === 'patent') {
+			patentParagraph.style.display = (patentParagraph.style.display === 'none' || patentParagraph.style.display === '') ? 'block' : 'none';
+			paperParagraph.style.display = 'none';
+		}
+	}
+
+
+</script>
+
+
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-regular fa-solar-panel"></span>
@@ -22,8 +48,8 @@ layout: default
 
 			<section class="nav-item">
 				<ul>
-					<li><a href="disease_prediction.html" class="nav-link_re"><img src="/images/icons/DiseasePrediction.png"
-								alt="">
+					<li><a href="disease_prediction.html" class="nav-link_re"><img
+								src="/images/icons/DiseasePrediction.png" alt="">
 							<span style="line-height: 80%;"><br>Disease Prediction</a>
 					</li></span>
 				</ul>
@@ -53,8 +79,8 @@ layout: default
 
 			<section>
 				<ul>
-					<li><a href="wearable_IoT_&_platform.html" class="nav-link_re"><img src="/images/icons/WearableIOT.png"
-								alt="">
+					<li><a href="wearable_IoT_&_platform.html" class="nav-link_re"><img
+								src="/images/icons/WearableIOT.png" alt="">
 							<span style="line-height: 80%;"><br>Wearable IoT&Platform</a></li></span>
 				</ul>
 			</section>
@@ -76,14 +102,15 @@ layout: default
 
 			<section>
 				<ul>
-					<li><a href="therapeutics.html" class="nav-link_re"><img src="/images/icons/Therapeutics.png" alt="">
+					<li><a href="therapeutics.html" class="nav-link_re"><img src="/images/icons/Therapeutics.png"
+								alt="">
 							<span style="line-height: 80%;"><br>Therapeutics</a></li></span>
 				</ul>
 			</section>
 	</section>
 
 
-<!-- Main -->
+	<!-- Main -->
 	<span id="sleep"></span>
 	<section class="wrapper style1 container" style="margin-bottom: 0px;">
 		<!-- Content -->
@@ -117,8 +144,9 @@ layout: default
 
 	<!-- Two -->
 	<section class="wrapper style4 container special">
+
 		<div class="row">
-			<div class>
+			<div class="section">
 				<section class="image-and-content">
 					<div class="image-container">
 						<img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/unconstrainedSleepMonitoring.png"
@@ -127,8 +155,7 @@ layout: default
 
 					<div class="content-container">
 						<header>
-							<h3>Unconstrained Sleep Monitoring
-							</h3>
+							<h3>Unconstrained Sleep Monitoring</h3>
 						</header>
 						<p align="justify">This burgeoning field of research focuses on the development of sensors,
 							systems,
@@ -136,44 +163,49 @@ layout: default
 							all
 							without the need for physical restraint or conscious awareness on the part of the human
 							body.
-
-						</p><br>
-						<p align=" justify" style="font-size: 0.7em;">
+						</p>
+						<br>
+						<p align="justify" style="font-size: 0.7em;">
 							*The protocol of this study was approved by the Institutional Review Board (IRB) of Seoul
 							National University Bundang Hospital (Seongnam, Republic of Korea) ethics committee (IRB
 							no.:
 							B-1610/368-301), and by the IRB of Chonnam National University Hospital (Gwangju, South
 							Korea)
 							biomedical research ethics committee (IRB no. CNUH-2017-274).
-
 						</p>
-						<p align="justify">
+						<!-- Toggle buttons for "Paper" and "Patent" paragraphs -->
+						<button onclick="toggleParagraph('unconstrainedSleepMonitoring', 'paper')">See Paper</button>
+						<button onclick="toggleParagraph('unconstrainedSleepMonitoring', 'patent')">See Patent</button>
+
+						<div class="paper" id="unconstrainedSleepMonitoring-paper" align="justify">
 							<strong>Paper</strong><br>
 							Sooji Park, Hyong-Ho Cho, Hyung Chae Yang, Jin-Sang Yoon and Hangsik Shin,
-							“Force-Sensing-Based
-							Unobtrusive System for Awakening and Respiration Rate Analysis during Sleep,” IEEE Sensors
-							Journal, 19(5), 1917-1924, 2019 <br>
+							“Force-Sensing-Based Unobtrusive System for Awakening and Respiration Rate Analysis
+							during
+							Sleep,”
+							IEEE Sensors Journal, 19(5), 1917-1924, 2019 <br>
 							Sangjin Han, Donggeun Roh, Junyung Park and Hangsik Shin, “Design of Multi-Wavelength
 							Optical
 							Sooji Park and Hangsik Shin, “Feasibility Study for Monitoring Unconstrained Respiration
-							based
-							on Multi-way Approach Using an Acceleration and Force Sensing Module,” IEEE Sensors Journal,
+							based on
+							Multi-way Approach Using an Acceleration and Force Sensing Module,” IEEE Sensors
+							Journal,
 							17(11), 3482-3489, 2017<br>
-
-						</p>
-						<p align="justify">
+						</div>
+						<div class="patent" id="unconstrainedSleepMonitoring-patent" align="justify">
 							<strong>Patent</strong><br>
-							힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치, Granted (No: KR102221370, Date: 2021/02/23)
-							<br>
-							무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템, Granted (No: KR101974905, Date: 2019/04/26)
-							<br>
-							다채널 센서를 이용한 생체 신호 모니터링 시스템, Granted (No: KR101809468, Date: 2017/12/11)
-							<br>
-						</p>
+							힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치, Granted (No: KR102221370, Date:
+							2021/02/23) <br>
+							무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템, Granted (No: KR101974905, Date:
+							2019/04/26) <br>
+							다채널 센서를 이용한 생체 신호 모니터링 시스템, Granted (No: KR101809468, Date: 2017/12/11) <br>
+						</div>
 					</div>
 				</section>
 			</div>
 		</div>
+
+
 
 		<div class="row">
 			<div class>
@@ -187,8 +219,6 @@ layout: default
 							acquired from personal sleep monitoring devices to a remote server, enabling real-time
 							access to
 							sleep event information for multiple patients.
-
-
 						</p><br>
 						<p align="justify" style="font-size: 0.7em;">
 							*The protocol of this study was approved by the Institutional Review Board (IRB) of Seoul
@@ -197,15 +227,17 @@ layout: default
 							B-1610/368-301), and by the IRB of Chonnam National University Hospital (Gwangju, South
 							Korea)
 							biomedical research ethics committee (IRB no. CNUH-2017-274).
-
 						</p>
-						<p align="justify">
+						<button onclick="toggleParagraph('ubiquitousSleepMonitoring','paper')">See Paper</button>
+
+						<div class="paper" id="ubiquitousSleepMonitoring-paper" align="justify">
 							<strong>Paper</strong><br>
 							Ahyoung Choi, Sangwoo Noh and Hangsik Shin, “Internet-Based Unobtrusive Tele-Monitoring
 							System
 							for Sleep and Respirtion,” IEEE ACCESS, 8, 76700-76707, 2020
 							<br>
-						</p>
+						</div>
+
 					</div>
 					<div class="image-container">
 						<img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/ubiquitousSleepMonitoring.png" alt=""
@@ -231,12 +263,15 @@ layout: default
 							everyday smart devices, while employing advanced acoustic analysis techniques to swiftly and
 							accurately detect the presence of snoring.
 						</p><br>
-						<p align="justify">
+						<button onclick="toggleParagraph('snoringDetection','paper')">See Paper</button>
+
+						<div class="paper" id="snoringDetection-paper" align="justify">
 							<strong>Paper</strong><br>
 							Hangsik Shin and Jaegeol Cho, "Unconstrained Snoring Detection Using a Smartphone during
 							Ordinary Sleep,” Biomedical Engineering Online, 13:116 doi:10.1186/1475-925X-13-116, 2014
 							<br>
-						</p>
+						</div>
+
 					</div>
 				</section>
 			</div>
@@ -256,19 +291,24 @@ layout: default
 							evaluation
 							of sleep quality.
 						</p><br>
-						<p align="justify">
+
+						<button onclick="toggleParagraph('actigraphyOnSleep','paper')">See Paper</button>
+						<button onclick="toggleParagraph('actigraphyOnSleep','patent')">See Patent</button>
+
+						<div class="paper" id="actigraphyOnSleep-paper" align="justify">
 							<strong>Paper</strong><br>
 							Hangsik Shin, Byunghun Choi, Doyoon Kim and Jaegeol Cho, “Robust Sleep Quality
 							Quantification
 							Method for a Personal Handheld Device,” Telemedicine & e-Health, 20(6), 522-530,
 							doi:10.1089/tmj.2013.0216, 2014
 							<br>
-						</p>
-						<p align="justify">
+						</div>
+						<div class="patent" id="actigraphyOnSleep-patent" align="justify">
 							<strong>Patent</strong><br>
 							휴대 단말 장치를 이용한 수면 품질 측정 방법 및 장치, Granted (No: KR102143499, Date: 2020/08/05)
 							<br>
-						</p>
+						</div>
+
 					</div>
 					<div class="image-container">
 						<img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/actigraphyOnSleep.png" alt=""
