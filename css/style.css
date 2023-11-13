@@ -290,7 +290,7 @@ input[type="email"] {
 
 .image.featured {
 	display: block;
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 }
 
 .image.featured img {
@@ -603,14 +603,17 @@ input[type="reset"].small,
 	border: 1.5px solid #d4d4d4;
 	border-radius: 10px;
 }
+.wrapper.style1 a.mail{
+	color: #F57C13;
+}
 
 .wrapper.style2 {
-	background-color: rgb(111, 175, 171);
+	background-color: #036166;
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
-	color: black;
+	color: #F57C13;
 }
 
 .wrapper.style2 p {
@@ -648,6 +651,27 @@ input[type="reset"].small,
 	color: inherit;
 	padding: 4em;
 }
+
+.wrapper.style4 h3.RT{
+	text-align: center;
+	font-family: 'fontawesome-webfont';
+	text-shadow: 2px 2px 2px rgb(192, 194, 194);
+	margin-bottom: 0px;
+}
+.wrapper.style4 p.RT{
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #3b5e69;
+	font-size: 0.8em;
+	font-family: 'fontawesome-webfont';
+}
+
+.wrapper.style4 p.project{
+	font-family: 'fontawesome-webfont';
+}
+
+
+
 
 /* Header */
 @-moz-keyframes reveal-header {
@@ -1350,6 +1374,31 @@ a.small-button.clicked {
 	border-bottom: 2px solid #036166;
 }
 
+#my_div a.paperlist {
+	color: #1c2021;  
+	font-size: 0.9em; 
+	text-decoration: none; 
+	border: none; 
+	text-align:justify;
+}
+/* 링크 연결된 paperlist*/
+#my_div a.paperclick {
+	color: #1c2021;  
+	font-size: 0.9em; 
+	text-decoration: none; 
+	border: none; 
+	text-align:justify;
+}
+
+#my_div a.paperclick:hover {
+	color: #1c2021; 
+	font-size: 0.9em; 
+	text-decoration: underline; 
+	text-decoration-style: dotted;
+	border: none; 
+	text-align:justify;
+}
+
 
 /* members 앞에 동그라미 추가 구분자 추가  */
 
@@ -1596,7 +1645,6 @@ a.small-button.clicked {
 .image-and-content {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
-	
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
@@ -1617,8 +1665,8 @@ a.small-button.clicked {
 
 
 
-
 /* research 상단 이미지에 텍스트 */
+
 .image-with-text {
 	position: relative;
 	/* 부모 요소를 상대 위치로 설정 */
@@ -1631,12 +1679,13 @@ a.small-button.clicked {
 .text-over-image {
 	position: absolute;
 	/* 텍스트를 절대 위치로 설정 */
-	top: 20%;
+	top:20%;
 	/* 위쪽 여백 설정 (원하는 위치로 조정) */
 	left: 0;
 	/* 왼쪽 여백 설정 (원하는 위치로 조정) */
-	background: rgba(255, 255, 255, 0.8);
-	/* 텍스트 배경 색상 설정 (선택사항) */
-	padding: 20px;
+	padding: 100px;
+	
 	/* 텍스트 주변 여백 설정 (선택사항) */
+
+	color: #ffffff;
 }
