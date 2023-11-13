@@ -1324,7 +1324,7 @@ body {
 	flex-direction: column;
 	max-height: 100%;
 	/* 최대 높이 설정 */
-	max-width: 100%;
+	max-width: 140%;
 }
 
 .sidebar.small-sidebar {
