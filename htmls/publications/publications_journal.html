@@ -2,64 +2,70 @@
 layout: default
 ---
 
-
+<span id="content"></span>
 <article id="main">
     <header class="special container">
         <span class="icon fa-solid fa-scroll"></span>
         <h2>publications</h2>
     </header>
-  
+
 
     <section class="wrapper style1 container special nav-container">
         <div class="row">
             <section>
                 <ul>
-                    <li><a href="publications_journal.html" class="nav-link active"><span class="icon fa-solid fa-book"></span>Journal</a></li>
+                    <li><a href="publications_journal.html" class="nav-link active"><span
+                                class="icon fa-solid fa-book"></span>Journal</a></li>
                 </ul>
             </section>
 
-           
+
             <section>
                 <ul>
-                    <li><a href="publications_conference.html" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
+                    <li><a href="publications_conference.html" class="nav-link"><span
+                                class="icon fa-solid fa-building-columns"></span>Conference</a></li>
                 </ul>
             </section>
 
             <section>
                 <ul>
-                    <li><a href="publications_patent.html" class="nav-link"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
+                    <li><a href="publications_patent.html" class="nav-link"><span
+                                class="icon fa-regular fa-copyright"></span>Patent</a></li>
                 </ul>
             </section>
         </div>
     </section>
-    <span id="content"></span>
+
     <section class="wrapper style4 container">
-        <div class="row oneandhalf">
+
+        <div class="row">
             <div class="2u">
                 <!-- Sidebar -->
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
                             <a href="#content" onclick='journalALL()' class="small-button" id="journalAllPara">ALL</a>
-                            <a href="#content" onclick='journalSCI()' class="small-button" id="journalSCIPara">SCI/SCIE</a>
-                            <a href="#content" onclick='journalSCOPUS()' class="small-button" id="journalSCOPUSPara">SCOPUS</a>
+                            <a href="#content" onclick='journalSCI()' class="small-button"
+                                id="journalSCIPara">SCI/SCIE</a>
+                            <a href="#content" onclick='journalSCOPUS()' class="small-button"
+                                id="journalSCOPUSPara">SCOPUS</a>
                             <a href="#content" onclick='journalKCI()' class="small-button" id="journalKCIPara">KCI</a>
                         </div>
                     </section>
                 </div>
-
             </div>
-            
-         
+
             <div class="10u skel-cell-important">
                 <!-- Content -->
-                
                 <div id='my_div' class="my-div" style="text-align: justify;">
                     <span>'논문표시'</span>
                 </div>
             </div>
         </div>
+
     </section>
+
+
 </article>
 
 
@@ -69,7 +75,7 @@ layout: default
         journalALL();
     };
 
-    
+
     // JavaScript to toggle the active class on navigation link click
     const navLinks = document.querySelectorAll('.nav-link');
 

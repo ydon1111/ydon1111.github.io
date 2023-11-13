@@ -1324,6 +1324,7 @@ body {
 	flex-direction: column;
 	max-height: 100%;
 	/* 최대 높이 설정 */
+	max-width: 100%;
 }
 
 .sidebar.small-sidebar {
@@ -1648,6 +1649,7 @@ a.small-button.clicked {
 .image-and-content {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
+
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
@@ -1701,6 +1703,8 @@ a.small-button.clicked {
 
 	color: #ffffff;
 }
+
+
 
 
 
