@@ -1638,6 +1638,9 @@ a.small-button.clicked {
 }
 
 
+.nav-link-research{
+	color: #000;
+}
 
 
 /* research 레이아웃 */
@@ -1672,6 +1675,8 @@ a.small-button.clicked {
 
 
 
+
+
 /* research 상단 이미지에 텍스트 */
 
 .image-with-text {
@@ -1696,6 +1701,8 @@ a.small-button.clicked {
 
 	color: #ffffff;
 }
+
+
 
 
 
