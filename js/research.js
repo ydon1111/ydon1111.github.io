@@ -1,17 +1,23 @@
 function toggleParagraph(sectionId, type) {
-    var paperParagraph = document.getElementById(sectionId + '-paper');
-    var patentParagraph = document.getElementById(sectionId + '-patent');
+    var paperParagraph = $("#" + sectionId + '-paper');
+    var patentParagraph = $("#" + sectionId + '-patent');
 
     if (type === 'paper') {
-        paperParagraph.style.display = (paperParagraph.style.display === 'none' || paperParagraph.style.display === '') ? 'block' : 'none';
-        patentParagraph.style.display = 'none';
+        if (paperParagraph.is(":visible")) {
+            paperParagraph.slideUp(500);
+        } else {
+            paperParagraph.slideDown(500);
+            patentParagraph.slideUp(500);
+        }
     } else if (type === 'patent') {
-        patentParagraph.style.display = (patentParagraph.style.display === 'none' || patentParagraph.style.display === '') ? 'block' : 'none';
-        paperParagraph.style.display = 'none';
+        if (patentParagraph.is(":visible")) {
+            patentParagraph.slideUp(500);
+        } else {
+            patentParagraph.slideDown(500);
+            paperParagraph.slideUp(500);
+        }
     }
 }
-
-
 
 $(document).ready(function () {
     $(".nav-link-research").click(function () {
@@ -24,7 +30,3 @@ $(document).ready(function () {
         toggleParagraph(section, type);
     });
 });
-
-function toggleParagraph(section, type) {
-    $("#" + section + "-" + type).slideToggle(500);
-}
