@@ -1,18 +1,3 @@
-function toggleParagraph(sectionId, type) {
-    var paperParagraph = document.getElementById(sectionId + '-paper');
-    var patentParagraph = document.getElementById(sectionId + '-patent');
-
-    if (type === 'paper') {
-        paperParagraph.style.display = (paperParagraph.style.display === 'none' || paperParagraph.style.display === '') ? 'block' : 'none';
-        patentParagraph.style.display = 'none';
-    } else if (type === 'patent') {
-        patentParagraph.style.display = (patentParagraph.style.display === 'none' || patentParagraph.style.display === '') ? 'block' : 'none';
-        paperParagraph.style.display = 'none';
-    }
-}
-
-
-
 $(document).ready(function () {
     $(".nav-link-research").click(function () {
         // Extract section and type from the clicked link
@@ -25,6 +10,23 @@ $(document).ready(function () {
     });
 });
 
-function toggleParagraph(section, type) {
-    $("#" + section + "-" + type).slideToggle(500);
+function toggleParagraph(sectionId, type) {
+    var paperParagraph = $("#" + sectionId + '-paper');
+    var patentParagraph = $("#" + sectionId + '-patent');
+
+    if (type === 'paper') {
+        if (paperParagraph.is(":visible")) {
+            paperParagraph.slideUp(500);
+        } else {
+            paperParagraph.slideDown(500);
+            patentParagraph.slideUp(500);
+        }
+    } else if (type === 'patent') {
+        if (patentParagraph.is(":visible")) {
+            patentParagraph.slideUp(500);
+        } else {
+            patentParagraph.slideDown(500);
+            paperParagraph.slideUp(500);
+        }
+    }
 }
