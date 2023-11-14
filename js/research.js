@@ -10,3 +10,21 @@ function toggleParagraph(sectionId, type) {
         paperParagraph.style.display = 'none';
     }
 }
+
+
+
+$(document).ready(function () {
+    $(".nav-link-research").click(function () {
+        // Extract section and type from the clicked link
+        var linkText = $(this).text().toLowerCase();
+        var section = linkText.substring(0, linkText.indexOf(' '));
+        var type = linkText.substring(linkText.indexOf(' ') + 1).toLowerCase();
+
+        // Call the toggleParagraph function with section and type
+        toggleParagraph(section, type);
+    });
+});
+
+function toggleParagraph(section, type) {
+    $("#" + section + "-" + type).slideToggle(1000);
+}
