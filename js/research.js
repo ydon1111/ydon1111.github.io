@@ -26,5 +26,5 @@ $(document).ready(function () {
 });
 
 function toggleParagraph(section, type) {
-    $("#" + section + "-" + type).slideToggle(1000);
+    $("#" + section + "-" + type).slideToggle(500);
 }
