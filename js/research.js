@@ -1,3 +1,15 @@
+$(document).ready(function () {
+    $(".nav-link-research").click(function () {
+        // Extract section and type from the clicked link
+        var linkText = $(this).text().toLowerCase();
+        var section = linkText.substring(0, linkText.indexOf(' '));
+        var type = linkText.substring(linkText.indexOf(' ') + 1).toLowerCase();
+
+        // Call the toggleParagraph function with section and type
+        toggleParagraph(section, type);
+    });
+});
+
 function toggleParagraph(sectionId, type) {
     var paperParagraph = $("#" + sectionId + '-paper');
     var patentParagraph = $("#" + sectionId + '-patent');
@@ -18,15 +30,3 @@ function toggleParagraph(sectionId, type) {
         }
     }
 }
-
-$(document).ready(function () {
-    $(".nav-link-research").click(function () {
-        // Extract section and type from the clicked link
-        var linkText = $(this).text().toLowerCase();
-        var section = linkText.substring(0, linkText.indexOf(' '));
-        var type = linkText.substring(linkText.indexOf(' ') + 1).toLowerCase();
-
-        // Call the toggleParagraph function with section and type
-        toggleParagraph(section, type);
-    });
-});
