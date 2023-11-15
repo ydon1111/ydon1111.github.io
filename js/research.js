@@ -15,13 +15,21 @@ function toggleParagraph(sectionId, type) {
     var deferred = $.Deferred();
 
     if (type === 'paper') {
-        patentParagraph.slideUp(500, function () {
+        if (patentParagraph.is(":visible")) {
+            patentParagraph.slideUp(500, function () {
+                paperParagraph.slideToggle(500, deferred.resolve);
+            });
+        } else {
             paperParagraph.slideToggle(500, deferred.resolve);
-        });
+        }
     } else if (type === 'patent') {
-        paperParagraph.slideUp(500, function () {
+        if (paperParagraph.is(":visible")) {
+            paperParagraph.slideUp(500, function () {
+                patentParagraph.slideToggle(500, deferred.resolve);
+            });
+        } else {
             patentParagraph.slideToggle(500, deferred.resolve);
-        });
+        }
     }
 
     // $.when(deferred).done(function () {
