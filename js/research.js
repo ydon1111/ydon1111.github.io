@@ -1,9 +1,14 @@
+
+
+
 $(document).ready(function () {
-    $(".nav-link-research").click(function () {
+    $(".nav-link-research").click(function (e) {
         var linkText = $(this).text().toLowerCase();
         var section = linkText.substring(0, linkText.indexOf(' '));
         var type = linkText.substring(linkText.indexOf(' ') + 1).toLowerCase();
 
+
+        e.preventDefault();
         toggleParagraph(section, type);
     });
 });
@@ -36,3 +41,8 @@ function toggleParagraph(sectionId, type) {
     //     // Code to execute after the animation is complete (if needed)
     // });
 }
+
+
+$(".nav-link-research").click(function (e) {
+    e.preventDefault();
+})
