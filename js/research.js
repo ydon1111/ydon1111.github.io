@@ -16,19 +16,19 @@ function toggleParagraph(sectionId, type) {
 
     if (type === 'paper') {
         if (patentParagraph.is(":visible")) {
-            patentParagraph.slideUp(500, function () {
-                paperParagraph.slideToggle(500, deferred.resolve);
+            patentParagraph.slideUp(800, function () {
+                paperParagraph.slideToggle(800, deferred.resolve);
             });
         } else {
-            paperParagraph.slideToggle(500, deferred.resolve);
+            paperParagraph.slideToggle(800, deferred.resolve);
         }
     } else if (type === 'patent') {
         if (paperParagraph.is(":visible")) {
-            paperParagraph.slideUp(500, function () {
-                patentParagraph.slideToggle(500, deferred.resolve);
+            paperParagraph.slideUp(800, function () {
+                patentParagraph.slideToggle(800, deferred.resolve);
             });
         } else {
-            patentParagraph.slideToggle(500, deferred.resolve);
+            patentParagraph.slideToggle(800, deferred.resolve);
         }
     }
 
