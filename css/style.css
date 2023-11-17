@@ -1647,59 +1647,52 @@ a.small-button.clicked {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
 
+
+	justify-content: space-between;
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
 
-.image-container {
-	flex: 1;
-	/* 이미지가 가변 너비를 가지며 나머지 공간을 콘텐츠가 차지함 */
-	margin-right: 30px;
-	/* 이미지와 콘텐츠 사이에 간격 설정 */
-}
-
+.image-container,
 .content-container {
-	flex: 2;
-	/* 콘텐츠가 이미지의 2배의 너비를 가짐 */
+	width: 48%;
+	/* Adjust the width as needed */
+	box-sizing: border-box;
 }
 
-.content-container .righty h3{
-	font-size:1.2em;
+
+
+.content-container .righty h3 {
+	font-size: 1.2em;
 	line-height: 30px;
 	text-align: right;
 }
 
-.content-container .righty p{
-	font-size:0.8em;
+.content-container .righty p {
+	font-size: 0.8em;
 	line-height: 25px;
 	text-align: right;
 }
 
-.content-container .lefty h3{
-	font-size:0.8em;
+.content-container .lefty h3 {
+	font-size: 1.2em;
 	line-height: 30px;
 	text-align: left;
 }
 
-.content-container .lefty p{
-	font-size:0.8em;
+.content-container .lefty p {
+	font-size: 0.8em;
 	line-height: 30px;
 	text-align: left;
 }
 
 
-
-.content-container .paper p{
-	font-size:0.8em;
-	line-height: 30px;
-
-}
-
+.content-container .paper,
 .content-container .patent {
 	display: none;
+	font-size: 0.8em;
+	line-height: 30px;
 }
-
-
 
 
 /* research 상단 이미지에 텍스트 */
@@ -1716,16 +1709,16 @@ a.small-button.clicked {
 	/* 높이를 자동으로 조정하여 이미지의 비율을 유지 */
 }
 
-.image-with-text h3{
+.image-with-text h3 {
 	font-size: 1.6em;
 	margin-bottom: 0;
 }
 
-.image-with-text p{
+.image-with-text p {
 	font-size: 1em;
 	text-align: "justify";
 	margin-top: 0;
-	}
+}
 
 
 .text-over-image {
@@ -1741,3 +1734,18 @@ a.small-button.clicked {
 	color: #ffffff;
 
 }
+
+
+.hidden-header {
+	opacity: 0;
+	transform: translateY(-20px);
+	transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .visible-header {
+	opacity: 1;
+	transform: translateY(0);
+	transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+
