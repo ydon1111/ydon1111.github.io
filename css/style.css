@@ -1653,14 +1653,17 @@ a.small-button.clicked {
 }
 
 .image-container {
-	width: 50%;
+	width: 60%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+	
 }
 .content-container {
-	width: 40%;
+	width: 60%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+	margin-left: 63px;
+
 }
 
 
