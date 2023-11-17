@@ -1689,7 +1689,12 @@ a.small-button.clicked {
 
 
 
-.content-container .paper,
+.content-container .paper p{
+	font-size:0.8em;
+	line-height: 30px;
+
+}
+
 .content-container .patent {
 	display: none;
 }
