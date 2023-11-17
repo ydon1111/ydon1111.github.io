@@ -1652,9 +1652,13 @@ a.small-button.clicked {
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
 
-.image-container,
+.image-container {
+	width: 50%;
+	/* Adjust the width as needed */
+	box-sizing: border-box;
+}
 .content-container {
-	width: 48%;
+	width: 40%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 }
