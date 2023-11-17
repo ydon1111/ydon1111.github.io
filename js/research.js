@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function () {
     $(".nav-link-research").click(function (e) {
         var linkText = $(this).text().toLowerCase();
@@ -12,6 +10,8 @@ $(document).ready(function () {
         toggleParagraph(section, type);
     });
 });
+
+
 
 function toggleParagraph(sectionId, type) {
     var paperParagraph = $("#" + sectionId + '-paper');
@@ -43,6 +43,3 @@ function toggleParagraph(sectionId, type) {
 }
 
 
-$(".nav-link-research").click(function (e) {
-    e.preventDefault();
-})

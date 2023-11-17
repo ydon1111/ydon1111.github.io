@@ -603,7 +603,8 @@ input[type="reset"].small,
 	border: 1.5px solid #d4d4d4;
 	border-radius: 10px;
 }
-.wrapper.style1 a.mail{
+
+.wrapper.style1 a.mail {
 	color: #F57C13;
 }
 
@@ -652,13 +653,14 @@ input[type="reset"].small,
 	padding: 4em;
 }
 
-.wrapper.style4 h3.RT{
+.wrapper.style4 h3.RT {
 	text-align: center;
 	font-family: 'fontawesome-webfont';
 	text-shadow: 2px 2px 2px rgb(192, 194, 194);
 	margin-bottom: 0px;
 }
-.wrapper.style4 p.RT{
+
+.wrapper.style4 p.RT {
 	padding-left: 30px;
 	padding-right: 30px;
 	color: #3b5e69;
@@ -666,7 +668,7 @@ input[type="reset"].small,
 	font-family: 'fontawesome-webfont';
 }
 
-.wrapper.style4 p.project{
+.wrapper.style4 p.project {
 	font-family: 'fontawesome-webfont';
 }
 
@@ -1376,28 +1378,29 @@ a.small-button.clicked {
 }
 
 #my_div a.paperlist {
-	color: #1c2021;  
-	font-size: 0.9em; 
-	text-decoration: none; 
-	border: none; 
-	text-align:justify;
+	color: #1c2021;
+	font-size: 0.9em;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
 }
+
 /* 링크 연결된 paperlist*/
 #my_div a.paperclick {
-	color: #1c2021;  
-	font-size: 0.9em; 
-	text-decoration: none; 
-	border: none; 
-	text-align:justify;
+	color: #1c2021;
+	font-size: 0.9em;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
 }
 
 #my_div a.paperclick:hover {
-	color: #1c2021; 
-	font-size: 0.9em; 
-	text-decoration: underline; 
+	color: #1c2021;
+	font-size: 0.9em;
+	text-decoration: underline;
 	text-decoration-style: dotted;
-	border: none; 
-	text-align:justify;
+	border: none;
+	text-align: justify;
 }
 
 
@@ -1589,10 +1592,7 @@ a.small-button.clicked {
 }
 
 
-
-
 /* 버튼 정렬 */
-
 .nav-item ul {
 	list-style: none;
 	padding: 0;
@@ -1600,7 +1600,6 @@ a.small-button.clicked {
 }
 
 /* research 용 nav-link */
-
 
 .nav-link_re {
 	display: flex;
@@ -1621,7 +1620,6 @@ a.small-button.clicked {
 	font-size: small;
 }
 
-
 .nav-link_re:hover {
 	background-color: rgba(201, 188, 206, 0.15);
 	border: 1px solid #d4d4d4;
@@ -1638,8 +1636,7 @@ a.small-button.clicked {
 	/* 이미지 아래 여백 추가 */
 }
 
-
-.nav-link-research{
+.nav-link-research {
 	color: #000;
 }
 
@@ -1666,15 +1663,10 @@ a.small-button.clicked {
 	/* 콘텐츠가 이미지의 2배의 너비를 가짐 */
 }
 
-
 .content-container .paper,
 .content-container .patent {
 	display: none;
 }
-
-
-
-
 
 
 
@@ -1685,27 +1677,36 @@ a.small-button.clicked {
 	position: relative;
 	/* 부모 요소를 상대 위치로 설정 */
 }
+
 .image-with-text img {
-	width: 100%; /* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
-	height: auto; /* 높이를 자동으로 조정하여 이미지의 비율을 유지 */
-  }
+	width: 100%;
+	/* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
+	height: 370px;
+	/* 높이를 자동으로 조정하여 이미지의 비율을 유지 */
+}
+
+.image-with-text h3{
+font-size: 2.5em;
+margin-bottom: 0;
+}
+
+.image-with-text p{
+	font-size: 1.8em;
+	text-align: "justify";
+	margin-top: 0;
+	}
+
 
 .text-over-image {
 	position: absolute;
 	/* 텍스트를 절대 위치로 설정 */
-	top:20%;
+	top: 2px;
 	/* 위쪽 여백 설정 (원하는 위치로 조정) */
 	left: 0;
 	/* 왼쪽 여백 설정 (원하는 위치로 조정) */
 	padding: 100px;
-	
+
 	/* 텍스트 주변 여백 설정 (선택사항) */
-
 	color: #ffffff;
+
 }
-
-
-
-
-
-
