@@ -85,21 +85,6 @@ layout: default
   </section>
 
 
-  <style>
-    /* Your existing styles go here */
-  
-    .hidden-header {
-      opacity: 0;
-      transform: translateY(-20px);
-      transition: opacity 0.8s ease, transform 0.8s ease;
-    }
-  
-    .visible-header {
-      opacity: 1;
-      transform: translateY(0);
-      transition: opacity 0.8s ease, transform 0.8s ease;
-    }
-  </style>
 
 
 
@@ -118,14 +103,7 @@ layout: default
   </section>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var header = document.querySelector(".text-over-image");
-        
-        // 헤더를 부드럽게 나타내기 위해 setTimeout 사용
-        setTimeout(function () {
-            header.classList.add("visible-header");
-        }, 100); // 100ms 딜레이를 주어 부드럽게 표현
-    });
+
 </script>
 
 
@@ -143,17 +121,18 @@ layout: default
           </div>
 
           <div class="content-container">
-            <div class="righty">
+            <span class="lefty">
               <header>
                 <h3>Sample misdentification error detection</h3>
               </header>
+
               <p>
-                Five representative tumor markers AFP,CA19-9,CA135,CEA,PSA
-                sample misidentification error detection
-                High detection accuracy based on AI
-                High compatibility
-              </p>
-            </div>
+                - Five representative tumor markers AFP, CA19-9, CA135, CEA, PSA<br>
+                - Sample misidentification error detection<br>
+                - High detection accuracy based on AI<br>
+                - High compatibility
+            </p>
+            </span>
           </div>
         </section>
       </div>

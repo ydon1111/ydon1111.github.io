@@ -1647,7 +1647,6 @@ a.small-button.clicked {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
 
-
 	justify-content: space-between;
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
@@ -1665,25 +1664,26 @@ a.small-button.clicked {
 .content-container .righty h3 {
 	font-size: 1.2em;
 	line-height: 30px;
-	text-align: right;
+	text-align:right;
 }
 
 .content-container .righty p {
 	font-size: 0.8em;
-	line-height: 25px;
-	text-align: right;
+	line-height: 30px;
+	text-align:right;
+
 }
 
 .content-container .lefty h3 {
 	font-size: 1.2em;
 	line-height: 30px;
-	text-align: left;
+	text-align:left;
 }
 
 .content-container .lefty p {
 	font-size: 0.8em;
 	line-height: 30px;
-	text-align: left;
+	text-align:left;
 }
 
 
