@@ -1650,19 +1650,19 @@ a.small-button.clicked {
 	justify-content: space-between;
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
+
 }
 
 .image-container {
-	width: 60%;
+	width: 600px;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 	
 }
 .content-container {
-	width: 60%;
+	width: 40%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
-	margin-left: 120px;
 
 }
 
@@ -1671,26 +1671,26 @@ a.small-button.clicked {
 .content-container .righty h3 {
 	font-size: 1.2em;
 	line-height: 30px;
-	text-align:right;
+	text-align: right;
 }
 
 .content-container .righty p {
 	font-size: 0.8em;
 	line-height: 30px;
-	text-align:right;
+	text-align: right;
 
 }
 
 .content-container .lefty h3 {
 	font-size: 1.2em;
 	line-height: 30px;
-	text-align:left;
+	text-align: left;
 }
 
 .content-container .lefty p {
 	font-size: 0.8em;
 	line-height: 30px;
-	text-align:left;
+	text-align: left;
 }
 
 
@@ -1699,6 +1699,10 @@ a.small-button.clicked {
 	display: none;
 	font-size: 0.8em;
 	line-height: 30px;
+
+	width: 100%;
+	/* Adjust the width as needed */
+	box-sizing: border-box;
 }
 
 
@@ -1747,12 +1751,10 @@ a.small-button.clicked {
 	opacity: 0;
 	transform: translateY(-20px);
 	transition: opacity 0.8s ease, transform 0.8s ease;
-  }
+}
 
-  .visible-header {
+.visible-header {
 	opacity: 1;
 	transform: translateY(0);
 	transition: opacity 0.8s ease, transform 0.8s ease;
-  }
-
-
+}
