@@ -1757,3 +1757,28 @@ a.small-button.clicked {
 	transform: translateY(0);
 	transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+
+
+/* 프로필 이미지 호버 */
+.profil-image-container {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.profil-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: inline-block;
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+}
+
+.profil-image-container:hover img {
+    filter: blur(2px); /* Apply grayscale on hover */
+}
