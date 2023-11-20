@@ -1780,5 +1780,5 @@ a.small-button.clicked {
 }
 
 .profil-image-container:hover img {
-    filter: blur(2px); /* Apply grayscale on hover */
+    filter:brightness(80%); /* Apply grayscale on hover */
 }
