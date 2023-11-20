@@ -93,6 +93,8 @@ function journalALL() {
 }
 
 
+
+
 function ALLOpenPaper(paperIndex) {
   const paperLinks = `https://www.nature.com/articles/s41746-023-00777-z
   https://pubmed.ncbi.nlm.nih.gov/36073769/
@@ -177,9 +179,6 @@ function ALLOpenPaper(paperIndex) {
     window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
   }
 }
-
-
-
 
 
 

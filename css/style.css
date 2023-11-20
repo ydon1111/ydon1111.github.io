@@ -1654,7 +1654,7 @@ a.small-button.clicked {
 }
 
 .image-container {
-	width: 600px;
+	width: 50%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 	
@@ -1667,9 +1667,8 @@ a.small-button.clicked {
 }
 
 
-
 .content-container .righty h3 {
-	font-size: 1.2em;
+	font-size: 1.8em;
 	line-height: 30px;
 	text-align: right;
 }
@@ -1682,13 +1681,13 @@ a.small-button.clicked {
 }
 
 .content-container .lefty h3 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	line-height: 30px;
 	text-align: left;
 }
 
 .content-container .lefty p {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	line-height: 30px;
 	text-align: left;
 }
@@ -1721,12 +1720,12 @@ a.small-button.clicked {
 }
 
 .image-with-text h3 {
-	font-size: 1.6em;
+	font-size: 2.8em;
 	margin-bottom: 0;
 }
 
 .image-with-text p {
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: "justify";
 	margin-top: 0;
 }
