@@ -1660,11 +1660,14 @@ a.small-button.clicked {
 	
 }
 .content-container {
-	width: 40%;
+	width: 48%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 
 }
+
+
+
 
 
 .content-container .righty h3 {
