@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 헤더를 부드럽게 나타내기 위해 setTimeout 사용
     setTimeout(function () {
         header.classList.add("visible-header");
-    }, 200); // 100ms 딜레이를 주어 부드럽게 표현
+    }, 777); // 100ms 딜레이를 주어 부드럽게 표현
 });
 
 
