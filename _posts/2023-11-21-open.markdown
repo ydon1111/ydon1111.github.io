@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "홈페이지 오픈"
+date:   2023-11-21 13:36:23
+---
+
+
+서울 아산병원 Digital Medicine Lab 홈페이지 오픈 
+
+
+
+<span class="image featured"><img src="/images/posts/2311/231121.png" alt=""></span>
+연구실을 소개하고 연구 성과를 공유하여 더나은 사회를 만들어 갑니다.
