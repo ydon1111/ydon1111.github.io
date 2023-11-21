@@ -45,7 +45,7 @@ a {
 	-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-	color: #83d3c9ff;
+	color: #F57C13;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
@@ -604,12 +604,14 @@ input[type="reset"].small,
 	border-radius: 10px;
 }
 
+/*
 .wrapper.style1 a.mail {
 	color: #F57C13;
 }
+*/
 
 .wrapper.style2 {
-	background-color: #036166;
+	background-color: #1e6e72;
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
