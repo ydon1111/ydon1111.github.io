@@ -1632,8 +1632,8 @@ a.small-button.clicked {
 	/* 테두리 설정 */
 	border-radius: 10px;
 	/* 둥근 테두리 설정 */
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 95px;
 	transition: background-color 0.3s, color 0.3s;
 	font-size: small;
 }
@@ -1652,6 +1652,10 @@ a.small-button.clicked {
 	width: 50px;
 	height: 50px;
 	/* 이미지 아래 여백 추가 */
+}
+
+.nav-link_re span{
+	line-height: 100%;
 }
 
 .nav-link-research {
@@ -1851,3 +1855,5 @@ a.small-button.clicked {
 .image.hover:hover {
 	filter:brightness(80%);
 }
+
+
