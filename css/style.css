@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'HakgyoansimWoojuR';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
-    font-weight: normal;
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: 800;
     font-style: normal;
 }
 
@@ -40,9 +40,9 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'HakgyoansimWoojuR';
+	font-family: 'TAEBAEKmilkyway';
 	font-size: 15pt;
-	font-weight: 400;
+	font-weight: 800;
 	letter-spacing: 0.025em;
 	line-height: 1.75em;
 }
