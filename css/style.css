@@ -985,7 +985,8 @@ input[type="reset"].small,
 	background-size: 25em, 25em, auto, cover;
 	color: white;
 	cursor: default;
-	padding: 15em 0;
+
+	padding: 11em 0;
 	/* banner사이즈 비율 조정(yen) */
 	text-align: center;
 }
@@ -1001,7 +1002,7 @@ input[type="reset"].small,
 	-o-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	background: rgba(52, 27, 43, 0.5);
+	/* background: rgba(52, 27, 43, 0.5); */
 	color: white;
 	display: inline-block;
 	opacity: 0;
