@@ -2,7 +2,8 @@
 layout: post
 title:  "홈페이지 오픈"
 date:   2023-11-21 13:36:23
-
+featured-img: "/images/posts/2311/231121.png"
+short-content: "서울 아산병원 Digital Medicine Lab 홈페이지 오픈 "
 ---
 
 
