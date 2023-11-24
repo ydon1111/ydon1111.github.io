@@ -1,5 +1,14 @@
 @import url("font-awesome.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+/* @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900"); */
+
+
+@font-face {
+    font-family: 'DOSPilgiMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*
 	Twenty by HTML5 UP
@@ -32,7 +41,7 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'Lato', sans-serif;
+	font-family: 'DOSPilgiMedium', sans-serif;
 	font-size: 15pt;
 	font-weight: 400;
 	letter-spacing: 0.025em;
@@ -657,7 +666,7 @@ input[type="reset"].small,
 
 .wrapper.style4 h3.RT {
 	text-align: center;
-	font-family: 'fontawesome-webfont';
+
 	text-shadow: 2px 2px 2px rgb(192, 194, 194);
 	margin-bottom: 0px;
 }
@@ -667,12 +676,10 @@ input[type="reset"].small,
 	padding-right: 30px;
 	color: #3b5e69;
 	font-size: 0.8em;
-	font-family: 'fontawesome-webfont';
+
 }
 
-.wrapper.style4 p.project {
-	font-family: 'fontawesome-webfont';
-}
+
 
 
 
@@ -1293,7 +1300,7 @@ body.index #main {
 }
 
 .in-title {
-	font: 30px/1 'arial';
+	font-size: 30px ;
 	color: gray;
 	font-weight: 600;
 	margin-bottom: 12px;
@@ -1305,7 +1312,7 @@ body.index #main {
 }
 
 .nums {
-	font: bold 80px/1 'arial';
+	font-size:80px;
 	color: #343048;
 }
 
@@ -1510,6 +1517,7 @@ a.small-button.clicked {
 	color: #fff;
 	/* Button text color */
 	font-size: 16px;
+	
 	/* Button font size */
 	padding: 10px 20px;
 	/* Button padding */
@@ -1521,6 +1529,7 @@ a.small-button.clicked {
 
 #topButton:hover {
 	background-color: #034b5e;
+
 	/* Button background color on hover */
 }
 
@@ -1725,8 +1734,6 @@ a.small-button.clicked {
 	font-size: 2.8em;
 	margin-bottom: 0;
 	font-weight: 300;
-	font-family:'Lato',sans-serif;
-
 }
 
 .image-with-text p {
@@ -1734,7 +1741,6 @@ a.small-button.clicked {
 	text-align: "justify";
 	margin-top: 0;
 	font-weight: 300;
-	font-family:'Lato',sans-serif;
 }
 
 
