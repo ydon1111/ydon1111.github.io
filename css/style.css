@@ -1,16 +1,10 @@
 @import url("font-awesome.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+/* @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900"); */
+
 
 @font-face {
     font-family: 'TAEBAEKmilkyway';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HakgyoansimWoojuR';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,9 +41,9 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'HakgyoansimWoojuR';
+	font-family: 'TAEBAEKmilkyway';
 	font-size: 15pt;
-	font-weight: 300;
+	font-weight: 700;
 	letter-spacing: 0.025em;
 	line-height: 1.75em;
 }
@@ -674,7 +668,7 @@ input[type="reset"].small,
 
 .wrapper.style4 h3.RT {
 	text-align: center;
-	font-family: 'fontawesome-webfont';
+
 	text-shadow: 2px 2px 2px rgb(192, 194, 194);
 	margin-bottom: 0px;
 }
@@ -684,12 +678,10 @@ input[type="reset"].small,
 	padding-right: 30px;
 	color: #3b5e69;
 	font-size: 0.8em;
-	font-family: 'fontawesome-webfont';
+
 }
 
-.wrapper.style4 p.project {
-	font-family: 'fontawesome-webfont';
-}
+
 
 
 
@@ -778,7 +770,7 @@ input[type="reset"].small,
 }
 
 #header nav {
-	letter-spacing: 0.075em;
+	letter-spacing: 0.045em;
 	text-transform: uppercase;
 	/* display: flex; */
 	align-items: center;
@@ -796,6 +788,7 @@ input[type="reset"].small,
 	margin: 0;
 	display: flex;
 	position: relative;
+	font-size: 26px;
 	/* 추가: 상대적 위치 설정 */
 	z-index: 10001;
 	/* 추가: 더 높은 z-index 값 설정 */
@@ -1021,17 +1014,17 @@ input[type="reset"].small,
 
 #banner .inner header {
 	display: inline-block;
-	border-bottom: solid 2px;
-	border-top: solid 2px;
+	/* border-bottom: solid 2px;
+	border-top: solid 2px; */
 	margin: 0 0 2em 0;
 	padding: 3px 0 3px 0;
 }
 
 #banner .inner header h2 {
-	border-bottom: solid 2px;
-	border-top: solid 2px;
-	font-size: 2.5em;
-	font-weight: 300;
+	/* border-bottom: solid 2px;
+	border-top: solid 2px; */
+	font-size: 3.7em;
+	font-weight: 500;
 	letter-spacing: 0.05em;
 	margin: 0;
 	padding-left: 0.05em;
@@ -1310,7 +1303,7 @@ body.index #main {
 }
 
 .in-title {
-	font: 30px/1 'arial';
+	font-size: 30px ;
 	color: gray;
 	font-weight: 600;
 	margin-bottom: 12px;
@@ -1322,7 +1315,7 @@ body.index #main {
 }
 
 .nums {
-	font: bold 80px/1 'arial';
+	font-size:80px;
 	color: #343048;
 }
 
@@ -1527,6 +1520,8 @@ a.small-button.clicked {
 	color: #fff;
 	/* Button text color */
 	font-size: 16px;
+	
+
 	/* Button font size */
 	padding: 10px 20px;
 	/* Button padding */
@@ -1538,6 +1533,7 @@ a.small-button.clicked {
 
 #topButton:hover {
 	background-color: #034b5e;
+
 	/* Button background color on hover */
 }
 
