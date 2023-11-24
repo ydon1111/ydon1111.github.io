@@ -171,15 +171,13 @@ layout: landing-page
 		<section class="wrapper style1 container">
 			<header class="major">
 				<h2>Research Topics</h2>
-
-
 			</header>
 
 			<div class="row">
 				<div class="4u">
 					<section>
 						<a href="htmls/research/lab_test.html#labTest" class="image featured"><img
-								src="images/research/LabTests.png" alt=""></a>
+								src="images/research/LabTests.png" alt="" class="image hover"></a>
 						<header>
 							<h3 class="RT">Lab Tests
 							</h3>
@@ -190,7 +188,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/disease_prediction.html#diseasePrediction" class="image featured"><img
-								src="images/research/DiseasePrediction.png" alt="" /></a>
+								src="images/research/DiseasePrediction.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Disease Predictions
 							</h3>
@@ -201,7 +199,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/heart_rhythm.html#heartRhythm" class="image featured"><img
-								src="images/research/HeartRhythm.png" alt="" /></a>
+								src="images/research/HeartRhythm.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Heart Rhythm
 							</h3>
@@ -217,7 +215,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/pain.html#pain" class="image featured"><img
-								src="images/research/Pain.png" alt="" /></a>
+								src="images/research/Pain.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Pain
 							</h3>
@@ -230,7 +228,7 @@ layout: landing-page
 
 					<section>
 						<a href="htmls/research/sleep.html#sleep" class="image featured"><img
-								src="images/research/Sleep.png" alt="" /></a>
+								src="images/research/Sleep.png" alt="" class="image hover"  /></a>
 						<header>
 							<h3 class="RT">Sleep
 							</h3>
@@ -242,7 +240,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/wearable_IoT_&_platform.html#wearableIoT&Platform"
-							class="image featured"><img src="images/research/Wearable.png" alt="" /></a>
+							class="image featured"><img src="images/research/Wearable.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Wearable IoT & Platform
 							</h3>
@@ -258,7 +256,7 @@ layout: landing-page
 
 					<section>
 						<a href="htmls/research/biosignal_processing.html#bigmedicalSignalProcessing"
-							class="image featured"><img src="images/research/BiosignalProcessing.png" alt="" /></a>
+							class="image featured"><img src="images/research/BiosignalProcessing.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Biosignal Processing
 							</h3>
@@ -271,7 +269,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/PPG_analysis.html#PPGAnalysis" class="image featured"><img
-								src="images/research/PPGAnal.png" alt="" /></a>
+								src="images/research/PPGAnal.png" alt=""  class="image hover" /></a>
 						<header>
 							<h3 class="RT">PPG Analysis
 							</h3>
@@ -283,7 +281,7 @@ layout: landing-page
 				<div class="4u">
 					<section>
 						<a href="htmls/research/therapeutics.html#therapeutics" class="image featured"><img
-								src="images/research/Therapeutics.png" alt="" /></a>
+								src="images/research/Therapeutics.png" alt="" class="image hover" /></a>
 						<header>
 							<h3 class="RT">Therapeutics
 							</h3>
@@ -307,45 +305,6 @@ layout: landing-page
 			<header class="major">
 				<h2>Latest News</h2>
 			</header>
-			<style>
-				.cards-container {
-					display: flex;
-					flex-wrap: wrap;
-					justify-content: space-between;
-					/* Adjust as needed */
-				}
-
-				.card {
-					width: 30%;
-					/* Adjust as needed */
-					margin-bottom: 20px;
-					/* Add margin between cards */
-					position: relative;
-				}
-
-				.card img {
-					max-width: 100%;
-					height: auto;
-				}
-
-				.card hr {
-					position: absolute;
-					top: 10px;
-					/* Adjust the top spacing as needed */
-					right: 0;
-					bottom: 0;
-					width: 1px;
-					height: calc(100% - 20px);
-					/* Adjust the height accounting for top and bottom spacing */
-					border: 1px solid #036166df;
-					margin: 0;
-				}
-
-				.card p {
-					margin-bottom: 10px;
-					/* Adjust the bottom spacing for post content */
-				}
-			</style>
 
 			<ul class="cards-container">
 				{% for post in site.posts limit: 3 %}
@@ -367,10 +326,6 @@ layout: landing-page
 				</li>
 				{% endfor %}
 			</ul>
-
-
-
-
 
 		</section>
 

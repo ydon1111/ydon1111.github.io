@@ -1800,5 +1800,54 @@ a.small-button.clicked {
 }
 
 .profil-image-container:hover img {
-    filter:brightness(80%); /* Apply grayscale on hover */
+    filter:brightness(80%); 
+}
+
+
+
+
+/* News  */
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* Adjust as needed */
+}
+
+.card {
+	width: 30%;
+	/* Adjust as needed */
+	margin-bottom: 20px;
+	/* Add margin between cards */
+	position: relative;
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+}
+
+.card hr {
+	position: absolute;
+	top: 10px;
+	/* Adjust the top spacing as needed */
+	right: 0;
+	bottom: 0;
+	width: 1px;
+	height: calc(100% - 20px);
+	/* Adjust the height accounting for top and bottom spacing */
+	border: 1px solid #036166df;
+	margin: 0;
+}
+
+.card p {
+	margin-bottom: 10px;
+	/* Adjust the bottom spacing for post content */
+}
+
+
+/* index image hover */
+
+.image.hover:hover {
+	filter:brightness(80%);
 }
