@@ -768,7 +768,7 @@ input[type="reset"].small,
 }
 
 #header nav {
-	letter-spacing: 0.075em;
+	letter-spacing: 0.045em;
 	text-transform: uppercase;
 	/* display: flex; */
 	align-items: center;
@@ -786,6 +786,7 @@ input[type="reset"].small,
 	margin: 0;
 	display: flex;
 	position: relative;
+	font-size: 26px;
 	/* 추가: 상대적 위치 설정 */
 	z-index: 10001;
 	/* 추가: 더 높은 z-index 값 설정 */
@@ -1518,6 +1519,7 @@ a.small-button.clicked {
 	/* Button text color */
 	font-size: 16px;
 	
+
 	/* Button font size */
 	padding: 10px 20px;
 	/* Button padding */
