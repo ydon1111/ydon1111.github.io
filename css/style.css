@@ -1405,10 +1405,10 @@ a.small-button.clicked {
 }
 
 #my_div a.paperclick:hover {
-	color: #1c2021;
+	color: #F57C13;
 	font-size: 0.9em;
-	text-decoration: underline;
-	text-decoration-style: dotted;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
 	border: none;
 	text-align: justify;
 }
