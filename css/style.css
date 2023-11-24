@@ -68,6 +68,12 @@ b {
 	font-weight: 400;
 }
 
+.session2 {
+	background-color: #ccffcc; /* 두 번째 세션 배경 색상 */
+	color: #333; /* 텍스트 색상 */
+	padding: 20px;
+}
+
 p,
 ul,
 ol,
@@ -202,10 +208,10 @@ header.special .icon:before {
 footer> :last-child {
 	margin-bottom: 0;
 }
-
 footer.major {
 	padding-top: 3em;
 }
+
 
 /* Form */
 
@@ -600,7 +606,6 @@ input[type="reset"].small,
 .wrapper {
 	margin-bottom: 5em;
 	padding: 5em;
-	width: 2000px;
 }
 
 .wrapper.style1 {
