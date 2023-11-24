@@ -310,7 +310,7 @@ layout: landing-page
 				{% for post in site.posts limit: 3 %}
 				<li class="card wrapper style1">
 					<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-					<p class="post-date" style="font-size: 14px; margin-bottom: 0; color:#036166df;">
+					<p class="post-date" style="font-size: 14px; margin-bottom: 5px; margin-top: 0;color:#036166df;">
 						{{ post.date | date: "%Y-%m-%d" }}
 					</p>
 					{% if post.featured-img %}
