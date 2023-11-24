@@ -1,6 +1,20 @@
 @import url("font-awesome.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @n33co
@@ -12,6 +26,7 @@
 body,
 #skel-layers-wrapper {
 	background: #f3f6fa;
+	background-size: 25em, 25em, auto, cover;
 }
 
 body.is-loading * {
@@ -32,9 +47,9 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'Lato', sans-serif;
+	font-family: 'HakgyoansimWoojuR';
 	font-size: 15pt;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 0.025em;
 	line-height: 1.75em;
 }
@@ -591,6 +606,7 @@ input[type="reset"].small,
 .wrapper {
 	margin-bottom: 5em;
 	padding: 5em;
+	width: 2000px;
 }
 
 .wrapper.style1 {
@@ -616,6 +632,7 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
+	
 	color: #f57c13	;
 }
 
@@ -1725,7 +1742,6 @@ a.small-button.clicked {
 	font-size: 2.8em;
 	margin-bottom: 0;
 	font-weight: 300;
-	font-family:'Lato',sans-serif;
 
 }
 
@@ -1734,8 +1750,9 @@ a.small-button.clicked {
 	text-align: "justify";
 	margin-top: 0;
 	font-weight: 300;
-	font-family:'Lato',sans-serif;
 }
+
+
 
 
 .text-over-image {
