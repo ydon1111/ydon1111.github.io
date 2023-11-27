@@ -1,4 +1,4 @@
-<!-- Banner -->		
+<!-- Banner -->
 <section id="banner">
 
     <!--
@@ -13,11 +13,57 @@
             <h2>Digital Medicine LAB </h2>
         </header>
         <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
-        <br />
+            <br />
+            <br />
+
+
+            <style>
+                /* 동그란 박스 스타일 */
+                .round-box {
+                    display: inline-block;
+                    width: 96px;
+                    height: 96px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 96px;
+                    border: 5px solid white;
+                    /* 원 태두리 추가 */
+                    overflow: hidden;
+                    /* 내용이 넘칠 경우를 대비해 추가 */
+                }
+
+                /* 링크 스타일 */
+                .round-box a {
+                    text-decoration: none;
+                    border: none;
+                    color: inherit;
+                    /* 링크 색상 상속 */
+                    display: inline-block;
+                    /* a 태그를 inline-block으로 설정하여 효과 적용 */
+                    transition: transform 0.3s ease;
+                    /* 변형에 대한 트랜지션 효과 추가 */
+                }
+
+                /* 화살표 스타일 */
+                .round-box a:hover .icon {
+                    transform: translateY(5px);
+                    /* 마우스 호버 시 화살표를 아래로 5px 내리는 효과 */
+                }
+
+                .round-box .icon {
+                    font-size: 48px;
+                    vertical-align: middle;
+                    transition: transform 0.3s ease;
+                    /* 화살표에 대한 트랜지션 효과 추가 */
+                }
+            </style>
+
         <footer>
-            <ul class="buttons ">
-                <a href="#main" class="button fit scrolly"><span class="icon fa-solid fa-angles-down"  style="font-size:48px;"></span></a>
-            </ul>
+            <div class="round-box">
+                <a href="#main" class="fit scrolly">
+                    <span class="icon fa-solid fa-angle-down"></span>
+                </a>
+            </div>
         </footer>
 
     </div>
