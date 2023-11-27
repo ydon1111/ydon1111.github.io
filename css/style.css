@@ -683,6 +683,13 @@ input[type="reset"].small,
 
 }
 
+.wrapper.style4 .main-row {
+	border-bottom: 1px solid #ccc;
+	/* 하단 경계선 추가 */
+	padding-bottom: 20px;
+	/* 선택사항: 내용과의 간격을 조절하기 위한 패딩 추가 */
+}
+
 
 
 
@@ -1920,3 +1927,41 @@ a.small-button.clicked {
 	transition: transform 0.3s ease;
 	/* 화살표에 대한 트랜지션 효과 추가 */
 }
+
+
+
+/* .custom-border에 하단 경계선 추가 */
+.row .custom-border {
+	border-bottom: 1px solid #ccc;
+	/* 하단 경계선 추가 */
+	width: 100%;
+	/* 너비를 100%로 설정 */
+	padding-bottom: 20px;
+	/* 선택사항: 내용과의 간격을 조절하기 위한 패딩 추가 */
+}
+
+/* Toggle 버튼 간 간격 조절 */
+.row .custom-border ul {
+	margin: 10px 0;
+}
+
+/* 하단 경계선을 가진 Toggle 버튼 스타일 수정 */
+.row .custom-border ul li {
+	padding: 10px 0;
+	/* Toggle 버튼 내용과 경계선 사이의 간격을 조절 */
+}
+
+/* Toggle 버튼 내용 스타일 수정 */
+.row .custom-border ul li a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	position: relative;
+}
+
+/* Toggle 버튼 아이콘 스타일 수정 */
+.row .custom-border ul li a span.icon {
+	margin-right: 5px;
+	/* 아이콘과 텍스트 사이의 간격을 조절 */
+}
+
