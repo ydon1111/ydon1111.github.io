@@ -289,14 +289,13 @@ layout: landing-page
 				</div>
 			</div>
 
-
-
 			<!-- <footer class="major">
 				<ul class="buttons">
 					<li><a href="/htmls/research_topics.html" class="button">More About</a></li>
 				</ul>
 			</footer> -->
 
+			
 		</section>
 		
 	</div>
@@ -331,16 +330,21 @@ layout: landing-page
 
 		</section>
 
+
+
+
 		<section class="wrapper style1 container">
 			<header class="major">
 				<h2>Latest News</h2>
+
+				
 			</header>
 
 			<ul class="cards-container">
 				{% for post in site.posts limit: 3 %}
 				<li class="card wrapper style1">
 					<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-					<p class="post-date" style="font-size: 14px; margin-bottom: 5px; margin-top: 0;color:#036166df;">
+					<p class="post-date" style="font-size: 14px; margin-bottom: 5px; margin-top:0;color:#036166df;">
 						{{ post.date | date: "%Y-%m-%d" }}
 					</p>
 					{% if post.featured-img %}
@@ -358,7 +362,6 @@ layout: landing-page
 			</ul>
 
 		</section>
-
 	</article>
 
 	<!-- CTA -->

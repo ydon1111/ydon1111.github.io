@@ -1487,6 +1487,10 @@ a.small-button.clicked {
 	color: #fff;
 }
 
+.nav-link span{
+	font-size: 48px;
+}
+
 
 /* 버튼 정렬 */
 
