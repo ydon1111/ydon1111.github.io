@@ -3,10 +3,17 @@
 
 
 @font-face {
-	font-family: 'TAEBAEKmilkyway';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*
@@ -40,7 +47,7 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'TAEBAEKmilkyway';
+	font-family: 'NanumSquareNeo-Variable';
 	font-size: 15pt;
 	font-weight: 600;
 	letter-spacing: 0.025em;
