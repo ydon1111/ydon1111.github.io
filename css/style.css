@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'TAEBAEKmilkyway';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'TAEBAEKmilkyway';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*
@@ -183,7 +183,7 @@ header.special:after {
 
 header.special h2 {
 	margin-bottom: 0;
-	
+
 }
 
 header.special h2+p {
@@ -636,8 +636,12 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
+<<<<<<< HEAD
 	
 	color: #f57c13	;
+=======
+	color: #f57c13;
+>>>>>>> 4c9f33f4af217363ca84cc737817f76183cca538
 }
 
 .wrapper.style2 p {
@@ -1034,8 +1038,8 @@ input[type="reset"].small,
 #banner .inner header h2 {
 	/* border-bottom: solid 2px;
 	border-top: solid 2px; */
-	font-size: 3.7em;
-	font-weight: 500;
+	font-size: 4.6em;
+	font-weight: 900;
 	letter-spacing: 0.05em;
 	margin: 0;
 	padding-left: 0.05em;
@@ -1046,9 +1050,17 @@ input[type="reset"].small,
 #banner .inner p {
 	letter-spacing: 0.05em;
 	margin: 0;
-	font-weight: 300;
+	font-size: 1.2em;
+	font-weight: 700;
 	text-transform: uppercase;
 }
+
+#banner .inner strong {
+	font-size: 1.3em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 
 #banner .inner p a {
 	color: inherit;
@@ -1071,7 +1083,8 @@ input[type="reset"].small,
 }
 
 #main header h2 {
-	font-size: 2em; /* Adjust the font size as needed */
+	font-size: 2em;
+	/* Adjust the font size as needed */
 }
 
 #main> :last-child {
@@ -1318,7 +1331,7 @@ body.index #main {
 }
 
 .in-title {
-	font-size: 30px ;
+	font-size: 30px;
 	color: gray;
 	font-weight: 600;
 	margin-bottom: 12px;
@@ -1330,7 +1343,7 @@ body.index #main {
 }
 
 .nums {
-	font-size:80px;
+	font-size: 80px;
 	color: #343048;
 }
 
@@ -1487,7 +1500,7 @@ a.small-button.clicked {
 	color: #fff;
 }
 
-.nav-link span{
+.nav-link span {
 	font-size: 48px;
 }
 
@@ -1539,7 +1552,7 @@ a.small-button.clicked {
 	color: #fff;
 	/* Button text color */
 	font-size: 16px;
-	
+
 
 	/* Button font size */
 	padding: 10px 20px;
@@ -1649,7 +1662,7 @@ a.small-button.clicked {
 	border-radius: 10px;
 	/* 둥근 테두리 설정 */
 	height: 110px;
-	width: 95px;
+	width: 110px;
 	transition: background-color 0.3s, color 0.3s;
 	font-size: small;
 }
@@ -1670,7 +1683,7 @@ a.small-button.clicked {
 	/* 이미지 아래 여백 추가 */
 }
 
-.nav-link_re span{
+.nav-link_re span {
 	line-height: 100%;
 }
 
@@ -1695,8 +1708,9 @@ a.small-button.clicked {
 	width: 50%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
-	
+
 }
+
 .content-container {
 	width: 48%;
 	/* Adjust the width as needed */
@@ -1805,25 +1819,26 @@ a.small-button.clicked {
 
 /* 프로필 이미지 호버 */
 .profil-image-container {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
 }
 
 .profil-image-container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: inline-block;
-    transition: filter 0.3s ease; /* Add a smooth transition effect */
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: inline-block;
+	transition: filter 0.3s ease;
+	/* Add a smooth transition effect */
 }
 
 .profil-image-container:hover img {
-    filter:brightness(80%); 
+	filter: brightness(80%);
 }
 
 
@@ -1872,7 +1887,45 @@ a.small-button.clicked {
 /* index image hover */
 
 .image.hover:hover {
-	filter:brightness(80%);
+	filter: brightness(80%);
 }
 
 
+/* 동그란 박스 스타일 */
+.round-box {
+	display: inline-block;
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 96px;
+	border: 5px solid white;
+	/* 원 태두리 추가 */
+	overflow: hidden;
+	/* 내용이 넘칠 경우를 대비해 추가 */
+}
+
+/* 링크 스타일 */
+.round-box a {
+	text-decoration: none;
+	border: none;
+	color: inherit;
+	/* 링크 색상 상속 */
+	display: inline-block;
+	/* a 태그를 inline-block으로 설정하여 효과 적용 */
+	transition: transform 0.3s ease;
+	/* 변형에 대한 트랜지션 효과 추가 */
+}
+
+/* 화살표 스타일 */
+.round-box a:hover .icon {
+	transform: translateY(5px);
+	/* 마우스 호버 시 화살표를 아래로 5px 내리는 효과 */
+}
+
+.round-box .icon {
+	font-size: 48px;
+	vertical-align: middle;
+	transition: transform 0.3s ease;
+	/* 화살표에 대한 트랜지션 효과 추가 */
+}
