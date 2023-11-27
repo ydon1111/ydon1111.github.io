@@ -56,6 +56,8 @@ a {
 	color: #F57C13;
 	text-decoration: none;
 	border-bottom: dotted 1px;
+
+	
 }
 
 a:hover {
@@ -1430,6 +1432,25 @@ a.small-button.clicked {
 }
 
 #my_div a.paperclick:hover {
+	color: #F57C13;
+	font-size: 0.9em;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
+	border: none;
+	text-align: justify;
+}
+
+
+
+.paper a.paperclick {
+	color: #1c2021;
+	font-size: 0.9em;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
+}
+
+.paper a.paperclick:hover {
 	color: #F57C13;
 	font-size: 0.9em;
 	/* text-decoration: underline; */
