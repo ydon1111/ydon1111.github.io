@@ -3,24 +3,24 @@
 
 
 @font-face {
-    font-family: 'NanumSquareNeo-Variable';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'NanumSquareNeo-Variable';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'TAEBAEKfont';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'TAEBAEKfont';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'TAEBAEKmilkyway';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'TAEBAEKmilkyway';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*
@@ -72,7 +72,7 @@ a {
 	text-decoration: none;
 	border-bottom: dotted 1px;
 
-	
+
 }
 
 a:hover {
@@ -85,8 +85,10 @@ b {
 }
 
 .session2 {
-	background-color: #ccffcc; /* 두 번째 세션 배경 색상 */
-	color: #333; /* 텍스트 색상 */
+	background-color: #ccffcc;
+	/* 두 번째 세션 배경 색상 */
+	color: #333;
+	/* 텍스트 색상 */
 	padding: 20px;
 }
 
@@ -242,6 +244,7 @@ header.special .icon:before {
 footer> :last-child {
 	margin-bottom: 0;
 }
+
 footer.major {
 	padding-top: 3em;
 }
@@ -884,7 +887,7 @@ input[type="reset"].small,
 	color: #F57C13;
 	/* 화살표에 색 추가해봄 */
 	position: relative;
-	
+
 	/* 추가: 더 높은 z-index 값 설정 */
 }
 
@@ -903,11 +906,22 @@ input[type="reset"].small,
 }
 
 #nav .submenu ul {
-	font-weight: 900;
+
 	position: absolute;
-	z-index: 1000; /* Make sure it appears above other elements */
-	display: none; /* Hide it by default */
-  }
+	z-index: 1000;
+	/* Make sure it appears above other elements */
+	display: none;
+	/* Hide it by default */
+	
+
+}
+
+
+#nav .submenu .submenu-ul {
+	margin: 10px 0;
+	font-size: 300px;
+	/* Adjust the margin between items as needed */
+}
 
 
 
@@ -1478,13 +1492,13 @@ a.small-button.clicked {
 	text-align: justify;
 }
 
-.paper{
-	padding-right: 2em; 
+.paper {
+	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
-.patent{
-	padding-right: 2em; 
+.patent {
+	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
@@ -1794,7 +1808,7 @@ a.small-button.clicked {
 .image-container {
 	position: relative;
 	overflow: hidden;
-	background-color:  #ffffff;
+	background-color: #ffffff;
 }
 
 .image-container img {
@@ -2064,4 +2078,3 @@ a.small-button.clicked {
 	margin-right: 5px;
 	/* 아이콘과 텍스트 사이의 간격을 조절 */
 }
-
