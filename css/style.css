@@ -72,7 +72,6 @@ a {
 	text-decoration: none;
 	border-bottom: dotted 1px;
 
-
 }
 
 a:hover {
@@ -805,6 +804,19 @@ input[type="reset"].small,
 	margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+#header h1 {
+	font-weight: 900;
+	margin: 0;
+}
+
+#header h1 span {
+	font-weight: 300;
+}
+>>>>>>> 5601a9a67451b2ab23392b55d1a88298bb1b02df
 
 #header img {
 	max-height: 100px;
@@ -898,6 +910,7 @@ input[type="reset"].small,
 	font-weight: 900;
 }
 
+
 #nav .submenu ul {
 
 	position: absolute;
@@ -905,17 +918,20 @@ input[type="reset"].small,
 	/* Make sure it appears above other elements */
 	display: none;
 	/* Hide it by default */
-	
+
 
 }
 
-
-#nav .submenu .submenu-ul {
-	margin: 10px 0;
-	font-size: 300px;
-	/* Adjust the margin between items as needed */
+#submenu-ul {
+	font-size: 0.9em;
+	font-weight: 900;
 }
 
+#logo {
+	border-bottom: none;
+	padding-left: 60px;
+	padding-top: 5px;
+}
 
 
 /* Blog */
