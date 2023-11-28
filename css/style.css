@@ -3,10 +3,10 @@
 
 
 @font-face {
-	font-family: 'TAEBAEKmilkyway';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -55,7 +55,7 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'TAEBAEKmilkyway';
+	font-family: 'NanumSquareNeo-Variable';
 	font-size: 15pt;
 	font-weight: 600;
 	letter-spacing: 0.025em;
@@ -71,6 +71,8 @@ a {
 	color: #F57C13;
 	text-decoration: none;
 	border-bottom: dotted 1px;
+
+	
 }
 
 a:hover {
@@ -712,6 +714,13 @@ input[type="reset"].small,
 	color: #3b5e69;
 	font-size: 0.8em;
 
+}
+
+.wrapper.style4 .main-row {
+	border-bottom: 1px solid #ccc;
+	/* 하단 경계선 추가 */
+	padding-bottom: 20px;
+	/* 선택사항: 내용과의 간격을 조절하기 위한 패딩 추가 */
 }
 
 
@@ -1437,7 +1446,7 @@ a.small-button.clicked {
 }
 
 #my_div a.paperlist {
-	color: #1c2021;
+	color: #515455;
 	font-size: 0.9em;
 	text-decoration: none;
 	border: none;
@@ -1446,7 +1455,7 @@ a.small-button.clicked {
 
 /* 링크 연결된 paperlist*/
 #my_div a.paperclick {
-	color: #1c2021;
+	color: #515455;
 	font-size: 0.9em;
 	text-decoration: none;
 	border: none;
@@ -1454,6 +1463,25 @@ a.small-button.clicked {
 }
 
 #my_div a.paperclick:hover {
+	color: #F57C13;
+	font-size: 0.9em;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
+	border: none;
+	text-align: justify;
+}
+
+
+
+.paper a.paperclick {
+	color: #515455;
+	font-size: 0.9em;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
+}
+
+.paper a.paperclick:hover {
 	color: #F57C13;
 	font-size: 0.9em;
 	/* text-decoration: underline; */
@@ -1738,34 +1766,12 @@ a.small-button.clicked {
 }
 
 .content-container {
+
+	width: 48%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
-	margin-bottom: 0px;
-	padding: 0px 0px 0px 0px;
 
 }
-
-.column-text{
-	background-color: #70aecd;
-	margin: 0px 0px 0px 0px;
-	width: 50%;
-	height: max-content;
-	
-  }
-
-.column-img{
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	width: 50%;
-	height: max-content;
-}
-  /* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-
 
 
 .content-container .righty h3 {
@@ -1982,3 +1988,45 @@ a.small-button.clicked {
 	transition: transform 0.3s ease;
 	/* 화살표에 대한 트랜지션 효과 추가 */
 }
+
+
+
+/* .custom-border에 하단 경계선 추가 */
+.row .custom-border {
+	border-bottom: 1px solid #ccc;
+	/* 하단 경계선 추가 */
+	width: 100%;
+	/* 너비를 100%로 설정 */
+	padding-bottom: 20px;
+	/* 선택사항: 내용과의 간격을 조절하기 위한 패딩 추가 */
+}
+
+/* Toggle 버튼 간 간격 조절 */
+.row .custom-border ul {
+	margin: 10px 0;
+}
+
+/* 하단 경계선을 가진 Toggle 버튼 스타일 수정 */
+.row .custom-border ul li {
+	padding: 10px 0;
+	/* Toggle 버튼 내용과 경계선 사이의 간격을 조절 */
+}
+
+/* Toggle 버튼 내용 스타일 수정 */
+.row .custom-border ul li a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	position: relative;
+}
+
+/* Toggle 버튼 아이콘 스타일 수정 */
+.row .custom-border ul li a span.icon {
+	margin-right: 5px;
+	/* 아이콘과 텍스트 사이의 간격을 조절 */
+}
+
+
+
+
+

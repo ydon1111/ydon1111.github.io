@@ -85,12 +85,19 @@ function journalALL() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="ALLOpenPaper(${i})" class='paperclick'>${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="ALLOpenPaper(${i});" class='paperclick'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
+
 
 
 
@@ -176,9 +183,13 @@ function ALLOpenPaper(paperIndex) {
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
+    window.open(linksArray[paperIndex], '_blank');// 클릭 시 해당 URL로 이동
   }
 }
+
+
+
+
 
 
 
@@ -248,6 +259,12 @@ function journalSCI() {
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
 function SCIOpenPaper(paperIndex) {
@@ -307,7 +324,7 @@ function SCIOpenPaper(paperIndex) {
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
+    window.open(linksArray[paperIndex], '_blank'); // 클릭 시 해당 URL로 이동
   }
 }
 
@@ -353,6 +370,12 @@ function journalSCOPUS() {
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
 function SCOPUSOpenPaper(paperIndex) {
@@ -384,7 +407,7 @@ function SCOPUSOpenPaper(paperIndex) {
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
+    window.open(linksArray[paperIndex], '_blank'); // 클릭 시 해당 URL로 이동
   }
 }
 
@@ -582,10 +605,8 @@ function confernceAll() {
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
 }
-
-
-
 
 
 
@@ -655,6 +676,8 @@ function confernceInter() {
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  
 }
 
 
