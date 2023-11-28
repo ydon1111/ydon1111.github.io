@@ -837,7 +837,7 @@ input[type="reset"].small,
 
 #header nav ul li {
 	display: inline-block;
-	margin-left: 1.5em;
+	/* margin-left: 1.5em; */
 	position: relative;
 }
 
