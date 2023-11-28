@@ -1245,6 +1245,8 @@ body.index #main {
 }
 
 
+
+
 #sideButton .toggle {
 	height: 100%;
 	left: 0;
@@ -2072,3 +2074,98 @@ a.small-button.clicked {
 	margin-right: 5px;
 	/* 아이콘과 텍스트 사이의 간격을 조절 */
 }
+
+
+
+/* banner slide */
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    /* effect */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    /* Styling for previous and next buttons */
+    .prev,
+    .next {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 3px;
+        padding: 16px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: 0.6s ease;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+        left: auto;
+        /* Ensures that the 'next' button is aligned to the right */
+    }
+
+    /* Center the buttons vertically within the mySlideDiv */
+    .mySlideDiv .prev,
+    .mySlideDiv .next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* Ensure buttons cover the entire height of the mySlideDiv */
+    .mySlideDiv .prev,
+    .mySlideDiv .next {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Set the position of the buttons */
+    .mySlideDiv .prev {
+        left: 30;
+    }
+
+    .mySlideDiv .next {
+        right: 30;
+        left: auto;
+        /* Ensures that the 'next' button is aligned to the right */
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
