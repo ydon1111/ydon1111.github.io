@@ -1479,6 +1479,15 @@ a.small-button.clicked {
 	text-align: justify;
 }
 
+.paper{
+	padding-right: 2em; 
+	padding-bottom: 2em;
+}
+
+.patent{
+	padding-right: 2em; 
+	padding-bottom: 2em;
+}
 
 
 .paper a.paperclick {
