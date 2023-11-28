@@ -799,16 +799,9 @@ input[type="reset"].small,
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 0px;
 }
 
-#header h1 {
-	font-weight: 900;
-	margin: 0;
-}
-
-#header h1 span {
-	font-weight: 300;
-}
 
 #header img {
 	max-height: 100px;
@@ -816,6 +809,7 @@ input[type="reset"].small,
 	height: 100%;
 	width: 100%;
 	transition: all 0.3s;
+	margin-bottom: 0px;
 }
 
 #header nav {
@@ -824,7 +818,6 @@ input[type="reset"].small,
 	/* display: flex; */
 	align-items: center;
 	right: 1.5em;
-
 	position: relative;
 	/* 추가: 상대적 위치 설정 */
 	z-index: 999;
@@ -937,7 +930,7 @@ input[type="reset"].small,
 
 .dropotron.level-0 {
 	font-size: 0.7em;
-	font-weight: 400;
+	font-weight: 900;
 	margin-top: 1.5em;
 }
 
@@ -1028,11 +1021,6 @@ input[type="reset"].small,
 }
 
 #banner {
-	background-attachment: scroll, scroll, scroll, fixed;
-	background-color: #645862;
-	background-position: bottom left, bottom right, top left, top center;
-	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-	background-size: 25em, 25em, auto, cover;
 	color: white;
 	cursor: default;
 
