@@ -12,11 +12,11 @@ layout: landing-page
 	<article id="main">
 		<header class="special container">
 			<!-- <span class="icon fa-solid fa-heart-pulse"></span> -->
-			<h2>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future
+			<h4>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future
 				of
 				digital medicine.
 				<br />
-			</h2>
+			</h4>
 			<p>Through rigorous exploration of digital technologies, data analytics, and interdisciplinary
 				collaboration,
 				<br />our trials are still on going, <strong>since 2021.</strong>
@@ -32,7 +32,7 @@ layout: landing-page
 		<!-- Two -->
 
 
-	<article id="main">
+	<article id="main" style="padding-bottom: 0;">
 		<section class="wrapper style1 container special-alt">
 			<div class="row half">
 				<div class="8u">
@@ -97,25 +97,25 @@ layout: landing-page
 	</article>
 
 		<!-- One -->
-	<article id="main">
+	<article id="main"  style="padding-top: 0;">
 		<section class="wrapper style1 container special">
 
 
 			<div class="num-container" id="num-container">
 				<div class="num-item">
-					<h4 class="in-title">Paper</h4>
+					<h3 class="in-title">Paper</h3>
 					<br>
 					<span class="nums" data-count="239">0</span><span id="num-unit"></span><br>
 					<!-- <span class="sub-title">test1</span><br> -->
 				</div>
 				<div class="num-item">
-					<h4 class="in-title">Project</h4>
+					<h3 class="in-title">Project</h3>
 					<br>
 					<span class="nums" data-count="26">0</span><span id="num-unit"></span><br>
 					<!-- <span class="sub-title">test1</span><br> -->
 				</div>
 				<div class="num-item">
-					<h4 class="in-title">Patent</h4>
+					<h3 class="in-title">Patent</h3>
 					<br>
 					<span class="nums" data-count="173">0</span><span id="num-unit"></span><br>
 					<!-- <span class="sub-title">test1</span><br> -->
@@ -168,10 +168,10 @@ layout: landing-page
 	</article>
 
 		<!-- Three -->
-	<div style="background-color: white; margin-top: 3em; margin-bottom: 3em; padding: 7em 0em 2em 0em; ">
+	<div style="background-color: white; margin-top: 40px; margin-bottom: 0; padding: 5em 0 1px 0; ">
 		<section class="wrapper style1 container">
 			<header class="major">
-				<h2>Research Topics</h2>
+				<h4>Research Topics</h4>
 			</header>
 
 			<div class="row">
@@ -338,39 +338,6 @@ layout: landing-page
 		</section>
 	</article>
 
-
-
-	<article id="main">
-		<section class="wrapper style1 container">
-			<header class="major">
-				<h2>Latest News</h2>
-
-
-			</header>
-
-			<ul class="cards-container">
-				{% for post in site.posts limit: 3 %}
-				<li class="card wrapper style1">
-					<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-					<p class="post-date" style="font-size: 14px; margin-bottom: 5px; margin-top:0;color:#036166df;">
-						{{ post.date | date: "%Y-%m-%d" }}
-					</p>
-					{% if post.featured-img %}
-					<a href="{{ post.url }}">
-						<img src="{{ post.featured-img }}" alt="{{ post.title }}" style="width: 80%;">
-					</a>
-					{% endif %}
-
-					<p style="font-size: 14px; margin-bottom: 0; color:#036166df;">
-						{{ post.short-content }}
-					</p>
-					<hr>
-				</li>
-				{% endfor %}
-			</ul>
-
-		</section>
-	</article>
 
 	<!-- CTA -->
 	<div id="wrap">

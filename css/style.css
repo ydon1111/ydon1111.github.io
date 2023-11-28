@@ -17,8 +17,8 @@
 }
 
 @font-face {
-    font-family: 'NanumSquareNeo-Variable';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -55,9 +55,9 @@ input,
 select,
 textarea {
 	color: #515455;
-	font-family: 'NanumSquareNeo-Variable';
+	font-family: 'TAEBAEKmilkyway';
 	font-size: 15pt;
-	font-weight: 600;
+	font-weight: 900;
 	letter-spacing: 0.025em;
 	line-height: 1.75em;
 }
@@ -139,10 +139,17 @@ h2 {
 }
 
 h3 {
-	font-family: 'TAEBAEKfont';
-	font-weight: 800;
+	font-family: "TAEBAEKfont";
 	font-size: 1.15em;
 	letter-spacing: 0.025em;
+}
+
+h4 {
+	font-family: "TAEBAEKmilkyway";
+	font-weight: 800;
+	font-size: 1.8em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 }
 
 sub {
@@ -657,12 +664,12 @@ input[type="reset"].small,
 */
 
 .wrapper.style2 {
+	padding: 0 0 0 0;
 	background-color: #036166df;
-	background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+	/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
-	color: #f57c13;
 }
 
 .wrapper.style2 p {
@@ -1371,6 +1378,7 @@ body.index #main {
 }
 
 .nums {
+	font-family: 'TAEBAEKfont';
 	font-size: 80px;
 	color: #343048;
 }
