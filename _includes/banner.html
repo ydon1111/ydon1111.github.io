@@ -1,207 +1,23 @@
 <!-- Banner -->
 <section id="banner">
 
-        <div class="side-btns">
-            <div><span><i class="fas fa-caret-left"></i></i></span></div>
-            <div><span><i class="fas fa-caret-right"></i></span></div>
-        </div>
-        
-        <div class="slides">
-            <div class="active" style='background-attachment: scroll, scroll, scroll, fixed;
-            background-color: #645862;
-            background-image: url("/css/images/light-bl.svg"), url("/css/images/light-br.svg"), url("/css/images/overlay.png"), url("/images/banner6.jpg");
-            background-position: bottom left, bottom right, top left, top center;
-            background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-            background-size: 25em, 25em, auto, cover;
-            '>
-                <div class="inner">
 
-                    <header>
-                        <h1>Digital &nbsp;Medicine &nbsp;  LAB </h1>
-            
-                    </header>
-                    <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
-                        <br />
-                        <br />
-            
-            
-                        <style>
-            
-                        </style>
-            
-                    <footer>
-                        <div class="round-box">
-                            <a href="#main" class="fit scrolly">
-                                <span class="icon fa-solid fa-angle-down"></span>
-                            </a>
-                        </div>
-                    </footer>
-            
-                </div>
+    <div class="inner">
+
+        <header>
+            <h1>Digital &nbsp;Medicine &nbsp; LAB </h1>
+
+        </header>
+        <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
+            <br />
+            <br />
+        <footer>
+            <div class="round-box">
+                <a href="#main" class="fit scrolly">
+                    <span class="icon fa-solid fa-angle-down"></span>
+                </a>
             </div>
-            <div style='background-attachment: scroll, scroll, scroll, fixed;
-            background-color: #645862;
-            background-image: url("/css/images/light-bl.svg"), url("/css/images/light-br.svg"), url("/css/images/overlay.png"), url("/images/banner8.jpeg");
-            background-position: bottom left, bottom right, top left, top center;
-            background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-            background-size: 25em, 25em, auto, cover;
-            '>
-                <div class="inner">
+        </footer>
 
-                    <header>
-                        <h1>Digital &nbsp;Medicine &nbsp;  LAB </h1>
-            
-                    </header>
-                    <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
-                        <br />
-                        <br />
-            
-            
-                        <style>
-            
-                        </style>
-            
-                    <footer>
-                        <div class="round-box">
-                            <a href="#main" class="fit scrolly">
-                                <span class="icon fa-solid fa-angle-down"></span>
-                            </a>
-                        </div>
-                    </footer>
-            
-                </div>
-            </div>
-            <div style='background-attachment: scroll, scroll, scroll, fixed;
-            background-color: #645862;
-            background-image: url("/css/images/light-bl.svg"), url("/css/images/light-br.svg"), url("/css/images/overlay.png"), url("/images/banner9.jpeg");
-            background-position: bottom left, bottom right, top left, top center;
-            background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-            background-size: 25em, 25em, auto, cover;
-            '>
-                <div class="inner">
-
-                    <header>
-                        <h1>Digital &nbsp;Medicine &nbsp;  LAB </h1>
-            
-                    </header>
-                    <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
-                        <br />
-                        <br />
-            
-            
-                        <style>
-            
-                        </style>
-            
-                    <footer>
-                        <div class="round-box">
-                            <a href="#main" class="fit scrolly">
-                                <span class="icon fa-solid fa-angle-down"></span>
-                            </a>
-                        </div>
-                    </footer>
-            
-                </div>
-            </div>
-            <div style='background-attachment: scroll, scroll, scroll, fixed;
-            background-color: #645862;
-            background-image: url("/css/images/light-bl.svg"), url("/css/images/light-br.svg"), url("/css/images/overlay.png"), url("/images/banner7.jpeg");
-            background-position: bottom left, bottom right, top left, top center;
-            background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-            background-size: 25em, 25em, auto, cover;
-            '>
-                <div class="inner">
-
-                    <header>
-                        <h1>Digital &nbsp;Medicine &nbsp;  LAB </h1>
-            
-                    </header>
-                    <p> <strong>D</strong>-LAB at the Forefront of Digital Medicine Research
-                        <br />
-                        <br />
-            
-            
-                        <style>
-            
-                        </style>
-            
-                    <footer>
-                        <div class="round-box">
-                            <a href="#main" class="fit scrolly">
-                                <span class="icon fa-solid fa-angle-down"></span>
-                            </a>
-                        </div>
-                    </footer>
-            
-                </div>
-            </div>
-        </div>
-        
-        <div class="page-nav">
-            <div class="active"></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-
-
-    <!--
-        ".inner" is set up as an inline-block so it automatically expands
-        in both directions to fit whatever's inside it. This means it won't
-        automatically wrap lines, so be sure to use line breaks where
-        appropriate (<br />).
-    -->
-    
-
+    </div>
 </section>
-
-
-<script>
-    $('#banner .page-nav > div').click(function() {
-    
-    var $this = $(this);
-    var $pagenav = $this.parent()
-    var $current = $pagenav.find('.active');
-    
-    $current.removeClass('active');
-    $this.addClass('active');
-
-    var index = $this.index();
-    var $슬라이더 = $this.closest('#banner');
-    
-    $슬라이더.find('.slides > div.active').removeClass('active');
-    $슬라이더.find('.slides > div').eq(index).addClass('active');
-    
-    
-});
-
-$('#banner > .side-btns > div:first-child').click(function() {
-    var $this = $(this);
-    var $slider = $this.closest('#banner');
-    
-    var $current = $slider.find('.page-nav > div.active');
-    var $post = $current.prev();
-    
-    if ( $post.length == 0 ) {
-        $post = $slider.find('.page-nav > div:last-child');
-    }
-    
-    $post.click();
-});
-
-$('#banner > .side-btns > div:last-child').click(function() {
-    var $this = $(this);
-    var $slider = $this.closest('#banner');
-    
-    var $current = $slider.find('.page-nav > div.active');
-    var $post = $current.next();
-    
-    if ( $post.length == 0 ) {
-        $post = $slider.find('.page-nav > div:first-child');
-    }
-    
-    $post.click();
-});
-
-
-</script>
