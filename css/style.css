@@ -9,6 +9,20 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @n33co
@@ -106,6 +120,15 @@ h6 a {
 	border: 0;
 }
 
+
+h1 {
+	margin-top: 0.5em;
+	letter-spacing: 0.025em;
+	font-size: 4em;
+	font-family: 'TAEBAEKfont';
+	margin-bottom: 0px;
+}
+
 h2 {
 	font-size: 1.5em;
 	letter-spacing: 0.1em;
@@ -114,6 +137,7 @@ h2 {
 }
 
 h3 {
+	font-family: 'TAEBAEKfont';
 	font-weight: 800;
 	font-size: 1.15em;
 	letter-spacing: 0.025em;
@@ -636,12 +660,7 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
-<<<<<<< HEAD
-	
-	color: #f57c13	;
-=======
 	color: #f57c13;
->>>>>>> 4c9f33f4af217363ca84cc737817f76183cca538
 }
 
 .wrapper.style2 p {
@@ -675,7 +694,7 @@ input[type="reset"].small,
 }
 
 .wrapper.style4 {
-	background: white;
+	background: rgb(255, 255, 255);
 	color: inherit;
 	padding: 4em;
 }
@@ -996,7 +1015,7 @@ input[type="reset"].small,
 #banner {
 	background-attachment: scroll, scroll, scroll, fixed;
 	background-color: #645862;
-	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner6.jpg");
 	background-position: bottom left, bottom right, top left, top center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
@@ -1112,7 +1131,7 @@ body.index #main {
 #cta {
 	background-attachment: scroll, scroll, scroll, fixed;
 	background-color: #645862;
-	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner5.jpg");
 	background-position: top left, top right, top left, bottom center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
@@ -1711,18 +1730,42 @@ a.small-button.clicked {
 }
 
 .image-container {
-	width: 50%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
 
 }
 
 .content-container {
-	width: 48%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
 
 }
+
+.column-text{
+	background-color: #70aecd;
+	margin: 0px 0px 0px 0px;
+	width: 50%;
+	height: max-content;
+	
+  }
+
+.column-img{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 50%;
+	height: max-content;
+}
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 
 
 .content-container .righty h3 {
@@ -1732,10 +1775,12 @@ a.small-button.clicked {
 }
 
 .content-container .righty p {
+
+	font-family: 'NanumSquareNeo-Variable';
+	font-weight: 100;
 	font-size: 0.8em;
 	line-height: 30px;
 	text-align: right;
-
 }
 
 .content-container .lefty h3 {
@@ -1745,8 +1790,10 @@ a.small-button.clicked {
 }
 
 .content-container .lefty p {
-	font-size: 0.9em;
-	line-height: 30px;
+	font-family: 'NanumSquareNeo-Variable';
+	font-weight: 100;
+	font-size: 0.8em;
+	line-height: 40px;
 	text-align: left;
 }
 
