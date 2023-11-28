@@ -791,11 +791,11 @@ input[type="reset"].small,
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 10000;
+	z-index: 999;
 	background: white;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 	color: inherit;
-	font-size: 0.8em;
+	font-size: 1em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -814,12 +814,12 @@ input[type="reset"].small,
 	max-height: 100px;
 	max-width: auto;
 	height: 100%;
-	width: auto;
+	width: 100%;
 	transition: all 0.3s;
 }
 
 #header nav {
-	letter-spacing: 0.045em;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	/* display: flex; */
 	align-items: center;
@@ -827,9 +827,10 @@ input[type="reset"].small,
 
 	position: relative;
 	/* 추가: 상대적 위치 설정 */
-	z-index: 10001;
+	z-index: 999;
 	/* 추가: 더 높은 z-index 값 설정 */
 }
+
 
 #header nav ul {
 	list-style: none;
@@ -837,18 +838,12 @@ input[type="reset"].small,
 	margin: 0;
 	display: flex;
 	position: relative;
-	font-size: 32x;
-	/* 추가: 상대적 위치 설정 */
-	z-index: 10001;
-	/* 추가: 더 높은 z-index 값 설정 */
 }
 
 #header nav ul li {
 	display: inline-block;
 	margin-left: 1.5em;
 	position: relative;
-	z-index: 10001;
-	/* 다른 요소 위에 표시되도록 설정 */
 }
 
 #header nav ul li>ul {
@@ -859,8 +854,7 @@ input[type="reset"].small,
 #header nav ul li:hover>ul {
 	display: block;
 	position: relative;
-	z-index: 10001;
-	/* 하위 메뉴가 상위 메뉴 위에 나타나게 설정 */
+
 }
 
 #header nav ul li a {
@@ -870,10 +864,6 @@ input[type="reset"].small,
 	line-height: 1em;
 	padding: 0.6em 0.75em;
 	text-decoration: none;
-
-	position: relative;
-	z-index: 10001;
-	/* 추가: 더 높은 z-index 값 설정 */
 }
 
 #header nav ul li input[type="button"],
@@ -885,6 +875,8 @@ input[type="reset"].small,
 	width: auto;
 }
 
+
+
 #header nav ul li.submenu>a:before {
 	font-family: FontAwesome;
 	content: '\f107';
@@ -892,7 +884,7 @@ input[type="reset"].small,
 	color: #F57C13;
 	/* 화살표에 색 추가해봄 */
 	position: relative;
-	z-index: 10001;
+	
 	/* 추가: 더 높은 z-index 값 설정 */
 }
 
@@ -906,10 +898,17 @@ input[type="reset"].small,
 	background: rgba(201, 188, 206, 0.15);
 }
 
-
 #header nav .cc-active {
 	font-weight: 900;
 }
+
+#nav .submenu ul {
+	font-weight: 900;
+	position: absolute;
+	z-index: 1000; /* Make sure it appears above other elements */
+	display: none; /* Hide it by default */
+  }
+
 
 
 /* Blog */
@@ -2065,5 +2064,4 @@ a.small-button.clicked {
 	margin-right: 5px;
 	/* 아이콘과 텍스트 사이의 간격을 조절 */
 }
-
 
