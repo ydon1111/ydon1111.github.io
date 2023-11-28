@@ -665,7 +665,7 @@ input[type="reset"].small,
 
 .wrapper.style2 {
 	padding: 0 0 0 0;
-	background-color: #036166df;
+	background-color: #ffffff00;
 	/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
@@ -1786,6 +1786,7 @@ a.small-button.clicked {
 .image-container {
 	position: relative;
 	overflow: hidden;
+	background-color:  #ffffff;
 }
 
 .image-container img {
@@ -1794,25 +1795,29 @@ a.small-button.clicked {
 }
 
 .lefty {
-	padding: 1em;
-	background-color:  rgba(201, 188, 206, 0.15);
+	padding-top: 5em;
+	padding-left: 2em;
 	flex: 1;
 }
 
+.righty {
+	padding-top: 5em;
+	padding-left: 2em;
+	flex: 1;
+}
 
 .content-container .righty h3 {
-	font-size: 1.8em;
+	font-size: 1.3em;
 	line-height: 30px;
-	text-align: right;
+	text-align: left;
 }
 
 .content-container .righty p {
-
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
 	font-size: 0.8em;
-	line-height: 30px;
-	text-align: right;
+	line-height: 40px;
+	text-align: left;
 }
 
 .content-container .lefty h3 {
