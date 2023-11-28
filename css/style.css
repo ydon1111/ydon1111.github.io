@@ -1755,30 +1755,48 @@ a.small-button.clicked {
 
 /* research 레이아웃 */
 
+
+
+
 .image-and-content {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
-
 	justify-content: space-between;
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 
 }
 
-.image-container {
-	/* Adjust the width as needed */
-	box-sizing: border-box;
-	margin-bottom: 0px;
-	padding: 0px 0px 0px 0px;
-
+.cutstom-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* gap: 20px; */
+	/* Adjust the gap as needed */
 }
 
+.image-container,
 .content-container {
-
-	width: 48%;
-	/* Adjust the width as needed */
+	width: 100%;
+	height: 100%;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
 
+.image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.lefty {
+	padding: 1em;
+	background-color:  rgba(201, 188, 206, 0.15);
+	flex: 1;
 }
 
 
@@ -2033,8 +2051,5 @@ a.small-button.clicked {
 	margin-right: 5px;
 	/* 아이콘과 텍스트 사이의 간격을 조절 */
 }
-
-
-
 
 
