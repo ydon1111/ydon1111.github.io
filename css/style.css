@@ -1040,7 +1040,7 @@ input[type="reset"].small,
 #banner {
 	background-attachment: scroll, scroll, scroll, fixed;
 	background-color: #645862;
-	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner5.jpg");
+	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner10.jpeg");
 	background-position: bottom left, bottom right, top left, top center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
@@ -1154,7 +1154,7 @@ body.index #main {
 #cta {
 	background-attachment: scroll, scroll, scroll, fixed;
 	background-color: #645862;
-	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner5.jpg");
+	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner10.jpeg");
 	background-position: top left, top right, top left, bottom center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
@@ -2135,7 +2135,7 @@ a.small-button.clicked {
 
 
 
-#slide-test1{
+/* #slide-test1{
 'background-attachment: scroll, scroll, scroll, fixed;
             background-color: #645862;
             background-image: url("/css/images/light-bl.svg"), url("/css/images/light-br.svg"), url("/css/images/overlay.png"), url("/images/banner7.jpeg");
@@ -2144,4 +2144,4 @@ a.small-button.clicked {
             background-size: 25em, 25em, auto, cover;
             '
 	
-}
+} */
