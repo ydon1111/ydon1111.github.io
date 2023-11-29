@@ -190,10 +190,14 @@ layout: default
     {% for post in site.posts %}
     <div class="blog-card">
       <div class="meta">
+
         <div class="photo" style="background-image: url('{{ post.featured-img }}')"></div>
-        <ul class="details">
-          <li class="date">{{ post.date | date: "%B %d, %Y" }}</li>
-        </ul>
+
+        <a href="{{ post.url }}">
+          <ul class="details">
+            <li class="date">{{ post.date | date: "%B %d, %Y" }}</li>
+          </ul>
+        </a>
       </div>
       <div class="description">
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
