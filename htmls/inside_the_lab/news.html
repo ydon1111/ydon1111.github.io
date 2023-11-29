@@ -3,18 +3,22 @@ layout: default
 ---
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
 
   .blog-card {
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
-    box-shadow: 0 5px 7px -1px rgba(#000, .1);
+    box-shadow: 0 5px 7px -1px rgba(0, 0, 0, 0.1);
     margin-bottom: 1.6%;
     background: #fff;
     line-height: 1.4;
     border-radius: 5px;
     overflow: hidden;
     z-index: 0;
+    height: 320px;
   }
 
   .blog-card:hover .photo {
@@ -172,7 +176,6 @@ layout: default
       padding-left: 25px;
     }
   }
-  
 </style>
 
 
@@ -184,24 +187,24 @@ layout: default
 
   <section class="wrapper style1 container">
 
-      {% for post in site.posts %}
-      <div class="blog-card">
-        <div class="meta">
-          <div class="photo" style="background-image: url('{{ post.featured-img }}')"></div>
-          <ul class="details">
-            <li class="date">{{ post.date | date: "%B %d, %Y" }}</li>
-          </ul>
-        </div>
-        <div class="description">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p>{{ post.excerpt }}</p>
-          <p class="read-more">
-            <a href="{{ post.url }}">Read More</a>
-          </p>
-        </div>
+    {% for post in site.posts %}
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url('{{ post.featured-img }}')"></div>
+        <ul class="details">
+          <li class="date">{{ post.date | date: "%B %d, %Y" }}</li>
+        </ul>
       </div>
-      {% endfor %}
+      <div class="description">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ post.excerpt }}</p>
+        <p class="read-more">
+          <a href="{{ post.url }}">Read More</a>
+        </p>
+      </div>
+    </div>
+    {% endfor %}
 
   </section>
 </article>
