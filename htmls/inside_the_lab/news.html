@@ -3,30 +3,15 @@ layout: default
 ---
 
 <style>
-  /* PEN STYLES */
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    background: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
 
   .blog-card {
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(#000, .1);
+    box-shadow: 0 5px 7px -1px rgba(#000, .1);
     margin-bottom: 1.6%;
     background: #fff;
     line-height: 1.4;
-    font-family: sans-serif;
     border-radius: 5px;
     overflow: hidden;
     z-index: 0;
@@ -74,9 +59,6 @@ layout: default
     font-size: 0.9rem;
   }
 
-  .blog-card .details a {
-    text-decoration: dotted underline;
-  }
 
   .blog-card .details ul li {
     display: inline-block;
@@ -111,30 +93,6 @@ layout: default
     z-index: 1;
   }
 
-  .blog-card h1,
-  .blog-card h2 {
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .blog-card h1 {
-    line-height: 1;
-    margin: 0;
-    font-size: 1.7rem;
-  }
-
-  .blog-card h2 {
-    font-size: 1rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #a2a2a2;
-    margin-top: 5px;
-  }
-
-  .blog-card .read-more a {
-    color: #5ad67d;
-    display: inline-block;
-    position: relative;
-  }
 
   .blog-card .read-more a::after {
     content: "\f061";
@@ -163,7 +121,7 @@ layout: default
     content: "";
     position: absolute;
     height: 5px;
-    background: #5ad67d;
+    background: #F57C13;
     width: 35px;
     top: -0.75rem;
     border-radius: 3px;
@@ -176,7 +134,7 @@ layout: default
   @media (min-width: 640px) {
     .blog-card {
       flex-direction: row;
-      max-width: 700px;
+      max-width: 1100px;
     }
 
     .blog-card .meta {
@@ -214,6 +172,7 @@ layout: default
       padding-left: 25px;
     }
   }
+  
 </style>
 
 
@@ -221,8 +180,10 @@ layout: default
   <header class="special container">
     <h2>News</h2>
   </header>
+
+
   <section class="wrapper style1 container">
-    <div class="card-container">
+
       {% for post in site.posts %}
       <div class="blog-card">
         <div class="meta">
@@ -232,7 +193,7 @@ layout: default
           </ul>
         </div>
         <div class="description">
-          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
           <p>{{ post.excerpt }}</p>
           <p class="read-more">
@@ -241,6 +202,6 @@ layout: default
         </div>
       </div>
       {% endfor %}
-    </div>
+
   </section>
 </article>
