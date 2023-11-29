@@ -1952,45 +1952,6 @@ a.small-button.clicked {
 
 
 
-/* News  */
-.cards-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	/* Adjust as needed */
-}
-
-.card {
-	width: 30%;
-	/* Adjust as needed */
-	margin-bottom: 20px;
-	/* Add margin between cards */
-	position: relative;
-}
-
-.card img {
-	max-width: 100%;
-	height: auto;
-}
-
-.card hr {
-	position: absolute;
-	top: 10px;
-	/* Adjust the top spacing as needed */
-	right: 0;
-	bottom: 0;
-	width: 1px;
-	height: calc(100% - 20px);
-	/* Adjust the height accounting for top and bottom spacing */
-	border: 1px solid #036166df;
-	margin: 0;
-}
-
-.card p {
-	margin-bottom: 10px;
-	/* Adjust the bottom spacing for post content */
-}
-
 
 /* index image hover */
 
@@ -2079,93 +2040,254 @@ a.small-button.clicked {
 
 /* banner slide */
 
-    /* Slideshow container */
-    .slideshow-container {
-        max-width: 100%;
-        position: relative;
-        margin: auto;
-    }
+/* Slideshow container */
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+}
 
-    /* effect */
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
+/* effect */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
 
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-        to {
-            opacity: 1
-        }
-    }
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
 
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-        to {
-            opacity: 1
-        }
-    }
+	to {
+		opacity: 1
+	}
+}
 
-    /* Styling for previous and next buttons */
-    .prev,
-    .next {
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        border-radius: 3px;
-        padding: 16px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-        transition: 0.6s ease;
-    }
+@keyframes fade {
+	from {
+		opacity: .4
+	}
 
-    .prev {
-        left: 0;
-    }
+	to {
+		opacity: 1
+	}
+}
 
-    .next {
-        right: 0;
-        left: auto;
-        /* Ensures that the 'next' button is aligned to the right */
-    }
+/* Styling for previous and next buttons */
+.prev,
+.next {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 3px;
+	padding: 16px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	transition: 0.6s ease;
+}
 
-    /* Center the buttons vertically within the mySlideDiv */
-    .mySlideDiv .prev,
-    .mySlideDiv .next {
-        top: 50%;
-        transform: translateY(-50%);
-    }
+.prev {
+	left: 0;
+}
 
-    /* Ensure buttons cover the entire height of the mySlideDiv */
-    .mySlideDiv .prev,
-    .mySlideDiv .next {
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+.next {
+	right: 0;
+	left: auto;
+	/* Ensures that the 'next' button is aligned to the right */
+}
 
-    /* Set the position of the buttons */
-    .mySlideDiv .prev {
-        left: 30;
-    }
+/* Center the buttons vertically within the mySlideDiv */
+.mySlideDiv .prev,
+.mySlideDiv .next {
+	top: 50%;
+	transform: translateY(-50%);
+}
 
-    .mySlideDiv .next {
-        right: 30;
-        left: auto;
-        /* Ensures that the 'next' button is aligned to the right */
-    }
+/* Ensure buttons cover the entire height of the mySlideDiv */
+.mySlideDiv .prev,
+.mySlideDiv .next {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
+/* Set the position of the buttons */
+.mySlideDiv .prev {
+	left: 30;
+}
+
+.mySlideDiv .next {
+	right: 30;
+	left: auto;
+	/* Ensures that the 'next' button is aligned to the right */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+/* snow effect */
+stomizable snowflake styling */ .snowflake {
+	color: #fff;
+	font-size: 1em;
+	font-family: Arial;
+	text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes snowflakes-fall {
+	0% {
+		top: -10%
+	}
+
+	100% {
+		top: 100%
+	}
+}
+
+@-webkit-keyframes snowflakes-shake {
+	0% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px)
+	}
+
+	50% {
+		-webkit-transform: translateX(80px);
+		transform: translateX(80px)
+	}
+
+	100% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px)
+	}
+}
+
+@keyframes snowflakes-fall {
+	0% {
+		top: -10%
+	}
+
+	100% {
+		top: 100%
+	}
+}
+
+@keyframes snowflakes-shake {
+	0% {
+		transform: translateX(0px)
+	}
+
+	50% {
+		transform: translateX(80px)
+	}
+
+	100% {
+		transform: translateX(0px)
+	}
+}
+
+.snowflake {
+	position: fixed;
+	top: -10%;
+	z-index: 9999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+	-webkit-animation-name: snowflakes-fall, snowflakes-shake;
+	-webkit-animation-duration: 10s, 3s;
+	-webkit-animation-timing-function: linear, ease-in-out;
+	-webkit-animation-iteration-count: infinite, infinite;
+	-webkit-animation-play-state: running, running;
+	animation-name: snowflakes-fall, snowflakes-shake;
+	animation-duration: 10s, 3s;
+	animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	animation-play-state: running, running
+}
+
+.snowflake:nth-of-type(0) {
+	left: 1%;
+	-webkit-animation-delay: 0s, 0s;
+	animation-delay: 0s, 0s
+}
+
+.snowflake:nth-of-type(1) {
+	left: 10%;
+	-webkit-animation-delay: 1s, 1s;
+	animation-delay: 1s, 1s
+}
+
+.snowflake:nth-of-type(2) {
+	left: 20%;
+	-webkit-animation-delay: 6s, .5s;
+	animation-delay: 6s, .5s
+}
+
+.snowflake:nth-of-type(3) {
+	left: 30%;
+	-webkit-animation-delay: 4s, 2s;
+	animation-delay: 4s, 2s
+}
+
+.snowflake:nth-of-type(4) {
+	left: 40%;
+	-webkit-animation-delay: 2s, 2s;
+	animation-delay: 2s, 2s
+}
+
+.snowflake:nth-of-type(5) {
+	left: 50%;
+	-webkit-animation-delay: 8s, 3s;
+	animation-delay: 8s, 3s
+}
+
+.snowflake:nth-of-type(6) {
+	left: 60%;
+	-webkit-animation-delay: 6s, 2s;
+	animation-delay: 6s, 2s
+}
+
+.snowflake:nth-of-type(7) {
+	left: 70%;
+	-webkit-animation-delay: 2.5s, 1s;
+	animation-delay: 2.5s, 1s
+}
+
+.snowflake:nth-of-type(8) {
+	left: 80%;
+	-webkit-animation-delay: 1s, 0s;
+	animation-delay: 1s, 0s
+}
+
+.snowflake:nth-of-type(9) {
+	left: 90%;
+	-webkit-animation-delay: 3s, 1.5s;
+	animation-delay: 3s, 1.5s
+}
+
+/* Demo Purpose Only*/
+.demo {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.demo a {
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+}
