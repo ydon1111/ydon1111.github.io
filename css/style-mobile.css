@@ -280,10 +280,10 @@ section:first-child {
 
 /* counter */
 
-.num-item {
-	text-align: center;
-	padding: 5px;
-	margin-bottom: 12px;
+.nums {
+	font-family: 'TAEBAEKfont';
+	font-size: 35px;
+	color: #343048;
 }
 
 
