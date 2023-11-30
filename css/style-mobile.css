@@ -194,7 +194,7 @@ body.contact #main {
 .cutstom-row {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	
+
 	/* gap: 20px; */
 	/* Adjust the gap as needed */
 }
@@ -260,7 +260,7 @@ body.contact #main {
 }
 
 .row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3)>* {
-    padding-top: 0px;
+	padding-top: 0px;
 }
 
 
@@ -336,6 +336,24 @@ ul.featured-icons li .icon {
 .nav-link {
 	width: 70%;
 
+}
+
+/* CSS for the "Top" button */
+#topButton {
+	display: none;
+	position: fixed;
+	right: 40px;
+	bottom: 60px;
+	background-color: #036166;
+	color: #fff;
+	font-size: 8px;
+	/* Adjust the font size as needed */
+	padding: 8px 16px;
+	/* Adjust the padding as needed */
+	border: none;
+	border-radius: 8px;
+	/* Adjust the border-radius as needed */
+	cursor: pointer;
 }
 
 /* CTA */
