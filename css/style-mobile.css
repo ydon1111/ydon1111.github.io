@@ -167,6 +167,11 @@ body.contact #main {
 
 
 
+
+section:first-child {
+    margin-top: 20px;
+}
+
 /* research */
 
 .text-over-image {
