@@ -1229,7 +1229,7 @@ body.index #main {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index: 1;
+	
 }
 
 #topButton .toggle:after {
@@ -1634,6 +1634,7 @@ a.small-button.clicked {
 	border-radius: 10px;
 	/* Rounded corners */
 	cursor: pointer;
+	z-index: 4;
 }
 
 #topButton:hover {
@@ -1772,6 +1773,8 @@ a.small-button.clicked {
 
 
 /* research 레이아웃 */
+
+
 
 
 .image-and-content {
