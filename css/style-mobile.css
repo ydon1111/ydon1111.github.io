@@ -180,7 +180,6 @@ body.contact #main {
 	font-size: 0.8em;
 	margin-bottom: 0;
 	font-weight: 300;
-
 }
 
 .image-with-text p {
@@ -189,6 +188,62 @@ body.contact #main {
 	margin-top: 0;
 	font-weight: 300;
 }
+
+.cutstom-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	
+	/* gap: 20px; */
+	/* Adjust the gap as needed */
+}
+
+.content-row .row {
+	padding: 0;
+}
+
+.image-container,
+.content-container {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.image-container {
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.nav-link_re span {
+	line-height: 100%;
+}
+
+.lefty {
+	flex: 1;
+	font-size: 0.6em;
+	padding: 0 0 0 0;
+	
+}
+
+.lefty .row {
+	display: flex;
+
+}
+
+.lefty .row>* {
+	/* Adjust line height as needed */
+	line-height: 1.2;
+	padding: 0 0 0 15;
+	/* Add additional styles as needed */
+}
+
 
 
 /* counter */
@@ -258,13 +313,11 @@ ul.featured-icons li .icon {
 	width: 1em;
 }
 
+/* putblication */
 
-/* row */
-
-.nav-link{
+.nav-link {
 	width: 70%;
-	
-	
+
 }
 
 /* CTA */
