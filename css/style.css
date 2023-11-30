@@ -969,6 +969,12 @@ input[type="reset"].small,
 	border-top: 0;
 }
 
+#logo {
+	border-bottom: none;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
 /* Banner */
 @-moz-keyframes reveal-banner {
 	0% {
@@ -1049,7 +1055,7 @@ input[type="reset"].small,
 	color: white;
 	display: inline-block;
 	opacity: 0;
-	padding: 3em;
+	padding: 9em;
 	text-align: center;
 }
 
@@ -1137,7 +1143,7 @@ body.index #main {
 #cta {
 	background-attachment: scroll, scroll, scroll, fixed;
 	background-color: #645862;
-	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner10.jpeg");
+	background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner15.jpeg");
 	background-position: top left, top right, top left, bottom center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
@@ -1535,7 +1541,7 @@ a.small-button.clicked {
 	text-align: center;
 	text-decoration: none;
 	padding: 10px;
-	color: #1c2021;
+	color: #445353;
 	transition: background-color 0.3s, color 0.3s;
 	width: 200px;
 	/* Set a fixed width for all nav-link boxes */
@@ -1543,7 +1549,6 @@ a.small-button.clicked {
 	box-sizing: border-box;
 	/* Use border-box to include padding and border in width calculation */
 	border: 1px solid #d4d4d4;
-	border-radius: 10px;
 }
 
 .nav-link:hover {
@@ -1582,7 +1587,7 @@ a.small-button.clicked {
 	/* 배경색을 원하는 색상으로 설정 */
 	border: 1px solid #ddd;
 	/* 테두리 설정 */
-	border-radius: 30px;
+	border-radius: 20px;
 	/* 둥근 테두리 설정 */
 	height: 100%;
 }
