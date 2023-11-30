@@ -296,7 +296,7 @@ layout: landing-page
 	</article> -->
 
 
-	<article id="main">
+	<!-- <article id="main">
 		<section class="wrapper style1 container">
 			<header class="major">
 				<h2 style="text-align: center;">Latest News</h2>
@@ -326,7 +326,7 @@ layout: landing-page
 			{% endfor %}
 
 		</section>
-	</article>
+	</article> -->
 
 
 	<article id="main">
@@ -362,12 +362,43 @@ layout: landing-page
 				infinite: true,
 				slidesToShow: 3,
 				slidesToScroll: 1,
+				arrows: true, // 옆으로 이동하는 화살표 표시 여부
+				// appendArrows: $('#arrows'), //좌우 화살표 변경
 				autoplay: true,
-				autoplaySpeed: 2000, // Adjust the speed as needed
+				autoplaySpeed: 3500, // Adjust the speed as needed
 			});
 		});
 	</script>
 
+	<style>
+		/* Custom styles for larger arrows */
+		/* You can adjust the size and color as needed */
+
+		/* Right arrow */
+		#arrows .slick-next {
+			font-size: 36px;
+			/* Adjust the font size as needed */
+			color: #036166;
+			/* Arrow color */
+		}
+
+		/* Left arrow */
+		#arrows .slick-prev {
+			font-size: 36px;
+			/* Adjust the font size as needed */
+			color: #036166;
+			/* Arrow color */
+		}
+
+		/* Style the arrows on hover if needed */
+		#arrows .slick-next:hover,
+		#arrows .slick-prev:hover {
+			color: #fff;
+			/* Change color on hover */
+			background: #036166;
+			/* Change background on hover */
+		}
+	</style>
 
 
 
