@@ -31,22 +31,6 @@ layout: landing-page
 	<!-- Two -->
 
 
-	<!-- style="font-size: 28px; font-weight: 900;">D</strong>igital Healthcare & Medicine leverages
-						technology
-						such as the Internet of Things (IoT) and
-						artificial intelligence (AI) to collect, analyze, and manage medical data. </br>
-						&emsp;This
-						<strong style="font-size: 28px; font-weight: 900;">D</strong>ata-driven approach enhances
-						patient care, <strong style="font-size: 28px; font-weight: 900;">D</strong>iagnoses &
-						<strong style="font-size: 28px; font-weight: 900;">D</strong>ecision support and treatment
-						by enabling real-time monitoring,
-						predictive analytics, and personalized medicine. </br>
-						&emsp;It also promotes remote healthcare
-						<strong style="font-size: 28px; font-weight: 900;">D</strong>elivery through
-						telemedicine and mobile health apps, improving accessibility and healthcare efficiency while
-						transforming how healthcare is delivered and experienced. -->
-
-
 	<article id="main" style="padding-bottom: 0;">
 		<section class="wrapper style1 container special-alt">
 			<div class="row half">
@@ -138,47 +122,7 @@ layout: landing-page
 			</div>
 
 
-			<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-			<script>
-				$(document).ready(function () {
-					var animationStarted = false;
 
-					// 스크롤 이벤트 핸들러를 등록
-					$(window).on("scroll", function () {
-						if (!animationStarted) {
-							if (window.scrollY >= 160) {
-								startAnimation();
-							}
-						}
-					});
-
-					function startAnimation() {
-						animationStarted = true;
-
-						// 숫자 카운트 애니메이션
-						$('.nums').each(function () {
-							const $this = $(this),
-								countTo = $this.attr('data-count');
-
-							$({
-								countNum: $this.text()
-							}).animate({
-								countNum: countTo
-							}, {
-								duration: 3000,
-								easing: 'linear',
-								step: function () {
-									$this.text(Math.floor(this.countNum));
-								},
-								complete: function () {
-									$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
-									// 3자리 마다 콤마 표시 적용
-								}
-							});
-						});
-					}
-				});
-			</script>
 		</section>
 	</article>
 
