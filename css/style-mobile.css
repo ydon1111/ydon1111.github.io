@@ -162,6 +162,8 @@ body.contact #main {
 }
 
 
+
+
 /* research */
 
 .image-with-text {
@@ -197,9 +199,6 @@ body.contact #main {
 	/* Adjust the gap as needed */
 }
 
-.content-row .row {
-	padding: 0;
-}
 
 .image-container,
 .content-container {
@@ -228,22 +227,41 @@ body.contact #main {
 .lefty {
 	flex: 1;
 	font-size: 0.6em;
-	padding: 0 0 0 0;
-	
+	padding: 0;
+
 }
 
-.lefty .row {
-	display: flex;
+.content-container .lefty h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: left;
+}
 
+.content-container .lefty p {
+	font-weight: 100;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+
+.lefty .row {
+	font-size: 10px;
+	display: flex;
+	align-items: stretch;
+	/* Equal height for rows */
 }
 
 .lefty .row>* {
 	/* Adjust line height as needed */
-	line-height: 1.2;
-	padding: 0 0 0 15;
+	padding: 0;
+
 	/* Add additional styles as needed */
 }
 
+.row:not(.no-collapse):not(.collapse-at-4):not(.collapse-at-3)>* {
+    padding-top: 0px;
+}
 
 
 /* counter */
