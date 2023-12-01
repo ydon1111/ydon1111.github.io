@@ -271,7 +271,6 @@ layout: landing-page
 			<header class="major">
 				<h2>Latest News</h2>
 			</header>
-
 			<ul class="cards-container">
 				{% for post in site.posts limit: 3 %}
 				<li class="card wrapper style1">
@@ -284,7 +283,6 @@ layout: landing-page
 						<img src="{{ post.featured-img }}" alt="{{ post.title }}" style="width: 80%;">
 					</a>
 					{% endif %}
-
 					<p style="font-size: 14px; margin-bottom: 0; color:#036166df;">
 						{{ post.short-content }}
 					</p>
@@ -292,7 +290,6 @@ layout: landing-page
 				</li>
 				{% endfor %}
 			</ul>
-
 		</section>
 	</article> -->
 
