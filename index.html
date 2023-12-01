@@ -6,6 +6,7 @@ layout: landing-page
 
 <head>
 	<meta charset="UTF-8">
+
 </head>
 
 <body>
@@ -295,8 +296,33 @@ layout: landing-page
 		</section>
 	</article> -->
 
+	<style>
+		@media (max-width: 767px) {
 
-	<!-- <article id="main">
+			/* Show the first article on smaller screens */
+			#main-large {
+				display: none;
+			}
+
+			#main-small {
+				display: block;
+			}
+		}
+
+		@media (min-width: 768px) {
+
+			/* Show the second article on larger screens */
+			#main-large {
+				display: block;
+			}
+
+			#main-small {
+				display: none;
+			}
+		}
+	</style>
+
+	<article id="main-small">
 		<section class="wrapper style1 container">
 			<header class="major">
 				<h2 style="text-align: center;">Latest News</h2>
@@ -305,9 +331,7 @@ layout: landing-page
 			{% for post in site.posts limit: 3 %}
 			<div class="blog-card">
 				<div class="meta">
-
 					<div class="photo" style="background-image: url('{{ post.featured-img }}')"></div>
-
 					<a href="{{ post.url }}">
 						<ul class="details">
 							<li class="date">{{ post.date | date: "%B %d, %Y" }}</li>
@@ -324,13 +348,10 @@ layout: landing-page
 				</div>
 			</div>
 			{% endfor %}
-
 		</section>
-	</article> -->
+	</article>
 
-
-
-	<article id="main">
+	<article id="main-large">
 		<section class="wrapper style1 container">
 			<header class="major">
 				<h2 style="text-align: center;">Latest News</h2>
@@ -353,51 +374,9 @@ layout: landing-page
 		</section>
 	</article>
 
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-	<script>
-		$(document).ready(function () {
-			$('.blog-slider').slick({
-				dots: true,
-				infinite: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				arrows: true, // 옆으로 이동하는 화살표 표시 여부
-				autoplay: true,
-				autoplaySpeed: 3500, // Adjust the speed as needed
-				pauseOnHover: true,
-				responsive: [
-					{
-						breakpoint: 1024,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3,
-							infinite: true,
-							dots: true
-						}
-					},
-					{
-						breakpoint: 600,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 480,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					}
-					// You can unslick at a given breakpoint now by adding:
-					// settings: "unslick"
-					// instead of a settings object
-				]
-			});
-		});
-	</script>
-
 	<style>
 		.slick-slide {
 			margin: 0 30px;
@@ -407,10 +386,6 @@ layout: landing-page
 			margin: 0 -30px;
 		}
 	</style>
-
-
-
-
 
 
 

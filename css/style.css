@@ -2439,6 +2439,18 @@ a.small-button.clicked {
 	left: 0%;
 }
 
+@media (max-width: 640px) {
+	.main-card {
+		display: none;
+		/* Hide the slider on small screens */
+	}
+
+	.main-card {
+		display: block;
+		/* Show individual cards on small screens */
+	}
+}
+
 @media (min-width: 640px) {
 	.main-card {
 		flex-direction: row;
@@ -2478,5 +2490,29 @@ a.small-button.clicked {
 
 	.main-card.alt .details {
 		padding-left: 25px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/* Show the first article on smaller screens */
+	#main-large {
+		display: none;
+	}
+
+	#main-small {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+
+	/* Show the second article on larger screens */
+	#main-large {
+		display: block;
+	}
+
+	#main-small {
+		display: none;
 	}
 }
