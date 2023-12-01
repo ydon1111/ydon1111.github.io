@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
     if ($(window).width() > 480) {
         // Initialize Slick slider only if the window width is greater than 480px
@@ -10,11 +8,10 @@ $(document).ready(function () {
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: true, // Show arrows for navigation
-            prevArrow: "<button type='button' class='slick-prev'>Previous</button>",
-            nextArrow: "<button type='button' class='slick-next'>Next</button>",
             autoplay: true,
             autoplaySpeed: 3500, // Adjust the speed as needed
             pauseOnHover: true,
+            lazyLoad: true,
             responsive: [
                 {
                     breakpoint: 1024,

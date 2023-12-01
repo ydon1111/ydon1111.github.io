@@ -2516,3 +2516,14 @@ a.small-button.clicked {
 		display: none;
 	}
 }
+
+
+
+/* slick custom */
+.slick-slide {
+	margin: 0 30px;
+}
+
+.slick-list {
+	margin: 0 -30px;
+}
