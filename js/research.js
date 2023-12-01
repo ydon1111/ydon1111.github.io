@@ -5,7 +5,6 @@ $(document).ready(function () {
         var section = linkText.substring(0, linkText.indexOf(' '));
         var type = linkText.substring(linkText.indexOf(' ') + 1).toLowerCase();
 
-
         e.preventDefault();
         toggleParagraph(section, type);
     });

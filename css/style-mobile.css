@@ -258,6 +258,12 @@ section:first-child {
 	text-align: left;
 }
 
+.research-block {
+		display: block;
+}
+
+
+
 
 .lefty .row {
 	font-size: 10px;
@@ -380,6 +386,3 @@ ul.featured-icons li .icon {
 	padding: 0;
 	border: 0;
 }
-
-
-
