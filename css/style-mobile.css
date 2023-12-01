@@ -241,7 +241,7 @@ section:first-child {
 .lefty {
 	flex: 1;
 	font-size: 0.6em;
-	padding: 0;
+	padding: 14px;
 
 }
 
