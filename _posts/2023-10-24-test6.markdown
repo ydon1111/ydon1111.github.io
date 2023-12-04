@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "뉴스 제목입니다" 
-date:   1999-04-16 16:46:23
+date:   2023-10-24 16:46:23
 featured-img: "/images/logo/new_logo.jpg"
 short-content: "간단하게 표시할 내용입니다. " 
 ---
