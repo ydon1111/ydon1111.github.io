@@ -241,6 +241,10 @@ header.special .icon:before {
 	opacity: 0.35;
 }
 
+#re_header{
+	margin-bottom: 0px;
+}
+
 footer> :last-child {
 	margin-bottom: 0;
 }
