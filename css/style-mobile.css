@@ -26,6 +26,8 @@ p {
 
 /* Section/Article */
 
+
+
 header {
 	text-align: center;
 }
@@ -52,6 +54,10 @@ header.special .icon {
 
 header p {
 	text-align: center;
+}
+
+#header {
+    display: none;
 }
 
 footer.major {
@@ -208,7 +214,6 @@ section:first-child {
 .cutstom-row {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-
 	/* gap: 20px; */
 	/* Adjust the gap as needed */
 }
@@ -259,7 +264,7 @@ section:first-child {
 }
 
 .research-block {
-		display: block;
+	display: block;
 }
 
 
@@ -326,7 +331,7 @@ ul.featured-icons li .icon {
 }
 
 /* CSS for the "Top" button */
-#topButton {
+#upButton {
 	font-size: 8px;
 	/* Adjust the font size as needed */
 	padding: 8px 16px;
@@ -366,6 +371,7 @@ ul.featured-icons li .icon {
 	width: 17px;
 	height: 17px;
 }
+
 
 
 /* CTA */

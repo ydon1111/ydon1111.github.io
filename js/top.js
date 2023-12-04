@@ -8,7 +8,7 @@ function scrollToTop() {
 
 // Show/hide the "Top" button based on the user's scroll position
 window.onscroll = function() {
-    const topButton = document.getElementById("topButton");
+    const topButton = document.getElementById("upButton");
     
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         topButton.style.display = "block";

@@ -1194,6 +1194,8 @@ body.index #main {
 
 /* Layer */
 
+
+
 #topButton .toggle {
 	height: 100%;
 	left: 0;
@@ -1201,6 +1203,7 @@ body.index #main {
 	text-align: center;
 	top: 0;
 	width: 100%;
+	background-color: gray;
 }
 
 #topButton .toggle:before {
@@ -1237,7 +1240,6 @@ body.index #main {
 	top: 0;
 	width: 80px;
 }
-
 
 
 
@@ -1606,7 +1608,7 @@ a.small-button.clicked {
 
 
 /* CSS for the "Top" button */
-#topButton {
+#upButton {
 	display: none;
 	position: fixed;
 	right: 40px;
@@ -1619,7 +1621,6 @@ a.small-button.clicked {
 	/* Button text color */
 	font-size: 16px;
 
-
 	/* Button font size */
 	padding: 10px 20px;
 	/* Button padding */
@@ -1630,11 +1631,57 @@ a.small-button.clicked {
 	z-index: 4;
 }
 
-#topButton:hover {
+#upButton:hover {
 	background-color: #034b5e;
 
 	/* Button background color on hover */
 }
+
+
+#upButton .toggle {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+#upButton .toggle:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+#upButton .toggle:before {
+	color: white;
+	content: '\f039';
+	font-size: 0.75em;
+	height: 30px;
+	left: 0;
+	line-height: 30px;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+
+}
+
+#upButton .toggle:after {
+	background: rgba(163, 169, 170, 0.75);
+	border-radius: 0 0 4px 4px;
+	content: '';
+	height: 30px;
+	left: 50%;
+	margin-left: -40px;
+	position: absolute;
+	top: 0;
+	width: 80px;
+}
+
 
 
 
