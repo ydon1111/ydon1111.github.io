@@ -2,19 +2,23 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/css/github-markdonw.css"/>
+<link rel="stylesheet" href="/css/github-markdonw.css" />
 
-<article id="main" class="markdown-body">
+<article id="main">
   <header class="special container">
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if
       page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-  <section class="style4 wrapper container">
-    {{ content }}
-  </section>
 
+  <span class="markdown-body">
+
+    <section class="style4 wrapper container">
+      {{ content }}
+    </section>
+
+  </span>
   <footer>
     {% if page.previous %}
     <a href="{{ page.previous.url }}" class="post-prev"><span style="color: black;">&larr; Previous post</span></a> {%
