@@ -1,6 +1,10 @@
 function journalALL() {
   resetButtons()
-  const papers = `Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
+  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
+  Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
+  Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
+  Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
   Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
   Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
   Hangsik Shin, “XGBoost Regression of the Most Significant Photoplethysmogram Features for Assessing Vascular Aging,” IEEE Journal of Biomedical and Health Informatics, 26(7), 3354-3361, 2022
@@ -103,7 +107,11 @@ function journalALL() {
 
 
 function ALLOpenPaper(paperIndex) {
-  const paperLinks = `https://www.nature.com/articles/s41746-023-00777-z
+  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  https://ieeexplore.ieee.org/document/10049215
+  https://iopscience.iop.org/article/10.1088/1361-6579/acead2
+  https://pubmed.ncbi.nlm.nih.gov/36994761/
+  https://www.nature.com/articles/s41746-023-00777-z
   https://pubmed.ncbi.nlm.nih.gov/36073769/
   https://www.nature.com/articles/s41598-022-15240-4
   https://ieeexplore.ieee.org/document/9713685
@@ -195,7 +203,11 @@ function ALLOpenPaper(paperIndex) {
 
 function journalSCI() {
   resetButtons()
-  const papers = `Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
+  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
+  Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
+  Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
+  Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
   Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
   Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
   Hangsik Shin, “XGBoost Regression of the Most Significant Photoplethysmogram Features for Assessing Vascular Aging,” IEEE Journal of Biomedical and Health Informatics, 26(7), 3354-3361, 2022
@@ -268,7 +280,11 @@ function journalSCI() {
 }
 
 function SCIOpenPaper(paperIndex) {
-  const paperLinks = `https://www.nature.com/articles/s41746-023-00777-z
+  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  https://ieeexplore.ieee.org/document/10049215
+  https://iopscience.iop.org/article/10.1088/1361-6579/acead2
+  https://pubmed.ncbi.nlm.nih.gov/36994761/
+  https://www.nature.com/articles/s41746-023-00777-z
   https://pubmed.ncbi.nlm.nih.gov/36073769/
   https://www.nature.com/articles/s41598-022-15240-4
   https://ieeexplore.ieee.org/document/9713685
@@ -677,7 +693,7 @@ function confernceInter() {
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 
-  
+
 }
 
 
