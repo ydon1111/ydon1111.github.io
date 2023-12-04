@@ -1122,6 +1122,12 @@ input[type="reset"].small,
 	padding: 2em 0;
 }
 
+#main.no-styles {
+	all: initial;  /* Reset all styles to their initial values */
+  }
+
+
+
 #main header h2 {
 	font-size: 2em;
 	/* Adjust the font size as needed */
