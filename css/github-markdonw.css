@@ -143,6 +143,7 @@
   }
   
   .markdown-body a {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     background-color: transparent;
     color: var(--color-accent-fg);
     text-decoration: none;
@@ -160,6 +161,7 @@
   
   .markdown-body b,
   .markdown-body strong {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-weight: 600;
   }
   
