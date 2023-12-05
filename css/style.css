@@ -241,7 +241,7 @@ header.special .icon:before {
 	opacity: 0.35;
 }
 
-#re_header{
+#re_header {
 	margin-bottom: 0px;
 }
 
@@ -1123,8 +1123,9 @@ input[type="reset"].small,
 }
 
 #main.no-styles {
-	all: initial;  /* Reset all styles to their initial values */
-  }
+	all: initial;
+	/* Reset all styles to their initial values */
+}
 
 
 
@@ -2584,3 +2585,5 @@ a.small-button.clicked {
 .slick-list {
 	margin: 0 -30px;
 }
+
+
