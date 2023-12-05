@@ -166,3 +166,4 @@ _italic 기울여쓰기_
 ~~cancelline 취소선~~  
 <u>underline - 밑줄</u>  
 
+*italic 기울여쓰기*  

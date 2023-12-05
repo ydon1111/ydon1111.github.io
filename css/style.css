@@ -678,6 +678,7 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
+	margin-bottom: 0;
 }
 
 .wrapper.style2 p {
@@ -1124,9 +1125,8 @@ input[type="reset"].small,
 }
 
 #main.no-styles {
-	all: initial;
-	/* Reset all styles to their initial values */
-}
+	all: initial;  /* Reset all styles to their initial values */
+  }
 
 
 
@@ -2590,5 +2590,3 @@ a.small-button.clicked {
 .post-meta{
 	text-align: right;
 }
-
-
