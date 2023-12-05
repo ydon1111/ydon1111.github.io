@@ -186,6 +186,7 @@ article.special {
 }
 
 header.major {
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
@@ -242,7 +243,7 @@ header.special .icon:before {
 }
 
 #re_header{
-	margin-bottom: 0px;
+	margin-bottom: 50px;
 }
 
 footer> :last-child {
@@ -677,6 +678,7 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
+	margin-bottom: 0;
 }
 
 .wrapper.style2 p {
@@ -2583,4 +2585,8 @@ a.small-button.clicked {
 
 .slick-list {
 	margin: 0 -30px;
+}
+
+.post-meta {
+	text-align: right;
 }
