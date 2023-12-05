@@ -186,6 +186,7 @@ article.special {
 }
 
 header.major {
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
@@ -241,8 +242,8 @@ header.special .icon:before {
 	opacity: 0.35;
 }
 
-#re_header {
-	margin-bottom: 0px;
+#re_header{
+	margin-bottom: 50px;
 }
 
 footer> :last-child {
@@ -677,6 +678,7 @@ input[type="reset"].small,
 	background-position: bottom left, bottom right;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 25em, 25em;
+	margin-bottom: 0;
 }
 
 .wrapper.style2 p {
@@ -1123,9 +1125,8 @@ input[type="reset"].small,
 }
 
 #main.no-styles {
-	all: initial;
-	/* Reset all styles to their initial values */
-}
+	all: initial;  /* Reset all styles to their initial values */
+  }
 
 
 
@@ -2586,4 +2587,6 @@ a.small-button.clicked {
 	margin: 0 -30px;
 }
 
-
+.post-meta {
+	text-align: right;
+}
