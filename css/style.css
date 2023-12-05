@@ -665,11 +665,16 @@ input[type="reset"].small,
 	border-radius: 10px;
 }
 
-/*
-.wrapper.style1 a.mail {
-	color: #F57C13;
+a.mail {
+	color: #272727;
 }
-*/
+
+a.mail:hover {
+	color: #F57C13;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
+	border: none;
+}
 
 .wrapper.style2 {
 	padding: 0 0 0 0;
