@@ -6,8 +6,6 @@ featured-img: "/images/logo/new_logo.jpg"
 short-content: "간단하게 표시할 내용입니다. " 
 ---
 
-## 뉴스 템플릿
-
 <br> 
 
 <span class="image featured"><img src="/images/logo/new_logo.jpg" alt=""></span>
