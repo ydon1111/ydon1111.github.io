@@ -1510,38 +1510,7 @@ a.small-button.clicked {
 	text-align: justify;
 }
 
-.paper {
-	padding-right: 2em;
-	padding-bottom: 2em;
-}
 
-.patent {
-	padding-right: 2em;
-	padding-bottom: 2em;
-}
-
-.paper .research-block {
-	font-size: 1.3em;
-}
-
-.patent .research-block {
-	font-size: 1.3em;
-}
-
-.paper a.paperclick {
-	color: #515455;
-	text-decoration: none;
-	border: none;
-	text-align: justify;
-}
-
-.paper a.paperclick:hover {
-	color: #F57C13;
-	/* text-decoration: underline; */
-	/* text-decoration-style: dotted; */
-	border: none;
-	text-align: justify;
-}
 
 
 
@@ -1878,25 +1847,6 @@ a.small-button.clicked {
 	flex: 1;
 }
 
-.righty {
-	padding-top: 5em;
-	padding-left: 2em;
-	flex: 1;
-}
-
-.content-container .righty h3 {
-	font-size: 1.3em;
-	line-height: 30px;
-	text-align: left;
-}
-
-.content-container .righty p {
-	font-family: 'NanumSquareNeo-Variable';
-	font-weight: 100;
-	font-size: 0.8em;
-	line-height: 40px;
-	text-align: left;
-}
 
 .content-container .lefty h3 {
 	font-size: 1.3em;
@@ -1909,6 +1859,47 @@ a.small-button.clicked {
 	font-weight: 100;
 	font-size: 0.8em;
 	text-align: left;
+
+}
+
+.paper {
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.patent {
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.research-block {
+	font-size: 1.3em;
+	text-indent: 1.3em;
+	margin-left: -1em;
+
+}
+
+.paper .research-block {
+	font-size: 1.3em;
+}
+
+.patent .research-block {
+	font-size: 1.3em;
+}
+
+.paper a.paperclick {
+	color: #515455;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
+}
+
+.paper a.paperclick:hover {
+	color: #F57C13;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
+	border: none;
+	text-align: justify;
 }
 
 .content-container .paper,
@@ -1917,14 +1908,17 @@ a.small-button.clicked {
 	font-size: 0.8em;
 	width: 100%;
 	line-height: 1.4em;
+
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+
 }
 
 
 .content-container .paper p,
-.content-container .patent p{
+.content-container .patent p {
 	text-align: justify;
+
 }
 
 /* research 상단 이미지에 텍스트 */
@@ -1932,6 +1926,7 @@ a.small-button.clicked {
 	position: relative;
 	/* 부모 요소를 상대 위치로 설정 */
 }
+
 .image-with-text img {
 	width: 100%;
 	/* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
