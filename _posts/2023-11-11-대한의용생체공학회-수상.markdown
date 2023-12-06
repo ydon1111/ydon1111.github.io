@@ -8,7 +8,7 @@ short-content: "대한의용생체공학회 2023년 추계학술대회 우수 �
 
 <br> 
 
-<span class="image featured"><img src="/images/posts/2311/대한의용생체공학회우수포스터.jpg" alt="" style="width: 300px; height: auto;"></span>
+<span class="image featured"><img src="/images/posts/2311/대한의용생체공학회_우수논문상수상.jpeg" alt="" style="width:50%; height: auto;"></span>
 
 박지현 연구원 대한의용생체공학회 2023년 추계학술대회 우수 포스터 논문상 수상 
 
