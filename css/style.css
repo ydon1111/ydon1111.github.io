@@ -1534,6 +1534,8 @@ a.small-button.clicked {
 	list-style-type: none;
 	padding: 0;
 	margin: 10px 0;
+	text-indent: -0.4em;
+
 }
 
 
@@ -1876,13 +1878,15 @@ a.small-button.clicked {
 	margin-left: 1.5em;
 }
 
-.paper, .patent {
+.paper,
+.patent {
 	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
 
-.paper p, .patent p {
+.paper p,
+.patent p {
 	text-align: start;
 }
 
@@ -1892,7 +1896,8 @@ a.small-button.clicked {
 	margin-left: -1em;
 }
 
-.paper .research-block ,.patent .research-block {
+.paper .research-block,
+.patent .research-block {
 	font-size: 1.2em;
 }
 
