@@ -888,6 +888,8 @@ a.mail:hover {
 	font-family: FontAwesome;
 	content: '\f107';
 	margin-right: 0.65em;
+	
+
 	color: #F57C13;
 	/* 화살표에 색 추가해봄 */
 	position: relative;
@@ -903,6 +905,7 @@ a.mail:hover {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	background: rgba(201, 188, 206, 0.15);
+	
 }
 
 #header nav .cc-active {
@@ -917,6 +920,11 @@ a.mail:hover {
 	display: none;
 	/* Hide it by default */
 }
+
+#submenu-ul{
+	font-size: 1em;
+}
+
 
 
 
