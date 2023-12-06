@@ -1520,20 +1520,13 @@ a.small-button.clicked {
 	padding-bottom: 2em;
 }
 
-.paper a {
-	text-align: justify;
-}
-
 .paper .research-block {
 	font-size: 1.3em;
-
 }
-
 
 .patent .research-block {
 	font-size: 1.3em;
 }
-
 
 .paper a.paperclick {
 	color: #515455;
@@ -1551,7 +1544,6 @@ a.small-button.clicked {
 }
 
 
-/* members 앞에 동그라미 추가 구분자 추가  */
 
 
 /* "papers-list" ID에만 스타일 적용 */
@@ -1916,7 +1908,6 @@ a.small-button.clicked {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
 	font-size: 0.8em;
-	/* line-height: 40px; */
 	text-align: left;
 }
 
@@ -1925,12 +1916,16 @@ a.small-button.clicked {
 	display: none;
 	font-size: 0.8em;
 	width: 100%;
-	line-height: 1em;
-	text-align: justify;
+	line-height: 1.4em;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 }
 
+
+.content-container .paper p,
+.content-container .patent p{
+	text-align: justify;
+}
 
 /* research 상단 이미지에 텍스트 */
 .image-with-text {
