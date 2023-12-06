@@ -1859,6 +1859,7 @@ a.small-button.clicked {
 	font-weight: 100;
 	font-size: 0.8em;
 	text-align: left;
+	margin-left: 1.5em;
 
 }
 
@@ -1874,15 +1875,13 @@ a.small-button.clicked {
 
 .research-block {
 	font-size: 1.3em;
-	
-	/* text-indent: 1.3em;
-	margin-left: -1em; */
+	text-indent: 1.3em;
+	margin-left: -1em;
 
 }
 
 .paper .research-block {
 	font-size: 1.3em;
-	text-indent: 500px;
 }
 
 .patent .research-block {
