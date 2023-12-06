@@ -1130,8 +1130,9 @@ a.mail:hover {
 }
 
 #main.no-styles {
-	all: initial;  /* Reset all styles to their initial values */
-  }
+	all: initial;
+	/* Reset all styles to their initial values */
+}
 
 
 
@@ -1506,15 +1507,24 @@ a.small-button.clicked {
 	padding-bottom: 2em;
 }
 
+
 .patent {
 	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
+.paper .research-block {
+	font-size: 1.3em;
+}
+
+.patent .research-block {
+	font-size: 1.3em;
+
+}
+
 
 .paper a.paperclick {
 	color: #515455;
-	font-size: 0.9em;
 	text-decoration: none;
 	border: none;
 	text-align: justify;
@@ -1522,7 +1532,6 @@ a.small-button.clicked {
 
 .paper a.paperclick:hover {
 	color: #F57C13;
-	font-size: 0.9em;
 	/* text-decoration: underline; */
 	/* text-decoration-style: dotted; */
 	border: none;
@@ -2592,6 +2601,6 @@ a.small-button.clicked {
 	margin: 0 -30px;
 }
 
-.post-meta{
+.post-meta {
 	text-align: right;
 }
