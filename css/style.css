@@ -1874,13 +1874,15 @@ a.small-button.clicked {
 
 .research-block {
 	font-size: 1.3em;
-	text-indent: 1.3em;
-	margin-left: -1em;
+	
+	/* text-indent: 1.3em;
+	margin-left: -1em; */
 
 }
 
 .paper .research-block {
 	font-size: 1.3em;
+	text-indent: 500px;
 }
 
 .patent .research-block {
