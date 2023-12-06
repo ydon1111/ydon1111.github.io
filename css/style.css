@@ -888,7 +888,7 @@ a.mail:hover {
 	font-family: FontAwesome;
 	content: '\f107';
 	margin-right: 0.65em;
-	
+
 
 	color: #F57C13;
 	/* 화살표에 색 추가해봄 */
@@ -905,7 +905,7 @@ a.mail:hover {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	background: rgba(201, 188, 206, 0.15);
-	
+
 }
 
 #header nav .cc-active {
@@ -921,7 +921,7 @@ a.mail:hover {
 	/* Hide it by default */
 }
 
-#submenu-ul{
+#submenu-ul {
 	font-size: 1em;
 }
 
@@ -1510,17 +1510,6 @@ a.small-button.clicked {
 	text-align: justify;
 }
 
-.paper {
-	padding-right: 2em;
-	padding-bottom: 2em;
-}
-
-
-.patent {
-	padding-right: 2em;
-	padding-bottom: 2em;
-}
-
 .paper a.paperclick {
 	color: #515455;
 	text-decoration: none;
@@ -1606,8 +1595,6 @@ a.small-button.clicked {
 }
 
 
-
-
 .nav-link {
 	display: flex;
 	flex-direction: column;
@@ -1628,7 +1615,6 @@ a.small-button.clicked {
 	height: 50px;
 	/* 이미지 아래 여백 추가 */
 }
-
 
 
 /* CSS for the "Top" button */
@@ -1705,10 +1691,6 @@ a.small-button.clicked {
 	top: 0;
 	width: 80px;
 }
-
-
-
-
 
 
 /* index 아래 지도 부분 */
@@ -1838,16 +1820,12 @@ a.small-button.clicked {
 
 /* research 레이아웃 */
 
-
-
-
 .image-and-content {
 	display: flex;
 	/* 이미지와 콘텐츠를 가로로 나란히 배치 */
 	justify-content: space-between;
 	/* align-items: center; */
 	/* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
-
 }
 
 .cutstom-row {
@@ -1883,24 +1861,6 @@ a.small-button.clicked {
 	flex: 1;
 }
 
-.righty {
-	padding-top: 5em;
-	padding-left: 2em;
-	flex: 1;
-}
-
-.content-container .righty h3 {
-	font-size: 1.3em;
-	line-height: 30px;
-	text-align: left;
-}
-
-.content-container .righty p {
-	font-family: 'NanumSquareNeo-Variable';
-	font-weight: 100;
-	font-size: 1em;
-	text-align: left;
-}
 
 .content-container .lefty h3 {
 	font-size: 1.3em;
@@ -1911,15 +1871,58 @@ a.small-button.clicked {
 .content-container .lefty p {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 0.8em;
 	text-align: left;
+	margin-left: 1.5em;
+
 }
 
+.paper {
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.patent {
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.research-block {
+	font-size: 1.3em;
+	text-indent: 1.3em;
+	margin-left: -1em;
+
+}
+
+.paper .research-block {
+	font-size: 1.3em;
+}
+
+.patent .research-block {
+	font-size: 1.3em;
+}
+
+.paper a.paperclick {
+	color: #515455;
+	text-decoration: none;
+	border: none;
+	text-align: justify;
+}
+
+.paper a.paperclick:hover {
+	color: #F57C13;
+	/* text-decoration: underline; */
+	/* text-decoration-style: dotted; */
+	border: none;
+	text-align: justify;
+}
 
 .content-container .paper,
 .content-container .patent {
 	display: none;
 	width: 100%;
+	line-height: 1.4em;
+
 	/* Adjust the width as needed */
 	box-sizing: border-box;
 	font-size: 1em;
@@ -1928,10 +1931,7 @@ a.small-button.clicked {
 }
 
 
-
-
 /* research 상단 이미지에 텍스트 */
-
 .image-with-text {
 	position: relative;
 	/* 부모 요소를 상대 위치로 설정 */
