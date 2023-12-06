@@ -1859,6 +1859,7 @@ a.small-button.clicked {
 	padding-top: 5em;
 	padding-left: 2em;
 	flex: 1;
+	text-align: left;
 }
 
 
@@ -1872,36 +1873,29 @@ a.small-button.clicked {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
 	font-size: 0.8em;
-	text-align: left;
 	margin-left: 1.5em;
-
 }
 
-.paper {
+.paper, .patent {
 	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
-.patent {
-	padding-right: 2em;
-	padding-bottom: 2em;
+
+.paper p, .patent p {
+	text-align: start;
 }
 
 .research-block {
 	font-size: 1.3em;
 	text-indent: 1.3em;
 	margin-left: -1em;
-
 }
 
-.paper .research-block {
-	font-size: 1.3em;
-	
+.paper .research-block ,.patent .research-block {
+	font-size: 1.2em;
 }
 
-.patent .research-block {
-	font-size: 1.3em;
-}
 
 .paper a.paperclick {
 	color: #515455;
