@@ -1896,6 +1896,7 @@ a.small-button.clicked {
 
 .paper .research-block {
 	font-size: 1.3em;
+	
 }
 
 .patent .research-block {
@@ -1906,7 +1907,7 @@ a.small-button.clicked {
 	color: #515455;
 	text-decoration: none;
 	border: none;
-	text-align: justify;
+
 }
 
 .paper a.paperclick:hover {
@@ -1914,7 +1915,7 @@ a.small-button.clicked {
 	/* text-decoration: underline; */
 	/* text-decoration-style: dotted; */
 	border: none;
-	text-align: justify;
+
 }
 
 .content-container .paper,
