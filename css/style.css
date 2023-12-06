@@ -1521,16 +1521,6 @@ a.small-button.clicked {
 	padding-bottom: 2em;
 }
 
-.paper .research-block {
-	font-size: 1.3em;
-}
-
-.patent .research-block {
-	font-size: 1.3em;
-
-}
-
-
 .paper a.paperclick {
 	color: #515455;
 	text-decoration: none;
@@ -1908,8 +1898,7 @@ a.small-button.clicked {
 .content-container .righty p {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
-	font-size: 0.8em;
-	line-height: 40px;
+	font-size: 1em;
 	text-align: left;
 }
 
@@ -1922,8 +1911,7 @@ a.small-button.clicked {
 .content-container .lefty p {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
-	font-size: 0.8em;
-	line-height: 40px;
+	font-size: 1em;
 	text-align: left;
 }
 
@@ -1931,13 +1919,15 @@ a.small-button.clicked {
 .content-container .paper,
 .content-container .patent {
 	display: none;
-	font-size: 0.8em;
-	line-height: 30px;
-
 	width: 100%;
 	/* Adjust the width as needed */
 	box-sizing: border-box;
+	font-size: 1em;
+	line-height: 30px;
+	text-align: justify;
 }
+
+
 
 
 /* research 상단 이미지에 텍스트 */
