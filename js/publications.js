@@ -74,6 +74,8 @@ function journalALL() {
   Do Yoon Kim and Hangsik Shin, “Movement Characteristic Analysis for Unconstrained Sleep Efficiency Analysis Based on the Smartphone,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 63(7), 940-944, 2014 
   Hangsik Shin and Chungkeun Lee, “Pulse Rate Variability as a Surrogate Method for Autonomic Nervous System Assessment Comparing with Heart Rate Variability,” Advanced Science Letters, 18(1), 92-98, 2012 
   Hangsik Shin and Chungkeun Lee, “Transfer Function Estimates in Derived Respiration Analysis: Retrograde Study of the Respiratory Drive Mechanism,” Advanced Science Letters, 6(1), 80-87, 2012 
+  Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
+  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
   Chungkeun Lee, Hang Sik Shin, In-deok Kong and Myoungho Lee, “Analysis of Arterial Stiffness Variation by Photoplethysmographic DC Component,” Journal of Biomedical Engineering Research, 32(2), 109-117, 2011 
   Se-Dong Min, Young-Hyun Yun, Chung-Keun Lee, Hang-Sik Shin, Ha-Kyung Cho, Seon-Cheol Hwang and MyoungHo Lee, “Respiration Measurement System using Textile Capacitive Pressure Sensor,” The Transactions of the Korean Institute of Electrical Engineers, 59(1), 58-63, 2010 
   Hangsik Shin, Sung Won Yoon, Jae Young Kim and Myoungho Lee, “Down-Scaled 3D Object for Telediagnostic Imaging Support System,” Journal of Biomedical Engineering Research, 26(4), 185-191, 2005 
@@ -430,7 +432,9 @@ function SCOPUSOpenPaper(paperIndex) {
 
 function journalKCI() {
   resetButtons()
-  const papers = `Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
+  const papers = `Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
+  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
+  Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
   Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `;
