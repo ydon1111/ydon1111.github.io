@@ -675,7 +675,7 @@ input[type="reset"].small,
 	border-radius: 10px;
 }
 
-.wrapper.style1 h4{
+.wrapper.style1 h4 {
 	text-align: center;
 }
 
@@ -1648,7 +1648,7 @@ a.small-button.clicked {
 	font-size: 16px;
 
 	/* Button font size */
-	padding: 10px 20px; 
+	padding: 10px 20px;
 	/* Button padding */
 	border: none;
 	border-radius: 10px;
@@ -2621,6 +2621,7 @@ a.small-button.clicked {
 .post-meta {
 	text-align: right;
 }
+
 .slick-track {
 	margin-bottom: 3em;
 
@@ -2634,4 +2635,12 @@ a.small-button.clicked {
 .slick-next.slick-arrow {
 	z-index: 999;
 	top: 45%;
+}
+
+
+#InsideTheLab-p {
+	margin-bottom: 8px;
+	margin-right: 60px;
+	text-align: justify;
+
 }

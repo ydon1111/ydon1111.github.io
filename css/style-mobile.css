@@ -57,11 +57,19 @@ header p {
 }
 
 #header {
-    display: none;
+	display: none;
 }
 
 footer.major {
 	padding-top: 0;
+}
+
+
+
+#InsideTheLab-p {
+	margin-bottom: 8px;
+	margin-right: 0;
+	text-align: justify;
 }
 
 /* Icon */
