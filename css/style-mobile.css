@@ -273,10 +273,16 @@ section:first-child {
 	text-align: left;
 }
 
+/* .research-block {
+	display: block;
+} */
+
 .research-block {
 	display: block;
+    font-size: 1.3em;
+    text-indent: -1.1em;
+    margin-left: 1.3em;
 }
-
 
 
 
