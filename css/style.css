@@ -1574,9 +1574,13 @@ a.small-button.clicked {
 
 .nav-link {
 	display: block;
+	display: flex;
 	text-align: center;
 	text-decoration: none;
+	flex-direction: column;
 	padding: 10px;
+	border-radius: 12px;
+	align-items: center;
 	color: #445353;
 	transition: background-color 0.3s, color 0.3s;
 	width: 200px;
@@ -1585,6 +1589,16 @@ a.small-button.clicked {
 	box-sizing: border-box;
 	/* Use border-box to include padding and border in width calculation */
 	border: 1px solid #d4d4d4;
+	padding: 20px;
+	height: 100%;
+}
+
+.nav-link {
+
+
+
+
+
 }
 
 .nav-link:hover {
@@ -1611,20 +1625,7 @@ a.small-button.clicked {
 }
 
 
-.nav-link {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-	text-align: center;
-	padding: 20px;
-	/* 배경색을 원하는 색상으로 설정 */
-	border: 1px solid #ddd;
-	/* 테두리 설정 */
-	border-radius: 12px;
-	/* 둥근 테두리 설정 */
-	height: 100%;
-}
+
 
 .nav-link img {
 	width: 50px;
@@ -2645,8 +2646,8 @@ a.small-button.clicked {
 }
 
 
-.contact-map{
-	border:0;
-	width:80%;
+.contact-map {
+	border: 0;
+	width: 80%;
 	height: 350px;
 }
