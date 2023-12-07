@@ -186,8 +186,18 @@ article.special {
 }
 
 header.major {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+header.major h2 {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+header.major h4 {
+	margin-bottom: 0px;
+	text-align: center;
 }
 
 header.special {
@@ -663,6 +673,10 @@ input[type="reset"].small,
 	padding: 1em 1em 1em 1em;
 	border: 1.5px solid #d4d4d4;
 	border-radius: 10px;
+}
+
+.wrapper.style1 h4{
+	text-align: center;
 }
 
 a.mail {
@@ -2601,4 +2615,18 @@ a.small-button.clicked {
 
 .post-meta {
 	text-align: right;
+}
+.slick-track {
+	margin-bottom: 3em;
+
+}
+
+.slick-prev.slick-arrow {
+	z-index: 999;
+	top: 45%;
+}
+
+.slick-next.slick-arrow {
+	z-index: 999;
+	top: 45%;
 }
