@@ -1534,6 +1534,8 @@ a.small-button.clicked {
 	list-style-type: none;
 	padding: 0;
 	margin: 10px 0;
+	text-indent: -0.4em;
+
 }
 
 
@@ -1605,7 +1607,7 @@ a.small-button.clicked {
 	/* 배경색을 원하는 색상으로 설정 */
 	border: 1px solid #ddd;
 	/* 테두리 설정 */
-	border-radius: 20px;
+	border-radius: 12px;
 	/* 둥근 테두리 설정 */
 	height: 100%;
 }
@@ -1859,6 +1861,7 @@ a.small-button.clicked {
 	padding-top: 5em;
 	padding-left: 2em;
 	flex: 1;
+	text-align: left;
 }
 
 
@@ -1872,19 +1875,19 @@ a.small-button.clicked {
 	font-family: 'NanumSquareNeo-Variable';
 	font-weight: 100;
 	font-size: 0.8em;
-	text-align: left;
 	margin-left: 1.5em;
-
 }
 
-.paper {
-	padding-right: 2em;
-	padding-bottom: 2em;
-}
-
+.paper,
 .patent {
 	padding-right: 2em;
 	padding-bottom: 2em;
+}
+
+
+.paper p,
+.patent p {
+	text-align: start;
 }
 
 .research-block {
@@ -1898,15 +1901,17 @@ a.small-button.clicked {
 	font-size: 1.1em;
 }
 
+.paper .research-block,
 .patent .research-block {
 	font-size: 1.1em;
 }
+
 
 .paper a.paperclick {
 	color: #515455;
 	text-decoration: none;
 	border: none;
-	text-align: justify;
+
 }
 
 .paper a.paperclick:hover {
@@ -1914,7 +1919,7 @@ a.small-button.clicked {
 	/* text-decoration: underline; */
 	/* text-decoration-style: dotted; */
 	border: none;
-	text-align: justify;
+
 }
 
 .content-container .paper,
