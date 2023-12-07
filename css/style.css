@@ -2643,3 +2643,10 @@ a.small-button.clicked {
 	margin-right: 60px;
 	text-align: justify;
 }
+
+
+.contact-map{
+	border:0;
+	width:80%;
+	height: 350px;
+}
