@@ -74,12 +74,12 @@ function journalALL() {
   Do Yoon Kim and Hangsik Shin, “Movement Characteristic Analysis for Unconstrained Sleep Efficiency Analysis Based on the Smartphone,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 63(7), 940-944, 2014 
   Hangsik Shin and Chungkeun Lee, “Pulse Rate Variability as a Surrogate Method for Autonomic Nervous System Assessment Comparing with Heart Rate Variability,” Advanced Science Letters, 18(1), 92-98, 2012 
   Hangsik Shin and Chungkeun Lee, “Transfer Function Estimates in Derived Respiration Analysis: Retrograde Study of the Respiratory Drive Mechanism,” Advanced Science Letters, 6(1), 80-87, 2012 
-  Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
-  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
   Chungkeun Lee, Hang Sik Shin, In-deok Kong and Myoungho Lee, “Analysis of Arterial Stiffness Variation by Photoplethysmographic DC Component,” Journal of Biomedical Engineering Research, 32(2), 109-117, 2011 
   Se-Dong Min, Young-Hyun Yun, Chung-Keun Lee, Hang-Sik Shin, Ha-Kyung Cho, Seon-Cheol Hwang and MyoungHo Lee, “Respiration Measurement System using Textile Capacitive Pressure Sensor,” The Transactions of the Korean Institute of Electrical Engineers, 59(1), 58-63, 2010 
   Hangsik Shin, Sung Won Yoon, Jae Young Kim and Myoungho Lee, “Down-Scaled 3D Object for Telediagnostic Imaging Support System,” Journal of Biomedical Engineering Research, 26(4), 185-191, 2005 
   Hangsik Shin, Se Dong Min, Hee-Joung Kim and Myoungho Lee, “Down-Scaled 3D Medical Image Transfer System Using Instant Messenger,” Journal of Korean Society Medical Information, 11(1), 97-105, 2005
+  Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
+  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
@@ -177,16 +177,14 @@ function ALLOpenPaper(paperIndex) {
   https://koreascience.kr/article/JAKO201734158605923.page
   https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
   https://koreascience.kr/article/JAKO201621650895994.page
-  https://koreascience.kr/article/JAKO201734158605923.page
-  https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
-  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
-  https://www.researchgate.net/publication/283032083_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_through_the_Time_Domain_Analysis_of_the_Heart_Rate_Variability
+  https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201529362421541
   https://www.researchgate.net/publication/283032236_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_of_the_Young_Adult_through_the_Frequency_Analysis_of_the_Heart_Rate_Variability
+  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894609
   https://www.ingentaconnect.com/contentone/asp/asl/2012/00000018/00000001/art00015
-  https://www.ingentaconnect.com/content/asp/asl/2012/00000006/00000001/art00011
+  https://www.ingentaconnect.com/contentone/asp/asl/2012/00000006/00000001/art00011?crawler=true&mimetype=application/pdf
   https://koreascience.kr/article/JAKO201123457285030.page
-  https://www.semanticscholar.org/paper/Respiration-Measurement-System-using-Textile-Sensor-Min-Yun/466825ed67219f0bbb3c1f5e5458be1ca7db2b37
+  http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
   https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
   https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
 
@@ -397,7 +395,7 @@ function journalSCOPUS() {
 }
 
 function SCOPUSOpenPaper(paperIndex) {
-  const paperLinks = `https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
+  const paperLinks = ` https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
   https://www.researchgate.net/publication/338952190_Feasibility_Study_of_Ultra-Short-Term_Heart_Rate_Variability_in_Recovery_Condition_after_Exercise
   https://www.researchgate.net/publication/338278472_Comparison_of_Classifier_for_Pain_Assessment_based_on_Photoplethysmogram_and_Machine_Learning
   https://www.researchgate.net/publication/338278476_Force_Sensor_and_MSP430-based_System_for_Motion_Detection_During_Sleep
@@ -409,16 +407,14 @@ function SCOPUSOpenPaper(paperIndex) {
   https://koreascience.kr/article/JAKO201734158605923.page
   https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
   https://koreascience.kr/article/JAKO201621650895994.page
-  https://koreascience.kr/article/JAKO201734158605923.page
-  https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
-  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
-  https://www.researchgate.net/publication/283032083_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_through_the_Time_Domain_Analysis_of_the_Heart_Rate_Variability
+  https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201529362421541
   https://www.researchgate.net/publication/283032236_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_of_the_Young_Adult_through_the_Frequency_Analysis_of_the_Heart_Rate_Variability
+  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894609
   https://www.ingentaconnect.com/contentone/asp/asl/2012/00000018/00000001/art00015
-  https://www.ingentaconnect.com/content/asp/asl/2012/00000006/00000001/art00011
+  https://www.ingentaconnect.com/contentone/asp/asl/2012/00000006/00000001/art00011?crawler=true&mimetype=application/pdf
   https://koreascience.kr/article/JAKO201123457285030.page
-  https://www.semanticscholar.org/paper/Respiration-Measurement-System-using-Textile-Sensor-Min-Yun/466825ed67219f0bbb3c1f5e5458be1ca7db2b37
+  http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
   https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
   https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
 
