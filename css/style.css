@@ -1593,13 +1593,6 @@ a.small-button.clicked {
 	height: 100%;
 }
 
-.nav-link {
-
-
-
-
-
-}
 
 .nav-link:hover {
 	background-color: rgba(201, 188, 206, 0.15);
@@ -2277,7 +2270,7 @@ a.small-button.clicked {
 	margin: auto;
 	transition: left 0.2s;
 	background: rgba(#000, .6);
-	color: #fff;
+	color: #F57C13;
 	padding: 10px;
 	width: 100%;
 	font-size: 0.9rem;
