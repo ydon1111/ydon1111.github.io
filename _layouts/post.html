@@ -19,8 +19,16 @@ layout: default
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if
         page.meta %} • {{ page.meta }}{% endif %}</p>
       {{ content }}
+
     </span>
   </section>
+  {%- if page.comments -%}
+  <div id="post-disqus" class="container">
+    {%- include disqus_comments.html -%}
+  </div>
+  {%- endif -%}
+
+
 
 
   <footer>
