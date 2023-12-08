@@ -2621,19 +2621,25 @@ a.small-button.clicked {
 
 }
 
+
 .slick-next:before, .slick-prev:before {
 	color: rgb(252, 123, 37);
+	font-size: 30px;
+	opacity: 0.4;
 }
 
 .slick-prev.slick-arrow {
 	z-index: 999;
-	top: 45%;
+	top: 42%;
+	left: -60px;
+	margin-right: 100px;
 
 }
 
 .slick-next.slick-arrow {
 	z-index: 999;
-	top: 45%;
+	top: 42%;
+	right: -52px;
 }
 
 
