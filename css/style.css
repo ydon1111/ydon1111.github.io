@@ -2621,9 +2621,14 @@ a.small-button.clicked {
 
 }
 
+.slick-next:before, .slick-prev:before {
+	color: rgb(252, 123, 37);
+}
+
 .slick-prev.slick-arrow {
 	z-index: 999;
 	top: 45%;
+
 }
 
 .slick-next.slick-arrow {
