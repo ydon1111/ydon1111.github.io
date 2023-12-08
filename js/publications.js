@@ -78,8 +78,8 @@ function journalALL() {
   Se-Dong Min, Young-Hyun Yun, Chung-Keun Lee, Hang-Sik Shin, Ha-Kyung Cho, Seon-Cheol Hwang and MyoungHo Lee, “Respiration Measurement System using Textile Capacitive Pressure Sensor,” The Transactions of the Korean Institute of Electrical Engineers, 59(1), 58-63, 2010 
   Hangsik Shin, Sung Won Yoon, Jae Young Kim and Myoungho Lee, “Down-Scaled 3D Object for Telediagnostic Imaging Support System,” Journal of Biomedical Engineering Research, 26(4), 185-191, 2005 
   Hangsik Shin, Se Dong Min, Hee-Joung Kim and Myoungho Lee, “Down-Scaled 3D Medical Image Transfer System Using Instant Messenger,” Journal of Korean Society Medical Information, 11(1), 97-105, 2005
-  Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
-  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
+  Changwon Wang, Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
+  Hamin Lim, Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
@@ -428,8 +428,8 @@ function SCOPUSOpenPaper(paperIndex) {
 
 function journalKCI() {
   resetButtons()
-  const papers = `Changwon Wang,Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
-  Hamin Lim,Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
+  const papers = `Changwon Wang, Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers,vol.72, no.11, pp.1441~1448, 2023
+  Hamin Lim, Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, vol.72, no.11, pp.1427~1433, 2023
   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
