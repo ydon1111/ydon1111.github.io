@@ -1823,6 +1823,11 @@ a.small-button.clicked {
 	line-height: 100%;
 }
 
+#span-one-line{
+	text-align: center;
+	padding: 5px 0;
+}
+
 .nav-link-research {
 	color: #000;
 }
