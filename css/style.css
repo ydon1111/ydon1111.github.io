@@ -1823,7 +1823,7 @@ a.small-button.clicked {
 	line-height: 100%;
 }
 
-#span-one-line{
+#span-one-line {
 	text-align: center;
 	padding: 5px 0;
 }
@@ -2623,10 +2623,10 @@ a.small-button.clicked {
 
 .slick-track {
 	margin-bottom: 3em;
-
 }
 
-.slick-next:before, .slick-prev:before {
+.slick-next:before,
+.slick-prev:before {
 	color: rgb(255, 170, 113);
 	font-size: 30px;
 	opacity: 1;
@@ -2644,6 +2644,12 @@ a.small-button.clicked {
 	z-index: 999;
 	top: 42%;
 	right: -52px;
+}
+
+
+.slick-prev.slick-arrow:hover:before,
+.slick-next.slick-arrow:hover:before {
+	color: #F57C13;
 }
 
 
