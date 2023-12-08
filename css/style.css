@@ -1606,6 +1606,8 @@ a.small-button.clicked {
 
 .nav-link span {
 	font-size: 50px;
+	/* text-align: center;
+	padding: 9px 0; */
 }
 
 
